@@ -4,17 +4,18 @@ Além das fronteiras cartografadas e dos portais conhecidos do Terceiro Horizont
 
 ---
 
-## A Atmosfera da Grande Escuridão
+## Estrutura do Cenário de Fronteira
 
-* **O Frio e o Isolamento:** Mundos congelados, estações de mineração abandonadas e tempestades escuras onde os suprimentos de oxigênio, aquecimento e combustível determinam a vida ou a morte.
-* **Os Construtores:** Megastruturas alienígenas milenares compostas por materiais desconhecidos, biomas fechados e mecanismos que desafiam a física conhecida.
-* **Biomorfos e Ruína:** Criaturas bio-engenheiradas, mutações e contaminação que afetam aqueles que exploram o interior das ruínas sem a devida proteção.
+Nesta seção do compêndio, você encontrará o detalhamento completo do cenário de *O Horizonte Perdido*:
 
----
+* **[[O Horizonte Perdido/A Grande Escuridão|A Grande Escuridão]]**
+  * A atmosfera de isolamento, tempestades escuras, falta de luz solar, estações de mineração de gelo e acampamentos de pesquisa arqueológica da Fundação.
 
-## Seções da Fronteira
+* **[[O Horizonte Perdido/Os Construtores e Artefatos|Os Construtores e Artefatos]]**
+  * As megastruturas alienígenas milenares dos Construtores, relíquias tecnológicas, lâminas de energia fria, dispositivos de gravidade e o interesse corporativo.
 
-* **[[O Horizonte Perdido/a-grande-escuridao|A Grande Escuridão]]**: A atmosfera de isolamento e sobrevivência nas estações de fronteira.
-* **[[O Horizonte Perdido/os-construtores|Os Construtores & Artefatos]]**: As ruínas colossais de tecnologia alienígena, relíquias e biomas artificiais.
-* **[[O Horizonte Perdido/biomorfos-e-ameacas|Biomorfos & Perigos]]**: As abominações da escuridão e a contaminação.
-* **[[O Horizonte Perdido/expedicoes|Regras de Expedição & Escavação de Ruínas]]**: O guia de exploração terrestre e gestão de recursos.
+* **[[O Horizonte Perdido/Biomorfos e Ameaças|Biomorfos e Ameaças]]**
+  * Os organismos sintéticos de defesa (Sentinelas de Cristal, Construtores Quiropteróides), a escala de Ruína e contaminação (0 a 10) e os perigos ambientais.
+
+* **[[O Horizonte Perdido/Expedições e Escavação de Ruínas|Expedições e Escavação de Ruínas]]**
+  * O guia prático de exploração terrestre (*Delving*): Fases da expedição, Turnos de Escavação, Dados de Recurso para suprimentos e papéis da equipe.
