@@ -1,100 +1,69 @@
-# Conflitos Mecânicos & Matriz de Decisão do Mod Unificado
+# Conflitos Mecânicos & Matriz de Decisões (Mod Unificado)
 
 > **Relatório do Agente Sintetizador & Arquiteto**  
-> *Este documento mapeia todas as incompatibilidades entre "O Terceiro Horizonte" (v1) e "A Grande Escuridão" (v2), apresentando propostas de unificação. Marque com `[x]` a opção desejada para consolidarmos o livro de regras do Mod.*
+> *Este documento mapeia as incompatibilidades entre "O Terceiro Horizonte" (v1) e "A Grande Escuridão" (v2), com opções de unificação já resolvidas pelo usuário. As opções marcadas com `[x]` representam as escolhas finais que ditam as regras oficiais do Mod Híbrido.*
 
 ---
 
-## 1\. Conflito: Economia de Tensão (Pontos de Escuridão vs. Estresse/Esperança)
+## 1. Economia de Tensão (PE vs. Estresse e Esperança)
 
-* **v1 (Terceiro Horizonte):** Empurrar a rolagem orando aos Ícones dá **1 Ponto de Escuridão (DP)** ao Mestre. Não há acúmulo de estresse no jogador.  
-* **v2 (A Grande Escuridão):** Empurrar a rolagem gera **Estresse (*Strain*)** no personagem. Jogadores ganham/gastam **Esperança (*Hope*)**.
+**O Conflito:** A edição v1 usa Pontos de Escuridão (PE) gerados pelo jogador e gastos pelo Mestre. A v2 abandonou isso em favor de um sistema de "Estresse" (dano mental) e "Esperança" (recurso positivo).
 
-### 📋 Opções de Decisão:
-
-- [x] **Opção A (Híbrido Consolidado \- Recomendado):**  
-      * Empurrar a rolagem gera **1 Ponto de Estresse** para o Jogador **E** concede **1 Ponto de Escuridão (DP)** para o Mestre se a oração envolver tabus ou ambientes dominados pela Ressoa.  
-      * O jogador usa **Esperança (*Hope*)** (ganha ao orar ou no descanso) para ativar Talentos de Ícone e aliviar Estresse.  
-      * O Mestre usa **DP** para ativar perigos ambientais, falhas de equipamento e poderes sobrenaturais de biomorfos.  
-- [ ] **Opção B (Modelo Puro v2):**  
-      * Adotar 100% o sistema de Estresse/Esperança de *A Grande Escuridão*. O Mestre não acumula DP; perigos são disparados por testes empurrados que tiram 1 nos dados de estresse e por Turnos de Exploração.  
-- [ ] **Opção C (Modelo Puro v1):**  
-      * Manter apenas Pontos de Escuridão (DP) no Mestre. Sem sistema de Estresse/Esperança individual.
+* [x] **Decisão Final (Híbrido Consolidado):**
+  * O jogador gera **1 Ponto de Estresse** para si mesmo ao empurrar rolagens.
+  * O Mestre ainda ganha **1 PE (Ponto de Escuridão)**, mas apenas se a rolagem envolver tabus ou ambientes corrompidos.
+  * Jogadores usam **Esperança** (ganha orando ou descansando) para ativar talentos e aliviar estresse.
+  * Mestres usam **PE** para ativar armadilhas e poderes inimigos.
+* [ ] *Opção Descartada (Puro v2): Adotar apenas Estresse/Esperança.*
+* [ ] *Opção Descartada (Puro v1): Adotar apenas Pontos de Escuridão.*
 
 ---
 
-## 2\. Conflito: Lista e Estrutura de Perícias
+## 2. Lista e Estrutura de Perícias
 
-* **v1:** 16 Perícias divididas rigidamente entre 8 Gerais e 8 Avançadas (sem nível 1 em avançada \= não pode rolar).  
-* **v2:** 12 Perícias enxugadas sem distinção entre Geral/Avançada (qualquer um pode tentar rolar usando só o Atributo).
+**O Conflito:** A v1 possui 16 perícias rigorosamente divididas (Gerais e Avançadas). A v2 reduziu para 12 perícias universais, cortando especificidades ligadas ao espaço.
 
-### 📊 Tabela Comparativa de Perícias e Atributos
+**Decisão Final (Lista Enxugada v2 com Adições):**
+O projeto híbrido adotou 14 perícias unificadas, pegando a base simplificada da v2, mas resgatando a capacidade de pilotar naves da v1.
 
-| Atributo & Descrição | v1: Terceiro Horizonte (16 Perícias) *(Divididas em Geral vs Avançada)* | v2: A Grande Escuridão (12 Perícias) *(Enxugadas, sem trava avançada)* | Opção A: Híbrido Unificado (14 Perícias) *(Sem trava \+ suporte a Naves)* |
-| :---- | :---- | :---- | :---- |
-| **Força** *Resistência física, vigor, esforço bruto e capacidade de carga.* | • Combate Corpo a Corpo *(Geral)* • Força Bruta *(Avançada)* | • Combate Corpo a Corpo • Vigor *(Endurance)* | **1\. Combate Corpo a Corpo** **2\. Vigor / Esforço Físico** |
-| **Agilidade** *Reflexos, velocidade, coordenação motora, sigilo e destreza.* | • Combate a Distância *(Geral)* • Destreza *(Geral)* • Infiltração *(Avançada)* • Pilotagem *(Avançada)* | • Combate a Distância • Mobilidade • Furtividade | **3\. Combate a Distância** **4\. Mobilidade** **5\. Furtividade** **6\. Pilotagem** *(Resgatada da v1)* |
-| **Raciocínio** *Acuidade mental, lógica, percepção, orientação e ciência.* | • Percepção *(Geral)* • Tecnologia *(Avançada)* • Medicina *(Avançada)* • Ciência *(Avançada)* | • Percepção • Sobrevivência • Tecnologia & Investigação | **7\. Percepção** **8\. Sobrevivência** **9\. Tecnologia / Datacraft** *(Separada)* **10\. Investigação & Ciência** |
-| **Empatia** *Força de vontade, carisma, liderança, intuição e fé/conexão.* | • Manipulação *(Geral)* • Intuição *(Geral)* • Comando *(Avançada)* • Cultura *(Avançada)* | • Persuasão • Liderança • Medicina *(Muda para Empatia)* • Intuição | **11\. Persuasão / Manipulação** **12\. Liderança** **13\. Medicina** **14\. Intuição & Cultura** |
-
-### 📋 Opções de Decisão:
-
-- [x] **Opção A (Lista Enxugada v2 com Adição Espacial \- Recomendado):**  
-      * Adotar a lista de 12 perícias ágeis da v2, mas adicionar 2 perícias essenciais de v1 para garantir suporte ao combate espacial e tecnologia (*Pilotagem* e *Tecnologia/Datacraft*), totalizando **14 Perícias sem restrição de Geral/Avançada**.  
-- [ ] **Opção B (Lista Clássica v1):**  
-      * Manter as 16 Perícias originais com a regra rígida de Perícias Avançadas requerendo treinamento prévio.  
-- [ ] **Opção C (Lista v2 Pura):**  
-      * Usar estritamente as 12 perícias de *A Grande Escuridão*, absorvendo Pilotagem em *Mobilidade* e Tecnologia em *Investigação*.
+* [x] **Opção Vencedora (14 Perícias Híbridas):**
+  * **Força:** 1. Combate Corpo a Corpo | 2. Vigor
+  * **Agilidade:** 3. Combate a Distância | 4. Mobilidade | 5. Furtividade | 6. Pilotagem (Resgatada)
+  * **Raciocínio:** 7. Percepção | 8. Sobrevivência | 9. Tecnologia (Resgatada) | 10. Investigação/Ciência
+  * **Empatia:** 11. Persuasão | 12. Liderança | 13. Medicina | 14. Intuição/Cultura
+* [ ] *Opção Descartada (Clássica v1): Manter 16 perícias.*
+* [ ] *Opção Descartada (Puro v2): Usar apenas as 12 perícias de exploração de ruínas.*
 
 ---
 
-## 3\. Conflito: Fé nos Ícones vs. Mecânica de Esperança
+## 3. Fé e Ativação de Poderes
 
-* **v1:** Fé nos Ícones é o núcleo narrativo para empurrar dados. Talentos de Ícone concedem uma habilidade poderosa 1x por sessão.  
-* **v2:** Esperança (*Hope*) é um recurso mecânico numérico para bônus e talentos.
+**O Conflito:** A v1 permite usar um grande poder de Fé 1x por sessão. A v2 trocou a narrativa divina por "Pontos de Esperança" genéricos que funcionam como mana.
 
-### 📋 Opções de Decisão:
-
-- [x] **Opção A (Fé gera Esperança - REGRA UNIFICADA REFINADA):**  
-      * **Talento de Ícone (1x por Sessão):** A bênção/habilidade do Ícone de nascimento mantém o uso poderoso de 1x por sessão (v1).  
-      * **Rituais & Religião geram Esperança (*Hope*):** Ao realizar orações em santuários, cumprir rituais diários, fazer oferendas ou seguir a fé nos Ícones, o personagem acumula **Pontos de Esperança (*Hope*)**, que são gastos para aliviar estresse e ganhar bônus em rolagens de expedição (v2).  
-- [ ] **Opção B (Sistemas Separados):**  
-      * Manter Talentos de Ícone como 1x por sessão (v1) e Pontos de Esperança acumulados apenas por laços e descansos (v2).
+* [x] **Decisão Final (Fé gera Esperança):**
+  * Habilidades ligadas ao Ícone de nascimento continuam com o peso épico de **1x por sessão** (v1).
+  * A prática da fé (rezar, rituais) gera **Pontos de Esperança**, que são acumuláveis e gastos de forma mais fluida para pequenos bônus e redução de estresse (v2).
+* [ ] *Opção Descartada: Manter os dois sistemas isolados mecanicamente.*
 
 ---
 
-## 4\. Conflito: Exploração de Naves Espaciais vs. Exploração de Ruínas (*Delving*)
+## 4. Foco da Exploração (Naves vs. Ruínas)
 
-* **v1:** Foco em Naves Espaciais (Classe I a V), posições de tripulação (Capitão, Piloto, Engenheiro, Atirador, Sensores) e dívida da nave.  
-* **v2:** Foco em *Delving* (Turnos de Exploração, Dados de Recursos para Oxigênio/Energia, hazards ambientais).
+**O Conflito:** A v1 é um simulador de tripulação focada na gestão da nave espacial e suas funções (Capitão, Engenheiro). A v2 abandonou isso para focar na escavação de ruínas abandonadas.
 
-### 📋 Opções de Decisão:
-
-- [x] **Opção A (Dual-Engine por Camada de Gameplay - REGRA PRINCIPAL):**  
-      * Integrar ambos sem cortar nada:  
-        * **Camada Espacial (*Terceiro Horizonte*):** Regras completas de naves, viagem intersetorial, posições de tripulação (Capitão, Piloto, Engenheiro, Atirador, Sensores) e combate tático de v1.  
-        * **Camada Terrestre/Ruínas (*A Grande Escuridão*):** Ao desembarcar em estações abandonadas, asteroides ou ruínas dos Construtores, ativa-se o sistema de *Delving*, Turnos de Exploração e Dados de Recurso de v2.  
-- [ ] **Opção B (Naves Simplificadas via Dados de Recurso - REGRA OPCIONAL / MÓDULO RÁPIDO):**  
-      * Módulo alternativo para mesas que preferem combate espacial ágil: substitui a micro-gestão de energia/funções da nave por Dados de Recurso ($d6, d8, d10, d12$) para Combustível e Casco da v2.
+* [x] **Decisão Final (Dual-Engine / Camadas Independentes):**
+  * **No Espaço:** Usa-se as regras da v1 (combate de naves, viagem e funções de tripulação).
+  * **Em Solo / Ruínas:** Ativam-se as regras da v2 (turnos de exploração, dados de escassez de oxigênio/luz).
+* [ ] *Opção Descartada: Substituir toda a mecânica de naves v1 por resoluções simplificadas através de dados de recurso da v2.*
 
 ---
 
-## 5\. Conflito: Dano, Mente e Ruína/Contaminação
+## 5. Dano e Sanidade
 
-* **v1:** Pontos de Vida (HP) \+ Pontos de Mente (MP). Quebrado em HP \= Tabela de Lesão Crítica $d66$. Quebrado em MP \= Pânico.  
-* **v2:** Saúde \+ Estresse \+ Tabela de Ruína/Contaminação alienígena dos Construtores.
+**O Conflito:** A v1 usa HP, MP (dano mental que gera Pânico) e Lesões Críticas. A v2 usa Saúde, Estresse genérico e uma mecânica específica de "Ruína/Contaminação".
 
-### 📋 Opções de Decisão:
-
-- [x] **Opção A (Tríade Unificada \- Recomendado):**  
-      * **HP (Saúde Física):** Danos físicos geram Lesões Críticas $d66$.  
-      * **MP / Estresse (Saúde Mental):** Danos mentais geram Surto de Pânico.  
-      * **Ruína (Escala de Contaminação):** Medidor separado (0 a 10\) ativado apenas ao explorar artefatos e ruínas dos Construtores no Horizonte Perdido.  
-- [ ] **Opção B (Modelo v2 com Estresse e Ruína):**  
-      * Eliminar Pontos de Mente (MP) e usar apenas a barra de Estresse e Ruína de v2.
-
----
-
-## 5\. Próximos Passos
-
-Após você revisar este arquivo e marcar as suas preferências com `[x]`, avise no chat para que eu possa consolidar as escolhas e começar a redação oficial do **Documento do Mod Unificado (Coriolis Sistema)** em `content/` ou `dev/mod-coriolis-sistema.md`.  
+* [x] **Decisão Final (Tríade Unificada):**
+  * **Dano Físico (HP):** Afeta a saúde e gera Lesões Críticas (v1).
+  * **Dano Mental (MP/Estresse):** Afeta a mente e gera episódios de Pânico (v1).
+  * **Contaminação (Ruína):** Funciona como uma trilha isolada (0 a 10) ativada apenas quando personagens interagem com artefatos misteriosos e biologia alienígena da Grande Escuridão (v2).
+* [ ] *Opção Descartada: Eliminar os Pontos de Mente em favor apenas da barra de Ruína.*
