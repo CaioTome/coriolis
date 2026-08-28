@@ -1,4 +1,4 @@
-﻿---
+---
 title: Criação de Personagens
 ---
 
@@ -44,7 +44,7 @@ Devido à vasta quantidade de opções (quase 80 talentos adaptados do *Core Rul
 
 Para visualizar, escolher e ler os talentos, acesse o compêndio completo abaixo:
 
-* **[📂 Acessar Compêndio de Talentos](file:///c:/Users/Caio/Documents/github/coriolis/content/Coriolis/Talentos)**
+* **[[Coriolis/Talentos/index|Acessar Compêndio de Talentos]]**
 
 **Categorias Disponíveis para Escolha:**
 1. **Talentos de Grupo:** Escolhido coletivamente pela tripulação. Define a sinergia de vocês e a rotina da nave.

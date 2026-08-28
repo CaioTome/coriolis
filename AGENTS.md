@@ -1,46 +1,51 @@
 # Diretrizes para Agentes de IA (`AGENTS.md`)
 
 > **Guia de Execução e Protocolo de Trabalho**  
-> *Este documento define o fluxo de trabalho, a divisão de papéis e as normas para qualquer agente de IA que atuar nesta pasta e no projeto Coriolis PT-BR.*
+> *Este documento define o fluxo de trabalho, a divisão de papéis e as normas obrigatórias para qualquer agente de IA que atuar nesta pasta e no projeto Coriolis PT-BR.*
 
 ---
 
-## 1. O Papel das Pastas `dev/` e `content/`
+## 1. Estrutura de Diretórios
 
-* **Pasta `dev/` (Espaço de Rascunho & Decisão do Agente):**
-  - Utilizada para análises mecânicas, fichamentos, listas de conflitos e registros de decisões aprovadas pelo usuário.
-* **Pasta `content/` (Diretório Oficial de Conteúdo & Publicação Quartz):**
-  - **DIRETRIZ PRINCIPAL DE CONTEÚDO:** Todos os conteúdos finais do Mod (regras do sistema unificado, regras de naves, expedições, criação de personagens) e do Cenário (O Terceiro Horizonte, O Horizonte Perdido, Facções, Ícones) devem ser escritos **diretamente na pasta `content/`**.
-  - **REGRA DE NOMENCLATURA DE PASTAS (QUARTZ):** Como o nome das pastas é exibido no menu/navegação do site, **NUNCA use hífens (`-`) para separar nomes de pastas**. Sempre utilize o nome oficial acentuado e com espaços (ex: `content/Coriolis/`, `content/O Terceiro Horizonte/`, `content/O Horizonte Perdido/`).
-  - **REGRA DE LINKS E TABELAS:** Utilize a sintaxe de links do Obsidian/Quartz `[[Nome da Pasta/Nome do Arquivo|Texto]]`. NUNCA utilize arte ASCII / tabelas em blocos de código (`┌──┐`/`│  │`), pois quebram na renderização do Quartz.
-  - **REGRA DO ARQUIVO INDEX:** O arquivo `content/index.md` é o único arquivo `index.md` permitido e deve iniciar obrigatoriamente com o cabeçalho YAML `title: Introdução`.
-  - **PROIBIDO O USO DE EMOJIS:** NUNCA utilize emojis em títulos, marcadores ou textos em qualquer arquivo do projeto.
-  - **TRADUÇÃO E TERMINOLOGIA ESTRITA EM PORTUGUÊS (PT-BR):** NENHUM termo técnico ou de cenário deve ser mantido em Inglês nos textos finais. Utilize exclusivamente a tradução oficial definida:
-    - *Dark Between the Stars* -> **Escuridão Entre as Estrelas**
-    - *Darkbound* -> **A Escuridão**
-    - *Firstcome* -> **Pioneiros**
-    - *Pontos de Escuridão / DP* -> **PE** (Pontos de Escuridão)
+### Pasta `dev/` (Rascunhos e Análises)
+* **Objetivo:** Espaço de trabalho temporário e registro de decisões.
+* **Uso:** Armazena análises mecânicas, fichamentos, mapeamento de conflitos de regras e decisões validadas pelo usuário.
 
----
-
-## 2. Divisão de Papéis dos Agentes (Especialização)
-
-Para evitar mistura de contexto e garantir máxima precisão, o trabalho de unificação é dividido em três papéis de agentes:
-
-* **Papel 1: Agente Analista - O Terceiro Horizonte:** Analisa o livro *O Terceiro Horizonte* (`livros/o-terceiro-horizonte.pdf`). Saída: `dev/analise-terceiro-horizonte.md`.
-* **Papel 2: Agente Analista - A Grande Escuridão:** Analisa o livro *A Grande Escuridão* (`livros/a-grande-escuridao.pdf`). Saída: `dev/analise-grande-escuridao.md`.
-* **Papel 3: Agente Sintetizador & Arquiteto do Mod:** Mapeia divergências mecânicas e propõe soluções com caixas de seleção `[ ]`. Saída: `dev/conflitos-e-solucoes-mecanicas.md`.
+### Pasta `content/` (Conteúdo Oficial - Quartz)
+* **Objetivo:** Diretório base para a publicação do site/wiki.
+* **Uso:** Todos os textos finais do sistema (regras, naves, criação de personagens) e do cenário devem ser escritos **diretamente nesta pasta**.
+* **Regras Estritas para `content/`:**
+  * **Nomenclatura (Quartz):** NUNCA use hífens (`-`) para separar palavras no nome das pastas. Utilize a grafia oficial com acentos e espaços (ex: `content/O Terceiro Horizonte/`).
+  * **Links Internos:** Utilize obrigatoriamente a sintaxe do Obsidian: `[[Nome da Pasta/Nome do Arquivo|Texto Alternativo]]`.
+  * **Proibido ASCII Art:** NUNCA crie tabelas usando caracteres (como `┌──┐`), pois elas quebram a renderização da engine Quartz.
+  * **Arquivo Index Exclusivo:** O único arquivo chamado `index.md` deve estar na raiz de `content/` (`content/index.md`) e precisa iniciar com o cabeçalho YAML `title: Introdução`.
 
 ---
 
-## 3. Diretrizes de Formatação e Registro
+## 2. Regras de Estilo e Terminologia
 
-1. **Glossário:** Sempre consulte e atualize `dev/glossario-termos.md` ao traduzir ou padronizar um termo técnico.
-2. **Checkboxes Interativos:** No documento de conflitos, use a sintaxe Markdown:
-   - `- [ ] Opção A: ...`
-   - `- [ ] Opção B: ...`
-3. **Persistência de Decisão:** Quando o usuário marcar uma caixa `- [x]`, esse caminho se torna a **regra oficial do projeto** para a redação do Mod Unificado.
+* **PROIBIDO USO DE EMOJIS:** É estritamente proibido o uso de emojis em títulos, marcadores de lista ou no meio do texto em **qualquer arquivo** deste projeto.
+* **Uso do Glossário:** Sempre consulte e atualize o arquivo `dev/glossario-termos.md` ao traduzir conceitos novos.
+* **Tradução Exclusiva para Português (PT-BR):** Nenhum termo de regras ou de história deve permanecer em inglês no texto final. Use **apenas** a tradução oficial:
+  * *Dark Between the Stars* ➔ **Escuridão Entre as Estrelas**
+  * *Darkbound* ➔ **A Escuridão**
+  * *Firstcome* ➔ **Pioneiros**
+  * *Darkness Points (DP)* ➔ **PE (Pontos de Escuridão)**
 
 ---
 
-> *Qualquer agente iniciando uma tarefa neste repositório DEVE ler este documento e o `escopo-e-planejamento.md` antes de gerar novos arquivos.*
+## 3. Decisões e Papéis dos Agentes
+
+### Persistência de Decisões Mecânicas
+* No documento de conflitos (`dev/conflitos-e-solucoes-mecanicas.md`), as propostas de regras são listadas com checkboxes (`- [ ]`).
+* Quando o usuário marca uma opção com `- [x]`, essa decisão torna-se a **regra oficial** definitiva para a redação dos textos finais.
+
+### Especialização (Evitando Mistura de Contexto)
+O trabalho de análise é dividido em três papéis principais:
+1. **Agente Analista (O Terceiro Horizonte):** Extrai regras do livro original (v1) e compila no arquivo `dev/analise-terceiro-horizonte.md`.
+2. **Agente Analista (A Grande Escuridão):** Extrai regras da nova edição (v2) e compila no arquivo `dev/analise-grande-escuridao.md`.
+3. **Agente Sintetizador & Arquiteto:** Compara as duas versões, mapeia as diferenças mecânicas e propõe soluções no arquivo `dev/conflitos-e-solucoes-mecanicas.md`.
+
+---
+
+> **AVISO CRÍTICO:** Qualquer agente que iniciar uma tarefa neste repositório **DEVE** ler este documento (`AGENTS.md`) e o arquivo `dev/escopo-e-planejamento.md` antes de criar ou modificar qualquer coisa.

@@ -1,114 +1,66 @@
 # Análise Mecânica: O Terceiro Horizonte (Coriolis v1)
 
-> **Relatório Técnico do Agente Analista 1**  
-> *Este documento detalha as regras de criação de personagem, mecânicas fundamentais, economia de jogo e balanceamento da edição clássica "Coriolis: O Terceiro Horizonte".*
+> **Relatório Técnico do Agente Analista (v1)**  
+> *Este documento detalha o sistema clássico de Coriolis, cobrindo a criação de personagens, regras de naves e a gestão metajogo dos Pontos de Escuridão.*
 
 ---
 
-## 1. Criação de Personagens & Atributos
+## 1. Visão Geral e Ambientação
 
-### 1.1. Conceito e Origem
-* **Conceitos (11):** Divididos em 3 categorias sociais (Alta Estação, Decks Inferiores, Fronteira):
-  * *Artista, Comerciante, Pregador, Oficial, Engenheiro, Cientista, Piloto, Batedor, Mercenário, Operativo, Agente.*
-  * Cada conceito define a Perícia Principal, Opções de Talentos de Conceito, Equipamento Inicial e Relacionamento com o Grupo.
-* **Origem Cultural:** 
-  * **Pioneiros:** Foco em tradição, religiosidade nos Ícones e adaptação ao Horizonte.
-  * **Zenitianos:** Foco em tecnologia, mercantilismo, pragmatismo e liderança corporativa.
-  * *Impacto:* Afeta a Reputação inicial e os bônus/interações sociopolíticas.
+A primeira edição de Coriolis foca no "Terceiro Horizonte", um sistema estelar massivo dominado por disputas entre culturas antigas (Pioneiros) e colonizadores corporativos (Zenitianos), tudo amarrado pela mística dos 9 Ícones Sagrados. O estilo de jogo baseia-se na ideia de uma tripulação endividada, tentando sobreviver operando sua própria nave espacial.
 
-### 1.2. Atributos (4)
-* **Força:** Resistência física, esforço bruto.
-* **Agilidade:** Reflexos, coordenação, pontaria.
-* **Raciocínio:** Inteligência, percepção, acuidade mental.
-* **Empatia:** Carisma, persuasão, conexão com os Ícones e intuição social.
-* *Distribuição:* 13 a 15 pontos dependendo da faixa etária (Jovem, Adulto, Veterano). Limite inicial de atributo entre 4 e 5.
+## 2. Personagens e Características
 
-### 1.3. Perícias (16)
-O jogo divide estritamente as perícias em 8 Gerais (podem ser roladas mesmo com nível 0) e 8 Avançadas (requerem ao menos nível 1 para rolar):
+O sistema de construção é focado em papéis vitais a bordo de uma nave mercante.
 
-| Atributo | Perícias Gerais (Sem Treino OK) | Perícias Avançadas (Requer Nível 1+) |
-| :--- | :--- | :--- |
-| **Força** | Combate Corpo a Corpo | Força Bruta |
-| **Agilidade** | Combate a Distância, Destreza | Infiltração, Pilotagem |
-| **Raciocínio** | Percepção | Tecnologia, Medicina, Ciência |
-| **Empatia** | Manipulação, Intuição | Comando, Cultura |
+### Origens e Conceitos
+* Culturas (Pioneiros vs. Zenitianos) influenciam a posição política e os bônus de Reputação iniciais.
+* O jogo oferece **11 Conceitos de Classe** fixos (ex: Piloto, Batedor, Cientista, Operativo, Pregador). Cada um define quais perícias o personagem domina, seus equipamentos e talentos iniciais disponíveis.
 
-### 1.4. Resistência & Recursos Derivados
-* **Pontos de Vida (HP):** Força + Agilidade.
-* **Pontos de Mente (MP):** Raciocínio + Empatia.
-* **Reputação:** Determinada pelo Conceito, Origem e Idade.
+### Atributos Clássicos
+A pontuação inicial varia conforme a idade do personagem (13 a 15 pontos totais).
+* **Força:** Resistência bruta.
+* **Agilidade:** Mira e reflexos.
+* **Raciocínio:** Conhecimento e lógica.
+* **Empatia:** Interação social e devoção religiosa.
 
-### 1.5. Talentos
-* **Talento de Conceito:** 1 escolhido a partir da lista do conceito.
-* **Talento de Ícone:** Determinado pelo Ícone sob o qual o personagem nasceu (concede habilidade especial única utilizável uma vez por sessão via oração).
-* **Talentos Gerais & Cibernéticos:** Habilidades passivas ou ativas de combate, sobrevivência ou implantes tecnológicos.
+### Perícias (16 - Com Sistema de Travas)
+A v1 é restritiva quanto a treinamentos especializados, dividindo suas perícias rigidamente:
+* **8 Perícias Gerais:** Podem ser usadas por qualquer um (ex: Combate, Manipulação, Destreza).
+* **8 Perícias Avançadas:** Exigem estudo. É impossível tentar rolar uma perícia avançada (como Pilotagem, Tecnologia, Medicina, Comando) se o personagem não tiver ao menos Nível 1 nela.
 
----
+## 3. A Mecânica Central de Resolução
 
-## 2. Espinha Dorsal Mecânica & Rolagens
+O jogo usa paradas de dados d6 simples, mas punitivas.
 
-### 2.1. O Teste de Dados (d6)
-* **Pilha de Dados:** Atributo + Perícia + Bônus de Equipamento + Modificadores de Situação.
-* **Sucesso:** Pelo menos um dado mostrando 6.
-* **Sucessos Múltiplos:**
-  * 1 seis (6) = Sucesso Limitado / Normal.
-  * 2 seis (66) = Sucesso Crítico.
-  * 3+ seis (666+) = Sucesso Extraordinário (permite comprar efeitos extras de bônus, como dano adicional, desarmar, ação rápida ou sigilo).
+* **Parada Padrão:** Atributo + Perícia + Equipamentos. Se sair um 6, obteve-se sucesso. Vários 6 permitem acrobacias ou danos extras.
+* **Fé e Rerolagem (Empurrar):**
+  * Se a rolagem falhar, o personagem deve orar para um de seus Ícones.
+  * Ele rerola os dados falhos, mas essa ação divina tem um custo macro para a narrativa: **Gera-se 1 Ponto de Escuridão (PE)** entregue imediatamente ao Mestre.
+* **Talentos de Ícone:** Todo personagem nasce sob a bênção de um Ícone, ganhando um talento poderoso que pode alterar a narrativa quase como mágica, mas limitado a apenas 1 uso por sessão.
 
-### 2.2. Empurrar a Rolagem (Orações aos Ícones)
-* Se a rolagem falhar ou não obtiver seis suficientes, o jogador pode Empurrar a Rolagem fazendo uma oração ao seu Ícone.
-* **Mecânica:** Todos os dados que não deram 6 são rerolados.
-* **Custo/Consequência:** O jogador não sofre dano de atributo ao empurrar. Em vez disso, concede 1 PE (Ponto de Escuridão) ao Mestre.
+## 4. Os Pontos de Escuridão (A Moeda do Mestre)
 
----
+Em Coriolis v1, a tensão não é apenas individual (como o Estresse na v2), mas sim um recurso global manejado pelo Mestre (Os "Darkness Points" ou PE).
 
-## 3. Economia de Jogo: PE (Pontos de Escuridão)
+* **Entrada de PE:** O Mestre os ganha quando jogadores empurram dados, cometem heresias ou saltam por portais perigosos.
+* **Gasto de PE:** O Mestre os utiliza para causar problemas: falhar armas, esvaziar carregadores, iniciar eventos cósmicos de azar repentino, acionar armadilhas ambientais ou usar poderes dos monstros da Escuridão Entre as Estrelas.
 
-A mecânica central de tensão do Terceiro Horizonte é a gestão de PE na mão do Mestre.
+## 5. Dano e a Vida a Bordo da Nave
 
-* **Como o Mestre ganha PE:**
-  1. Sempre que um jogador empurra uma rolagem (+1 PE).
-  2. Ao viajar entre sistemas através de Pontos de Salto.
-  3. Quando os personagens entram em locais profanos, ruínas tomadas pela Escuridão Entre as Estrelas ou violam tabus dos Ícones.
-* **Como o Mestre gasta PE:**
-  * **Falha de Equipamento / Armas:** Causar emperramento ou esgotamento de munição.
-  * **Ataques de Criaturas:** Ativar habilidades sobrenaturais de A Escuridão.
-  * **Complicações Ambientais:** Ativar vácuo repentino, falha de suporte de vida, radiação.
-  * **Iniciativa & Reforços:** Fazer inimigos agirem primeiro ou trazer reforços narrativos.
+### Integridade e Lesões
+* **Dano Físico (HP):** Zerar a barra de Vida quebra o personagem fisicamente. Ele recebe uma rolagem imediata em uma Tabela de Lesões Críticas letal, correndo sério risco de morrer sangrando sem um médico.
+* **Dano Mental (MP):** Zerar a barra de Mente o quebra psicologicamente, gerando pânico e instabilidade.
 
----
+### Combate e Economia Espacial
+O "coração" da v1. 
+* O grupo começa com uma Nave (Classe III) e uma dívida gigantesca com credores.
+* **Funções de Bordo:** O combate espacial exige cooperação tática, com cada jogador rolando ações em fases distintas dependendo da sua posição: Engenheiro (energia), Capitão (liderança), Piloto (manobras), Operador (sensores) e Atirador.
 
-## 4. Combate, Dano e Lesões Críticas
+## 6. Veredito Analítico
 
-### 4.1. Estrutura do Turno
-* Teste de Iniciativa (1d6 + Agilidade).
-* Cada personagem recebe 3 Pontos de Ação (AP) por turno para distribuir entre Ações Rápidas (1 AP), Ações Normais (2 AP) e Reações/Defesa (1 AP).
+**Vantagens da v1:** 
+* Construção de mundo impecável, com o sistema de Mestre usando PE para gerar uma rivalidade divertida de "Karma". As regras de vida na nave são excelentes e evocativas.
 
-### 4.2. Dano e Estado Quebrado
-* **Dano Físico:** Reduz o HP. Se HP chegar a 0, o personagem fica Quebrado.
-  * Um personagem Quebrado não pode agir e deve rolar imediatamente na Tabela de Lesões Críticas (d66).
-  * Lesões variam de concussões leves a sangramento mortal com cronômetro de minutos/horas para morrer se não receber socorro médico.
-* **Dano Mental:** Reduz o MP. Se MP chegar a 0, o personagem sofre um colapso de estresse e pânico (delírio, paralisia, fuga).
-
----
-
-## 5. Naves Espaciais & Grupo
-
-* **A Nave da Tripulação:** O grupo começa com uma nave espacial compartilhada de Classe III (Mercante, Exploradora, Patrulha) e uma Dívida substancial com um patrono ou banco.
-* **Funções na Nave:**
-  1. *Capitão:* Concede dados de bônus à equipe via liderança.
-  2. *Piloto:* Executa manobras e esquivas.
-  3. *Engenheiro:* Distribui energia da pilha de combustível para escudos, armas ou motores.
-  4. *Atirador:* Opera as baterias de armas.
-  5. *Operador de Sensores:* Detecta alvos e trava sistemas de mira.
-* **Combate Espacial:** Estruturado em fases de Ordens, Manobras, Sensores e Ataque.
-
----
-
-## 6. Resumo dos Pontos Fortes e Fragilidades Balanceadas (v1)
-
-* **Pontos Fortes:** Rico em ambientação sociopolítica e religiosa; combate espacial excelente; excelente sensação de pertencer a uma tripulação com dívidas reais.
-* **Fragilidades / Rigidez:**
-  * A divisão entre 8 Perícias Gerais e 8 Avançadas pode engessar certas ações básicas.
-  * Falta um sistema granular para exploração a pé e escavação de ruínas.
-  * A economia de PE é focada no Mestre, sem um recurso pessoal direto de Estresse ou Esperança para o jogador além dos pontos de mente.
+**Limitações (Comparado à v2):** 
+* As "Perícias Avançadas" travadas geram frustração (se o médico desmaiar, ninguém mais pode usar um medkit direito). Ausência de mecânicas ricas de exploração terrestre e gestão claustrofóbica de escassez em missões fora da nave.

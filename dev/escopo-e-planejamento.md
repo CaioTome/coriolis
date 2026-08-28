@@ -1,59 +1,46 @@
-# Visão Geral do Projeto: Tradução Integral (O Terceiro Horizonte)
+# Escopo e Planejamento: Mod Unificado Coriolis (v1 + v2)
 
-> **Documento de Escopo, Arquitetura e Planejamento**  
-> *Este documento serve como referência rápida para o agente de IA e colaboradores compreenderem a visão do projeto, que agora é a tradução literal e integral do livro básico de Coriolis (v1).*
-
----
-
-## 1. Visão Geral e Estrutura Fundamental
-
-O objetivo principal deste projeto é criar uma tradução completa (PT-BR) do Core Rulebook de **Coriolis: O Terceiro Horizonte**, gerando um site enciclopédico e navegável usando a engine **Quartz / Obsidian**.
-
-A estrutura do projeto foi simplificada para refletir o livro original:
-* **Mecânicas Puras (v1):** Preservando Pontos de Escuridão, Pontos de Mente (sem Estresse/Esperança) e as 16 Perícias.
-* **O Terceiro Horizonte (Cenário):** Space Opera Clássica, Facções, Ícones.
-* **Quartz:** Geração estática do site em Markdown.
-
-> **Nota Histórica:** As tentativas anteriores de criar um "Mod Unificado" (focando em A Grande Escuridão) foram movidas para a pasta `/content/Mod Híbrido Alternativo/` para preservação, não fazendo mais parte do escopo principal.
+> **Documento de Visão e Arquitetura**  
+> *Referência rápida sobre os objetivos do projeto: a criação de um Mod Híbrido que unifica o melhor do Terceiro Horizonte (v1) com as mecânicas modernas de A Grande Escuridão (v2).*
 
 ---
 
-## 2. Estratégia de Tradução e Glossário PT-BR
+## 1. Visão Geral do Projeto
 
-1. **Glossário Base Flexível (`dev/glossario-termos.md`):**
-   * Tabela de equivalência entre os termos em Inglês, a Tradução Oficial PT-BR e a Tradução Oficial Tria Editora.
-2. **Separação de Capítulos (O Cronograma):**
-   * O livro original será traduzido em ordem modular e publicado diretamente em `content/`.
+O objetivo central é criar um **Mod Unificado** em português (PT-BR), combinando a rica ambientação e a gestão de naves de **Coriolis: O Terceiro Horizonte (v1)** com as mecânicas refinadas de sobrevivência e exploração da engine moderna de **A Grande Escuridão (v2)**.
 
----
+O resultado será um compêndio digital navegável (Wiki) gerado através do **Quartz / Obsidian**.
 
-## 3. Cronograma Oficial de Tradução por Marcos (Milestones)
+A estrutura e escopo do projeto baseiam-se na fusão dos dois sistemas:
+* **Mecânicas Híbridas (v1 + v2):** Integração do sistema de Estresse, Esperança e Escavação de Ruínas (v2) com o combate de Naves e o impacto narrativo dos Ícones (v1).
+* **Cenário Expandido:** O cenário englobará tanto as tensões políticas das Facções no Terceiro Horizonte quanto a exploração hostil de ruínas alienígenas.
+* **Infraestrutura Web:** O diretório `/content/` é a fonte oficial do Mod de onde o Quartz extrai os arquivos Markdown para renderizar o site estático.
 
-A tradução das quase 400 páginas foi dividida em entregas lógicas:
-
-### Milestone 1: Mecânicas do Jogador (Capítulos 1 a 4)
-* **Cap 1. Introdução:** O que é Coriolis, mecânica básica de d6 e empurrar rolagens.
-* **Cap 2. Seu Personagem:** Criação de personagem pura v1 (Origens, Reputação, os 11 Conceitos exatos).
-* **Cap 3. Perícias:** Lista exata das 8 Perícias Gerais e 8 Perícias Avançadas.
-* **Cap 4. Talentos:** A gigantesca lista de talentos, convertida para os custos clássicos (sem Esperança).
-
-### Milestone 2: Combate e Economia (Capítulos 5 a 7)
-* **Cap 5. Combate:** Iniciativa, Pontos de Ação (PA), cobertura e a Tabela de Lesões Críticas.
-* **Cap 6. Armas e Equipamentos:** Lista de todos os itens do livro, incluindo peso e bônus tecnológico.
-* **Cap 7. Naves e Combate Espacial:** Criação da nave, sistema de dívidas e o combate em 5 Fases.
-
-### Milestone 3: O Cenário e o Lore (Capítulos 8 a 10)
-* **Cap 8. O Terceiro Horizonte:** História das Facções, as Guerras do Portal, os 9 Ícones.
-* **Cap 9. Pessoas e Lugares:** Detalhamento massivo da Estação Coriolis (Anel, Núcleo, Porão).
-* **Cap 10. O Sistema Kua e os Portais:** Mapa geopolítico e viagens no hiperespaço.
-
-### Milestone 4: O Mestre de Jogo (Capítulos 11 a 13)
-* **Cap 11. Bestiário (Feras e Djinns):** Blocos de estatísticas de inimigos e da Escuridão Entre as Estrelas.
-* **Cap 12. A Campanha:** Ferramentas do Mestre e missões aleatórias.
-* **Cap 13. O Cenário Inicial:** Tradução da aventura "O Oásis das Sombras".
+> **Nota de Histórico:** A ideia original de realizar uma tradução literal e integral do livro base da v1 foi **abandonada**. Todo o esforço atual está focado em estruturar o Mod Unificado Híbrido.
 
 ---
 
-## 4. Setup do Site (Quartz)
+## 2. Estratégia e Padronização
 
-A infraestrutura de geração do site Wiki foi inicializada na raiz do repositório. O diretório `/content/` é a fonte da verdade de onde o Quartz puxa os artigos renderizados.
+1. **Glossário Base (`dev/glossario-termos.md`):** É obrigatório consultar este arquivo para manter o alinhamento perfeito entre termos em Inglês e a Tradução Oficial (PT-BR) adotada no projeto.
+2. **Matriz de Decisões (`dev/conflitos-e-solucoes-mecanicas.md`):** Onde as resoluções de conflitos mecânicos entre as duas edições estão documentadas. As caixas marcadas com `[x]` ditam as regras oficiais do Mod e devem ser sempre consultadas antes de escrever mecânicas novas em `content/`.
+
+---
+
+## 3. Estrutura de Capítulos do Mod (Milestones)
+
+As tarefas de redação do Mod Híbrido estão divididas nos seguintes blocos lógicos:
+
+### Milestone 1: Mecânicas do Jogador
+* **Introdução:** Premissa do jogo e rolagem da Year Zero Engine (empurrar rolagens gerando Estresse para o jogador e PE para o mestre).
+* **Personagem:** Os conceitos clássicos adaptados para o sistema de Esperança.
+* **Perícias (14 Unificadas):** A lista enxuta baseada na v2 (sem restrição entre Gerais/Avançadas), resgatando Pilotagem e Tecnologia da v1.
+
+### Milestone 2: Ação, Combate e Sobrevivência
+* **Dano e Sanidade:** Tríade com HP (dano físico e lesões críticas), MP/Estresse (dano mental e pânico) e Ruína (contaminação por artefatos).
+* **Naves e Viagem Espacial (v1):** Regras de gestão de nave, posições da tripulação (Capitão, Piloto, etc) e combate de naves.
+* **Escavação de Ruínas (v2):** Subsistema terrestre para turnos de exploração de mapas, uso de dados de recursos (oxigênio/baterias) e perigos ambientais.
+
+### Milestone 3: O Universo e Mestre de Jogo
+* **O Lore Combinado:** Facções e Ícones do Terceiro Horizonte interagindo com o mistério insondável dos Construtores e da Grande Escuridão.
+* **Economia do Mestre:** Regras para o Mestre utilizar os Pontos de Escuridão (PE) gerados e ativar perigos, biomorfos e armadilhas.
