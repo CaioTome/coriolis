@@ -4,28 +4,21 @@ O **Terceiro Horizonte** é um aglomerado de 36 sistemas estelares conectados po
 
 ---
 
-## A Sociedade e as Facções
+## Estrutura do Cenário
 
-A geopolítica do Terceiro Horizonte é definida pelo choque cultural entre dois grandes grupos:
+Nesta seção do compêndio, você encontrará o detalhamento completo do cenário de *O Terceiro Horizonte*:
 
-* **Os Pioneiros:** Descendentes dos colonos originais que povoaram o Horizonte séculos antes das Guerras dos Portais. São profundamente religiosos, valorizam as tradições ancestrais, os clãs e a fé nos Ícones.
-  * *Facções Principais:* A Ordem dos Ícones, A Liga dos Livreiros, Os Zelotas, Os Nomadistas e o Sindicato.
-* **Os Zenitianos:** Descendentes da tripulação e passageiros da nau-colônia *Zenith*. Pragmáticos, focados em expansão comercial, corporativismo e tecnologia.
-  * *Facções Principais:* O Consórcio, A Hegemonia, A Fundação e A Frota Zenitiana.
+* **[[O Terceiro Horizonte/História e Sociedade|História e Sociedade]]**
+  * A cronologia das Guerras dos Portais, o Grande Isolamento, o Éxodo Zenitiano, a estética neo-arábica e os costumes sociais.
 
----
+* **[[O Terceiro Horizonte/A Estação Coriolis|A Estação Coriolis & O Sistema Kua]]**
+  * O centro nevralgico do Horizonte: O Anel, As Cúpulas dos Mercadores, O Núcleo, Os Decks Inferiores (O Porão) e a Guarda dos Judiciários.
 
-## Os Pontos Centrais do Cenário
+* **[[O Terceiro Horizonte/Os Nove Ícones|Os Nove Ícones & A Fé]]**
+  * O domínio e o simbolismo dos Nove Ícones, rituais diários, oferendas, bênçãos de nascimento e a ameaça de Escuridão Entre as Estrelas.
 
-* **A Estação Coriolis & O Sistema Kua:** O coração geopolítico e econômico do Horizonte. Coriolis é uma megastrutura orbital flutuando acima do planeta gigante gasoso Kua, abrigando o Conselho das Facções, grandes mercados e os Decks Inferiores tomados pela escória espacial.
-* **Os Nove Ícones & A Fé:** A religião que permeia a vida diária dos habitantes do Horizonte. Os Nove Ícones (O Mensageiro, A Juíza, O Construtor, A Matriarca, O Mercador, O Guerreiro, O Executor, O Decepadore o Peregrino) concedem bênçãos aos fiéis, mas desrespeitá-los atrai A Escuridão.
-* **A Escuridão Entre as Estrelas:** Uma força mística e corrosiva que espreita nos pontos cegos do espaço, manifestando abominações, loucura e perturbação nos portais.
+* **[[O Terceiro Horizonte/As Facções|As Facções do Terceiro Horizonte]]**
+  * As disputas de poder entre o Bloco dos Pioneiros (Ordem dos Ícones, A Liga Livre, Os Zelotas, Os Nomadistas, O Sindicato) e o Bloco dos Zenitianos (O Consórcio, A Hegemonia, A Fundação, A Frota Zenitiana).
 
----
-
-## Seções do Terceiro Horizonte
-
-* **[[O Terceiro Horizonte/estacao-coriolis|A Estação Coriolis & O Sistema Kua]]**: O hub comercial e o conselho de facções.
-* **[[O Terceiro Horizonte/os-icones|Os Nove Ícones & A Fé]]**: A cosmologia dos Ícones e os rituais diários.
-* **[[O Terceiro Horizonte/faccoes|As Facções do Horizonte]]**: As disputas de poder entre Pioneiros e Zenitianos.
-* **[[O Terceiro Horizonte/atlas-estelar|Atlas dos Sistemas Estelares]]**: Detalhes dos sistemas Kua, Mira, Algol, Zalos, Taoan e Sadaal.
+* **[[O Terceiro Horizonte/Atlas Estelar|Atlas Estelar]]**
+  * O mapeamento dos quatro quadrantes estelares (Kua, Mira, Algol e a Fronteira do Horizonte Perdido) e as regras de navegação entre portais de salto.
