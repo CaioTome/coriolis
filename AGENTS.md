@@ -26,7 +26,7 @@
 
 * **PROIBIDO USO DE EMOJIS:** É estritamente proibido o uso de emojis em títulos, marcadores de lista ou no meio do texto em **qualquer arquivo** deste projeto.
 * **Uso do Glossário:** Sempre consulte e atualize o arquivo `dev/glossario-termos.md` ao traduzir conceitos novos.
-* **Tradução Exclusiva para Português (PT-BR):** Nenhum termo de regras ou de história deve permanecer em inglês no texto final. Use **apenas** a tradução oficial:
+* **Tradução Exclusiva para Português (PT-BR):** Nenhum termo de regras ou de história deve permanecer em inglês no texto final. Use **apenas** a tradução oficial, com **exceção de palavras em árabe**, que devem ser mantidas no original para preservar o misticismo da campanha:
   * *Dark Between the Stars* ➔ **Escuridão Entre as Estrelas**
   * *Darkbound* ➔ **A Escuridão**
   * *Firstcome* ➔ **Pioneiros**

@@ -6,33 +6,25 @@ O **Terceiro Horizonte** é composto por 36 sistemas estelares interconectados p
 
 ## Os Principais Sistemas Estelares do Terceiro Horizonte
 
-### 1. Sistema Dabaran
+### 1. Círculo de Dabaran
 Um dos sistemas mais prósperos, opulentos e populosos do Horizonte, considerado a joia cultural dos Pioneiros.
-* **Dabaran Prime:** Planeta desértico famoso por seus palácios suntuosos de arquitetura mourisca, domos com jardins climatizados, fontes termais purificadoras e a alta nobreza das famílias tradicionais dos Pioneiros.
-* **A Corte de Dabaran:** Centro de grandes banquetes, diplomacia de clãs e alta gastronomia, onde as famílias nobres negociam casamentos diplomáticos e alianças de frete.
+* 🔗 Leia mais em: [[Círculo de Dabaran/Círculo de Dabaran|Círculo de Dabaran]]
 
-### 2. Sistema Kua
+### 2. Estação Coriolis e Sistema Kua
 O coração político, comercial e diplomático do Horizonte.
-* **Estação Coriolis:** A megastrutura orbital construída a partir da nau-colônia *Zenith*, sede do Conselho das Facções e maior mercado livre do espaço conhecido.
-* **Planeta Kua Prime:** Mundo coberto por densas selvas tropicais congeladas nas latitudes elevadas, a megalópole corporativa de Conglomerado e o ascensor espacial conhecido como A Espinha de Kua.
+* 🔗 Leia mais em: [[Estação Coriolis/Estação Coriolis|Estação Coriolis e o Sistema Kua]]
 
-### 3. Sistema Mira
-O centro espiritual, cultural e artístico do Horizonte.
-* **Planetas Jardins de Mira:** Mundos paradisíacos abrigando os maiores templos dedicados ao Mensageiro e à Juíza. É o destino final de milhões de peregrinos todos os anos.
-* **Os Grandes Bazares de Especiarias:** Estações orbitais onde se negociam incensos raros, óleos rituais, seda grav-sensível e relíquias sagradas.
+### 3. Corrente de Miran (Sistemas Mira e Zalos)
+O centro espiritual, cultural e artístico do Horizonte, contrastando a devoção luminosa de Mira com a teocracia armada de Zalos.
+* 🔗 Leia mais em: [[Corrente de Miran/Corrente de Miran|Corrente de Miran]]
 
-### 4. Sistema Algol
+### 4. Rota de Algol
 O polo industrial, metalúrgico e de engenharia naval do Horizonte.
-* **Os Estaleiros de Algol:** Onde grandes cargueiros de frete, corvetas e naves corporativas são forjadas a partir do ferro e titânio extraídos dos vastos cinturões de asteroides do sistema.
-* **Fábricas do Consórcio:** Instalações industriais altamente automatizadas que suprem o Horizonte com bens de consumo e peças de naves.
+* 🔗 Leia mais em: [[Rota de Algol/Rota de Algol|Rota de Algol]]
 
-### 5. Sistema Zalos
-O baluarte inexpugnável e teocrático dos Zelotas.
-* **O Isolamento de Zalos:** Sistema puritano governado pela doutrina rígida do Ícone do Executor. O espaço de Zalos é vigiado por baterias orbitais pesadas e corvetas rituais, com acesso estritamente proibido a zenitianos e estrangeiros não autorizados.
-
-### 6. Sistema Sadaal
-O mundo das águas e do conhecimento médico.
-* **Cidades Flutuantes de Sadaal:** Planeta oceânico sem massas continentais significativas, abrigando universidades da Fundação e sanatórios da Ordem da Matriarca.
+### 5. Rota de Sadaal
+O mundo das águas e do conhecimento médico avançado.
+* 🔗 Leia mais em: [[Rota de Sadaal/Rota de Sadaal|Rota de Sadaal]]
 
 ### 7. Sistemas Periféricos & Entrepostos
 * **Sargas & Odacon:** Sistemas marcados por ruínas orbitais e mineração de asteroides rincos pela Liga Livre.
