@@ -1,4 +1,4 @@
-# Diretrizes para Agentes de IA (`dev/AGENTS.md`)
+# Diretrizes para Agentes de IA (`AGENTS.md`)
 
 > **Guia de Execução e Protocolo de Trabalho**  
 > *Este documento define o fluxo de trabalho, a divisão de papéis e as normas para qualquer agente de IA que atuar nesta pasta e no projeto Coriolis PT-BR.*

@@ -35,7 +35,7 @@
 | **Firstcome** | **Pioneiros** | | Facções |
 | **Zenithians** | Zenitianos | | Facções |
 | **The Consortium** | O Consórcio | | Facção |
-| **The Free League** | A Liga dos Livreiros | | Facção |
+| **The Free League** | A Liga Livre | | Facção |
 | **The Legion** | A Legião | | Facção |
 | **The Order of the Icons** | A Ordem dos Ícones | | Facção |
 | **The Syndicate** | O Sindicato | | Facção |
