@@ -7,58 +7,58 @@ No Terceiro Horizonte, a religião não é apenas uma abstração filosófica, m
 ## Os Nove Ícones e Seus Domínios
 
 ### O Mensageiro
-* **Domínio:** Comunicação, viagens intersetoriais, notícias, segredos e iluminação.
-* **Simbolismo:** Representado por uma figura alada carregando uma lâmpada ou pergaminho.
-* **Devotos:** Pilotos, navegadores, batedores e diplomatas.
-* **Proteção:** Invocado antes de realizar saltos quânticos entre portais estelares.
+* **Domínio:** Comunicação, viagens intersetoriais, notícias, sabedoria e conhecimento.
+* **Simbolismo:** Representado por uma figura segurando um pergaminho ou uma lâmpada acesa.
+* **Devotos:** Mensageiros, diplomatas, cientistas e jornalistas.
+* **Proteção:** Invocado para buscar a verdade, enviar mensagens importantes e antes de saltos em portais estelares.
 
-### A Juíza
-* **Domínio:** Justiça, verdade, leis, sabedoria e retribuição.
-* **Simbolismo:** Representada por uma mulher de olhos vendados segurando uma balança e uma lâmina ritual.
-* **Devotos:** Magistrados, Judiciários, diplomatas e negociadores de paz.
-* **Proteção:** Invocada ao firmar acordos selados e durante julgamentos.
+### A Dançarina
+* **Domínio:** Inspiração, paixão, artes, amor e união.
+* **Simbolismo:** Uma figura feminina em movimento gracioso com lenços ou fitas esvoaçantes.
+* **Devotos:** Artistas, cortesãos, poetas e amantes.
+* **Proteção:** Invocada em casamentos, festivais e em momentos que exigem criatividade ou sedução.
 
-### O Construtor
-* **Domínio:** Arquitetura, engenharia, construção de naves, trabalho braçal e criação material.
-* **Simbolismo:** Um artesão musculoso empunhando martelo, compasso e engrenagens.
-* **Devotos:** Engenheiros de naves, operários de fábrica, arquitetos e mecânicos.
-* **Proteção:** Invocado durante reparos críticos de motores e construção de instalações.
+### O Jogador
+* **Domínio:** Sorte, o acaso, risco, oportunidades e incerteza.
+* **Simbolismo:** Uma mão lançando dados ou embaralhando cartas.
+* **Devotos:** Aventureiros, jogadores, criminosos e pessoas dispostas a arriscar tudo.
+* **Proteção:** Invocado antes de apostas perigosas, lutas incertas ou ao traçar rotas arriscadas.
 
-### A Matriarca
-* **Domínio:** Cura, compaixão, proteção da família, lar e acolhimento.
-* **Simbolismo:** Uma mãe protetora envolvendo crianças sob seu manto divino.
-* **Devotos:** Médicos, enfermeiros, cozinheiros e protetores comunitários.
-* **Proteção:** Invocada durante cirurgias, partos e no tratamento de doentes.
+### O Marujo
+* **Domínio:** O trabalho árduo, lealdade à tripulação, resistência e o suor da testa.
+* **Simbolismo:** Uma figura forte segurando uma ferramenta ou corda de estivador.
+* **Devotos:** Tripulantes de naves, operários de docas, mineiros e estivadores.
+* **Proteção:** Invocado para garantir resistência em trabalhos pesados, união da tripulação e segurança no espaço.
 
 ### O Mercador
-* **Domínio:** Comércio, prosperidade financeira, sorte, negociações e riqueza.
-* **Simbolismo:** Um comerciante suntuosamente vestido segurando moedas e balanças de precisão.
-* **Devotos:** Comerciantes, corretores corporativos, financistas e contrabandistas.
-* **Proteção:** Invocado ao iniciar grandes transações e assinar contratos de frete.
+* **Domínio:** Riqueza, prosperidade, comércio, negociações e fartura.
+* **Simbolismo:** Uma figura suntuosamente vestida segurando um cálice de moedas ou uma balança.
+* **Devotos:** Comerciantes, corretores corporativos, contrabandistas e financistas.
+* **Proteção:** Invocado ao iniciar grandes transações, fechar contratos e buscar o lucro.
 
-### O Guerreiro
-* **Domínio:** Combate, coragem física, tática militar, disciplina e proteção dos fracos.
-* **Simbolismo:** Um soldado com armadura completa de placas segurando uma lança ou espada.
-* **Devotos:** Mercenários, soldados da Legião, seguranças e caçadores de recompensa.
-* **Proteção:** Invocado antes de entrar em tiroteios ou invasões táticas.
+### A Juíza
+* **Domínio:** Justiça, punição, verdade, lei e ordem.
+* **Simbolismo:** Uma figura altiva segurando uma balança e uma espada ritual.
+* **Devotos:** Magistrados, policiais da Latifa, agentes da lei e justiceiros.
+* **Proteção:** Invocada para punir os culpados, resolver disputas de sangue e manter o juramento da lei.
 
-### O Executor
-* **Domínio:** Morte, fim de ciclos, transição da alma, silêncio e paz final.
-* **Simbolismo:** Uma figura encapuzada portando uma ampulheta de areia negra.
-* **Devotos:** Coveiros, misticos, agentes de eliminação e doentes terminais.
-* **Proteção:** Invocado para garantir a passagem tranquila dos mortos e banir espíritos inquietos.
+### O Viajante
+* **Domínio:** Exploração, proteção na jornada, sobrevivência e orientação.
+* **Simbolismo:** Um caminhante segurando um cajado longo ou uma bússola.
+* **Devotos:** Nômades, exploradores, arqueólogos e colonos em mundos ermos.
+* **Proteção:** Invocado por qualquer um prestes a cruzar desertos, viajar pelo vácuo escuro ou desbravar ruínas antigas.
 
-### O Decepadore
-* **Domínio:** Sacrifício, purificação pela dor, superação de provações e perigo supremo.
-* **Simbolismo:** Um guerreiro com cicatrizes rituais empunhando uma lâmina curvada.
-* **Devotos:** Sobreviventes de catástrofes, ascetas rituais e exploradores de fronteira.
-* **Proteção:** Invocado em momentos de desespero extremo para resistir à morte física.
+### A Senhora das Lágrimas
+* **Domínio:** Luto, lamento, consolo, os mortos e a passagem para o além.
+* **Simbolismo:** Uma mulher vestida de branco chorando ou com o rosto coberto.
+* **Devotos:** Coveiros, viúvos, médicos, assassinos arrependidos e coveiros do espaço.
+* **Proteção:** Invocada para confortar os enlutados e guiar em paz a alma daqueles que pereceram.
 
-### O Peregrino
-* **Domínio:** Exploração, descoberta do desconhecido, busca espiritual e destinos incertos.
-* **Simbolismo:** Um viajante solitário de cajado caminhando em direção a uma estrela distante.
-* **Devotos:** Escavadores de ruínas, arqueólogos, andarilhos e exilados.
-* **Proteção:** Invocado ao adentrar mundos inexplorados no Horizonte Perdido.
+### O Sem Rosto
+* **Domínio:** O mistério, os segredos sombrios, a Escuridão Entre as Estrelas, aquilo que não deve ser nomeado.
+* **Simbolismo:** Uma máscara lisa e sem feições, ou simplesmente o espaço vazio.
+* **Devotos:** Ocitistas, cultistas hereges, assassinos invisíveis e seres corrompidos (embora muitos fiéis rezem para que ele se afaste, não por devoção).
+* **Proteção:** Invocado (com muito medo) para que desvie o seu olhar e poupe os viajantes de desastres inescapáveis.
 
 ---
 

@@ -1,20 +1,21 @@
-# Escopo e Planejamento: Mod Unificado Coriolis (v1 + v2)
+# Escopo e Planejamento: Coriolis (Sistema Base v2)
 
 > **Documento de Visão e Arquitetura**  
-> *Referência rápida sobre os objetivos do projeto: a criação de um Mod Híbrido que unifica o melhor do Terceiro Horizonte (v1) com as mecânicas modernas de A Grande Escuridão (v2).*
+> *Referência rápida sobre os objetivos do projeto: a integração do cenário de O Terceiro Horizonte (v1) com as mecânicas modernas de A Grande Escuridão (v2).*
 
 ---
 
 ## 1. Visão Geral do Projeto
 
-O objetivo central é criar um **Mod Unificado** em português (PT-BR), combinando a rica ambientação e a gestão de naves de **Coriolis: O Terceiro Horizonte (v1)** com as mecânicas refinadas de sobrevivência e exploração da engine moderna de **A Grande Escuridão (v2)**.
+O objetivo central é criar um compêndio digital em português (PT-BR), combinando a rica ambientação e rotas estelares de **Coriolis: O Terceiro Horizonte (v1)** com as mecânicas refinadas e visceral de **A Grande Escuridão (v2)**.
 
 O resultado será um compêndio digital navegável (Wiki) gerado através do **Quartz / Obsidian**.
 
-A estrutura e escopo do projeto baseiam-se na fusão dos dois sistemas:
-* **Mecânicas Híbridas (v1 + v2):** Integração do sistema de Estresse, Esperança e Escavação de Ruínas (v2) com o combate de Naves e o impacto narrativo dos Ícones (v1).
-* **Cenário Expandido:** O cenário englobará tanto as tensões políticas das Facções no Terceiro Horizonte quanto a exploração hostil de ruínas alienígenas.
-* **Infraestrutura Web:** O diretório `/content/` é a fonte oficial do Mod de onde o Quartz extrai os arquivos Markdown para renderizar o site estático.
+A estrutura e escopo do projeto baseiam-se em:
+* **Mecânicas v2 Pura (A Grande Escuridão):** Uso da Ficha Oficial v2, motor de Dados de Estágio (d6, d8, d10, d12), Estresse, Esperança e Escavação de Ruínas.
+* **Adaptação Espacial v2:** As viagens e combates navais serão resolvidos pelas perícias nativas da v2 + Dados de Recurso da nave.
+* **Cenário Expandido:** O cenário engloba as tensões políticas das Facções no Terceiro Horizonte, os novos setores (Odacon e Quadrante do Pilar) e a exploração de ruínas alienígenas.
+* **Infraestrutura Web:** O diretório `/content/` é a fonte oficial da Wiki de onde o Quartz extrai os arquivos Markdown para renderizar o site estático.
 
 > **Nota de Histórico:** A ideia original de realizar uma tradução literal e integral do livro base da v1 foi **abandonada**. Todo o esforço atual está focado em estruturar o Mod Unificado Híbrido.
 
@@ -27,20 +28,23 @@ A estrutura e escopo do projeto baseiam-se na fusão dos dois sistemas:
 
 ---
 
-## 3. Estrutura de Capítulos do Mod (Milestones)
+---
 
-As tarefas de redação do Mod Híbrido estão divididas nos seguintes blocos lógicos:
+## 3. Estrutura de Capítulos e Cronograma (Milestones)
 
-### Milestone 1: Mecânicas do Jogador
-* **Introdução:** Premissa do jogo e rolagem da Year Zero Engine (empurrar rolagens gerando Estresse para o jogador e PE para o mestre).
-* **Personagem:** Os conceitos clássicos adaptados para o sistema de Esperança.
-* **Perícias (14 Unificadas):** A lista enxuta baseada na v2 (sem restrição entre Gerais/Avançadas), resgatando Pilotagem e Tecnologia da v1.
+Conforme decidido, a prioridade máxima é o desenvolvimento do **Cenário** e da **Campanha**, deixando a especificação detalhada das regras mecânicas para o **último bloco do cronograma**.
 
-### Milestone 2: Ação, Combate e Sobrevivência
-* **Dano e Sanidade:** Tríade com HP (dano físico e lesões críticas), MP/Estresse (dano mental e pânico) e Ruína (contaminação por artefatos).
-* **Naves e Viagem Espacial (v1):** Regras de gestão de nave, posições da tripulação (Capitão, Piloto, etc) e combate de naves.
-* **Escavação de Ruínas (v2):** Subsistema terrestre para turnos de exploração de mapas, uso de dados de recursos (oxigênio/baterias) e perigos ambientais.
+### Milestone 1: O Universo e Cenário Expandido (Prioridade Atual)
+* **O Terceiro Horizonte:** Rotas estelares (Miran, Sadaal, Algol, Dabaran, Estação Coriolis).
+* **As Novas Fronteiras (PDF):** Sistema de Odacon e o Quadrante do Pilar (Altai, Ordana, Sivas, Zhau).
+* **Sociedade e Fé:** As 10 Facções e a devoção correta aos Nove Ícones.
 
-### Milestone 3: O Universo e Mestre de Jogo
-* **O Lore Combinado:** Facções e Ícones do Terceiro Horizonte interagindo com o mistério insondável dos Construtores e da Grande Escuridão.
-* **Economia do Mestre:** Regras para o Mestre utilizar os Pontos de Escuridão (PE) gerados e ativar perigos, biomorfos e armadilhas.
+### Milestone 2: A Campanha e Ferramentas do Mestre
+* **A Campanha Viva:** Organização dos Diários de Bordo, PJs, NPCs e Missões.
+* **A Nave:** Ficha, histórico de dívidas e gerenciamento de recursos.
+* **Templates em `dev/templates/`:** Modelos rápidos para criação dinâmica de conteúdo durante o jogo.
+
+### Milestone 3: O Sistema e Mecânicas Base v2 (Por Último no Cronograma)
+* **O Motor v2 (A Grande Escuridão):** Dados de Estágio (d6, d8, d10, d12), Ficha Oficial v2, Estresse e Esperança.
+* **Exploração Terrestre:** Regras de Escavação de Ruínas (Delving) e Dados de Recurso (oxigênio/luz).
+* **Adaptação Espacial v2:** Resolução de funções da tripulação e combate de naves usando as perícias nativas da v2 e Dados de Recurso para a fuselagem da nave.
