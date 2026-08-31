@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stars Without Number - Ficha de Veículo / Drone</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800;900&family=Rajdhani:wght@500;600;700&family=Roboto+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-main: #0a1118;
+            --bg-card: #111d28;
+            --bg-input: #1a2a3a;
+            --border-color: #2e445b;
+            --border-accent: #10b981;
+            --text-main: #f3f4f6;
+            --text-muted: #9ca3af;
+            --accent-green: #10b981;
+            --accent-green-hover: #34d399;
+            --accent-cyan: #06b6d4;
+            --accent-blue: #3b82f6;
+            --accent-red: #ef4444;
+            --accent-amber: #f59e0b;
+            --shadow-green: rgba(16, 185, 129, 0.15);
+            --radius: 8px;
+            --font-title: 'Orbitron', sans-serif;
+            --font-sub: 'Rajdhani', sans-serif;
+            --font-body: 'Inter', sans-serif;
+            --font-mono: 'Roboto Mono', monospace;
+        }
+
+        .light-mode {
+            --bg-main: #f8fafc;
+            --bg-card: #ffffff;
+            --bg-input: #f1f5f9;
+            --border-color: #cbd5e1;
+            --border-accent: #059669;
+            --text-main: #0f172a;
+            --text-muted: #64748b;
+            --accent-green: #059669;
+            --accent-green-hover: #047857;
+            --accent-cyan: #0284c7;
+            --accent-blue: #2563eb;
+            --accent-red: #dc2626;
+            --accent-amber: #d97706;
+            --shadow-green: rgba(5, 150, 105, 0.1);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            background-color: var(--bg-main);
+            color: var(--text-main);
+            font-family: var(--font-body);
+            line-height: 1.5;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .header-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(135deg, var(--bg-card) 0%, #062b1e 100%);
+            border: 1px solid var(--border-accent);
+            border-radius: var(--radius);
+            padding: 15px 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 20px var(--shadow-green);
+        }
+
+        .light-mode .header-bar { background: linear-gradient(135deg, #ffffff 0%, #ecfdf5 100%); }
+
+        .brand-title {
+            font-family: var(--font-title);
+            font-size: 1.5rem;
+            color: var(--accent-green);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .brand-subtitle {
+            font-family: var(--font-sub);
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            letter-spacing: 1px;
+        }
+
+        .toolbar { display: flex; gap: 10px; flex-wrap: wrap; }
+
+        .btn {
+            background: var(--bg-input);
+            color: var(--text-main);
+            border: 1px solid var(--border-color);
+            padding: 8px 14px;
+            border-radius: 6px;
+            font-family: var(--font-sub);
+            font-weight: 700;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            text-transform: uppercase;
+        }
+
+        .btn:hover {
+            border-color: var(--accent-green);
+            color: var(--accent-green);
+            box-shadow: 0 0 10px var(--shadow-green);
+            transform: translateY(-1px);
+        }
+
+        .btn-danger:hover { border-color: var(--accent-red); color: var(--accent-red); }
+
+        .sheet-container {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+            padding: 16px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-header {
+            font-family: var(--font-title);
+            font-size: 1rem;
+            color: var(--accent-green);
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+            margin-bottom: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .field-group { display: flex; flex-direction: column; gap: 4px; margin-bottom: 10px; }
+
+        label {
+            font-family: var(--font-sub);
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--text-muted);
+            text-transform: uppercase;
+        }
+
+        input[type="text"], input[type="number"], select, textarea {
+            background: var(--bg-input);
+            color: var(--text-main);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            padding: 8px 10px;
+            font-family: var(--font-body);
+            font-size: 0.95rem;
+            outline: none;
+            width: 100%;
+        }
+
+        input:focus, select:focus, textarea:focus {
+            border-color: var(--accent-green);
+            box-shadow: 0 0 8px var(--shadow-green);
+        }
+
+        .grid-col-12 { grid-column: span 12; }
+        .grid-col-8 { grid-column: span 8; }
+        .grid-col-6 { grid-column: span 6; }
+        .grid-col-4 { grid-column: span 4; }
+
+        @media (max-width: 992px) {
+            .grid-col-8, .grid-col-6, .grid-col-4 { grid-column: span 12; }
+        }
+
+        .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+
+        .vitals-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 10px; }
+
+        .vital-card {
+            background: var(--bg-input);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .vital-card.accent-hp { border-top: 3px solid var(--accent-green); }
+        .vital-card.accent-ac { border-top: 3px solid var(--accent-blue); }
+        .vital-card.accent-speed { border-top: 3px solid var(--accent-amber); }
+        .vital-card.accent-range { border-top: 3px solid var(--accent-cyan); }
+
+        .vital-val-container { display: flex; align-items: center; justify-content: center; gap: 4px; margin-top: 4px; }
+        .vital-input { width: 50px !important; text-align: center; font-family: var(--font-mono); font-weight: 700; padding: 4px !important; }
+
+        .custom-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+        .custom-table th { font-family: var(--font-sub); color: var(--text-muted); text-transform: uppercase; text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--border-color); }
+        .custom-table td { padding: 6px 8px; border-bottom: 1px solid rgba(255,255,255,0.05); }
+
+        .table-btn-delete { background: none; border: none; color: var(--accent-red); cursor: pointer; font-weight: bold; }
+
+        .dice-log-card {
+            background: rgba(16, 185, 129, 0.05);
+            border: 1px solid var(--accent-green);
+            border-radius: 6px;
+            padding: 10px;
+            margin-top: 10px;
+            font-family: var(--font-mono);
+            display: none;
+        }
+        .dice-log-card.active { display: block; }
+        .dice-result-big { font-size: 1.4rem; font-weight: 800; color: var(--accent-green); }
+
+        @media print {
+            body { background: #fff !important; color: #000 !important; padding: 0 !important; }
+            .toolbar, .btn, .table-btn-delete, .dice-log-card, button { display: none !important; }
+            .card { background: #fff !important; border: 1px solid #000 !important; box-shadow: none !important; break-inside: avoid; }
+            .card-header { color: #000 !important; border-bottom: 1px solid #000 !important; }
+            input, select, textarea { background: #fff !important; color: #000 !important; border: 1px solid #ccc !important; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-bar">
+        <div>
+            <h1 class="brand-title">Veículo / Drone</h1>
+            <div class="brand-subtitle">Stars Without Number: Revised Edition • Ficha de Veículo & Drone</div>
+        </div>
+        <div class="toolbar">
+            <button class="btn" type="button" onclick="toggleTheme()">🌓 Tema</button>
+            <button class="btn" type="button" onclick="exportJSON()">💾 Exportar JSON</button>
+            <button class="btn" type="button" onclick="document.getElementById('import-file').click()">📂 Importar JSON</button>
+            <input type="file" id="import-file" style="display:none" onchange="importJSON(event)" accept=".json">
+            <button class="btn" type="button" onclick="window.print()">🖨️ Imprimir</button>
+            <button class="btn btn-danger" type="button" onclick="resetSheet()">🗑️ Novo Veículo</button>
+        </div>
+    </div>
+
+    <div id="dice-log" class="dice-log-card">
+        <span style="color:var(--text-muted); font-size:0.75rem;">Resultado do Teste de Veículo:</span>
+        <div id="dice-result-text" class="dice-result-big">2d6 + 2 = 9</div>
+        <div id="dice-details" style="font-size:0.8rem; color:var(--text-muted);">Detalhes do teste ou rolagem</div>
+    </div>
+
+    <form id="vehicle-sheet" class="sheet-container" onkeydown="if(event.key==='Enter' && event.target.tagName !== 'TEXTAREA') event.preventDefault();">
+
+        <!-- CARD 1: Identificação -->
+        <div class="card grid-col-12">
+            <div class="card-header">Identificação do Veículo / Drone</div>
+            <div class="info-grid">
+                <div class="field-group">
+                    <label for="veh-name">Nome / Modelo</label>
+                    <input type="text" id="veh-name" name="name" placeholder="Ex: Grav-Flyer de Assalto / Drone Olho de Águia">
+                </div>
+                <div class="field-group">
+                    <label for="veh-category">Categoria</label>
+                    <select id="veh-category" name="category">
+                        <option value="Terrestre">Veículo Terrestre (Rodas / Esteiras)</option>
+                        <option value="Hover" selected>Flotador (Grav-Hover)</option>
+                        <option value="Aéreo">Aeronave / Atmosférico</option>
+                        <option value="Aquático">Aquático / Subaquático</option>
+                        <option value="DroneRecon">Drone de Reconhecimento</option>
+                        <option value="DroneGuerra">Drone de Guerra / Ataque</option>
+                    </select>
+                </div>
+                <div class="field-group">
+                    <label for="veh-operator">Operador / Piloto</label>
+                    <input type="text" id="veh-operator" name="operator" placeholder="Nome do Piloto ou Operador">
+                </div>
+                <div class="field-group">
+                    <label for="veh-tl">Nível Tecnológico (TL)</label>
+                    <input type="text" id="veh-tl" name="tech_level" placeholder="TL4">
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD 2: Estatísticas Globais -->
+        <div class="card grid-col-6">
+            <div class="card-header">Desempenho & Integridade</div>
+            <div class="vitals-grid">
+                <div class="vital-card accent-hp">
+                    <div class="vital-label">Pontos de Vida (HP)</div>
+                    <div class="vital-val-container">
+                        <input type="number" id="hp-current" name="hp_current" class="vital-input" value="15">
+                        <span style="color:var(--text-muted);">/</span>
+                        <input type="number" id="hp-max" name="hp_max" class="vital-input" value="15">
+                    </div>
+                </div>
+                <div class="vital-card accent-ac">
+                    <div class="vital-label">Classe de Armadura (CA)</div>
+                    <div class="vital-val-container">
+                        <input type="number" id="ac-val" name="ac" class="vital-input" value="13">
+                    </div>
+                </div>
+                <div class="vital-card accent-speed">
+                    <div class="vital-label">Velocidade Máx.</div>
+                    <div class="vital-val-container">
+                        <input type="text" id="speed-val" name="speed" style="width:70px; text-align:center;" value="120 km/h">
+                    </div>
+                </div>
+                <div class="vital-card accent-range">
+                    <div class="vital-label">Alcance de Sinal</div>
+                    <div class="vital-val-container">
+                        <input type="text" id="signal-range" name="signal_range" style="width:70px; text-align:center;" value="5 km">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD 3: Capacidade & Tripulação -->
+        <div class="card grid-col-6">
+            <div class="card-header">Capacidade & Tripulação</div>
+            <div style="display:grid; grid-template-columns: 1fr 1fr; gap:12px;">
+                <div class="field-group">
+                    <label for="veh-crew">Tripulação / Passageiros</label>
+                    <input type="text" id="veh-crew" name="crew" placeholder="1 Piloto + 3 Passageiros">
+                </div>
+                <div class="field-group">
+                    <label for="veh-cargo">Capacidade de Carga</label>
+                    <input type="text" id="veh-cargo" name="cargo" placeholder="250 kg">
+                </div>
+                <div class="field-group">
+                    <label for="veh-power">Combustível / Bateria</label>
+                    <input type="text" id="veh-power" name="power_source" placeholder="Célula de Fusão (500km)">
+                </div>
+                <div class="field-group">
+                    <label for="veh-armor-type">Tipo de Armadura</label>
+                    <input type="text" id="veh-armor-type" name="armor_type" placeholder="Blindagem Composta">
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD 4: Armamento do Veículo/Drone -->
+        <div class="card grid-col-12">
+            <div class="card-header">
+                <span>Armamento Montado</span>
+                <button type="button" class="btn" onclick="addWeaponRow()">+ Arma</button>
+            </div>
+            <div style="overflow-x:auto;">
+                <table class="custom-table">
+                    <thead>
+                        <tr>
+                            <th>Arma</th>
+                            <th>Dano</th>
+                            <th>Alcance</th>
+                            <th>Munição / Carga</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody id="weapons-body">
+                        <!-- Linhas Dinâmicas -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- CARD 5: Acessórios & Modificações -->
+        <div class="card grid-col-12">
+            <div class="card-header">
+                <span>Acessórios, Sensores & Modificações</span>
+                <button type="button" class="btn" onclick="addFittingRow()">+ Modificação</button>
+            </div>
+            <div style="overflow-x:auto;">
+                <table class="custom-table">
+                    <thead>
+                        <tr>
+                            <th style="width: 40%;">Acessório / Modificação</th>
+                            <th style="width: 50%;">Efeito / Função</th>
+                            <th style="width: 10%;">Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody id="fittings-body">
+                        <!-- Linhas Dinâmicas -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- CARD 6: Anotações Gerais -->
+        <div class="card grid-col-12">
+            <div class="card-header">Anotações Gerais</div>
+            <div class="field-group">
+                <textarea id="veh-notes" name="notes" rows="4" placeholder="Histórico do veículo, avarias conhecidas, sensores acoplados..."></textarea>
+            </div>
+        </div>
+
+    </form>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            loadSheet();
+            document.getElementById('vehicle-sheet').addEventListener('input', saveSheet);
+        });
+
+        function toggleTheme() { document.body.classList.toggle('light-mode'); }
+
+        function addWeaponRow(data = {}) {
+            const tbody = document.getElementById('weapons-body');
+            const tr = document.createElement('tr');
+
+            tr.innerHTML = `
+                <td><input type="text" class="weapon-name" value="${data.name || ''}" placeholder="Ex: Metralhadora Pesada 12.7mm"></td>
+                <td><input type="text" class="weapon-dmg" value="${data.dmg || '2d8'}" style="width:70px;"></td>
+                <td><input type="text" class="weapon-range" value="${data.range || ''}" placeholder="200m" style="width:80px;"></td>
+                <td><input type="text" class="weapon-ammo" value="${data.ammo || ''}" placeholder="500 projéteis"></td>
+                <td>
+                    <button type="button" class="btn" style="padding:2px 6px; font-size:0.75rem;" onclick="rollVehAttack(this)">🎲 Disparar</button>
+                    <button type="button" class="table-btn-delete" onclick="this.closest('tr').remove(); saveSheet();">✕</button>
+                </td>
+            `;
+            tbody.appendChild(tr);
+        }
+
+        function addFittingRow(data = {}) {
+            const tbody = document.getElementById('fittings-body');
+            const tr = document.createElement('tr');
+
+            tr.innerHTML = `
+                <td><input type="text" class="fitting-name" value="${data.name || ''}" placeholder="Ex: Sensores Táticos de Varredura"></td>
+                <td><input type="text" class="fitting-effect" value="${data.effect || ''}" placeholder="+1 em testes de Percepção / Detecção"></td>
+                <td>
+                    <button type="button" class="table-btn-delete" onclick="this.closest('tr').remove(); saveSheet();">✕</button>
+                </td>
+            `;
+            tbody.appendChild(tr);
+        }
+
+        function rollVehAttack(btn) {
+            const tr = btn.closest('tr');
+            const name = tr.querySelector('.weapon-name').value || 'Arma de Veículo';
+            const dmg = tr.querySelector('.weapon-dmg').value || '2d6';
+            const d20 = Math.floor(Math.random() * 20) + 1;
+
+            document.getElementById('dice-result-text').innerText = `Ataque (${name}): d20 = ${d20}`;
+            document.getElementById('dice-details').innerText = `Dano nominal: ${dmg} | Adicione BBA + Modificador do Piloto`;
+            document.getElementById('dice-log').classList.add('active');
+        }
+
+        function saveSheet() {
+            const formData = new FormData(document.getElementById('vehicle-sheet'));
+            const data = {};
+            formData.forEach((v, k) => data[k] = v);
+
+            data.weapons = [];
+            document.querySelectorAll('#weapons-body tr').forEach(tr => {
+                data.weapons.push({
+                    name: tr.querySelector('.weapon-name').value,
+                    dmg: tr.querySelector('.weapon-dmg').value,
+                    range: tr.querySelector('.weapon-range').value,
+                    ammo: tr.querySelector('.weapon-ammo').value
+                });
+            });
+
+            data.fittings = [];
+            document.querySelectorAll('#fittings-body tr').forEach(tr => {
+                data.fittings.push({
+                    name: tr.querySelector('.fitting-name').value,
+                    effect: tr.querySelector('.fitting-effect').value
+                });
+            });
+
+            localStorage.setItem('swn_vehicle_sheet_ptbr', JSON.stringify(data));
+        }
+
+        function loadSheet() {
+            const saved = localStorage.getItem('swn_vehicle_sheet_ptbr');
+            if (!saved) {
+                addWeaponRow({ name: "Canhão Automático de Suporte", dmg: "2d8", range: "250m", ammo: "200 projéteis" });
+                addFittingRow({ name: "Sistema de Pilotagem Automática TL4", effect: "Permite navegação autônoma em rotas programadas" });
+                return;
+            }
+            try {
+                const data = JSON.parse(saved);
+                Object.keys(data).forEach(k => {
+                    const el = document.getElementById(`veh-${k}`) || document.getElementsByName(k)[0];
+                    if (el && typeof data[k] !== 'object') el.value = data[k];
+                });
+                document.getElementById('weapons-body').innerHTML = '';
+                if (data.weapons) data.weapons.forEach(w => addWeaponRow(w));
+                document.getElementById('fittings-body').innerHTML = '';
+                if (data.fittings) data.fittings.forEach(f => addFittingRow(f));
+            } catch (e) { console.error(e); }
+        }
+
+        function exportJSON() {
+            saveSheet();
+            const dataStr = localStorage.getItem('swn_vehicle_sheet_ptbr');
+            const name = document.getElementById('veh-name').value || 'veiculo';
+            const blob = new Blob([dataStr], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `ficha_veiculo_${name.toLowerCase().replace(/\s+/g, '_')}.json`;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        function importJSON(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                try {
+                    localStorage.setItem('swn_vehicle_sheet_ptbr', e.target.result);
+                    loadSheet();
+                    alert("Ficha de Veículo carregada!");
+                } catch (err) { alert("Erro ao importar JSON."); }
+            };
+            reader.readAsText(file);
+        }
+
+        function resetSheet() {
+            if (confirm("Limpar dados do veículo/drone?")) {
+                localStorage.removeItem('swn_vehicle_sheet_ptbr');
+                document.getElementById('vehicle-sheet').reset();
+                document.getElementById('weapons-body').innerHTML = '';
+                document.getElementById('fittings-body').innerHTML = '';
+            }
+        }
+    </script>
+</body>
+</html>
