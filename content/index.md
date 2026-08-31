@@ -49,3 +49,12 @@ Para permitir que uma mesma mesa viaje livremente entre a opulência da Estaçã
 * **[[Coriolis/Coriolis Sistema|Regras do Sistema Unificado]]**: As 14 Perícias, Atributos, regras de rolagem e economia de tensão.
 * **Fé & Tensão:** O equilíbrio entre empurrar dados, acúmulo de **Estresse**, uso de **Pontos de Esperança** e os **PE** (Pontos de Escuridão) na mão do Mestre.
 * **Dual-Engine:** Combate espacial tático com posições de tripulação (Capitão, Piloto, Engenheiro, Atirador, Sensores) integrado ao sistema de escavação de ruínas terrestre.
+
+---
+
+## [[5. Fichas/5. Fichas|Fichas Interativas do Sistema]]
+
+* [[5. Fichas/Ficha de Personagem|Ficha de Personagem]]
+* [[5. Fichas/Ficha de Nave|Ficha de Nave Espacial]]
+* [[5. Fichas/Ficha de Mech|Ficha de Mech]]
+* [[5. Fichas/Ficha de Veículo|Ficha de Veículo]]
