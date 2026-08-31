@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stars Without Number - Ficha de Mech</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800;900&family=Rajdhani:wght@500;600;700&family=Roboto+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-main: #0d0e15;
+            --bg-card: #151724;
+            --bg-input: #1f2336;
+            --border-color: #373e5c;
+            --border-accent: #f59e0b;
+            --text-main: #f3f4f6;
+            --text-muted: #9ca3af;
+            --accent-amber: #f59e0b;
+            --accent-amber-hover: #fbbf24;
+            --accent-red: #ef4444;
+            --accent-cyan: #06b6d4;
+            --accent-purple: #8b5cf6;
+            --accent-green: #10b981;
+            --shadow-amber: rgba(245, 158, 11, 0.15);
+            --radius: 8px;
+            --font-title: 'Orbitron', sans-serif;
+            --font-sub: 'Rajdhani', sans-serif;
+            --font-body: 'Inter', sans-serif;
+            --font-mono: 'Roboto Mono', monospace;
+        }
+
+        .light-mode {
+            --bg-main: #f8fafc;
+            --bg-card: #ffffff;
+            --bg-input: #f1f5f9;
+            --border-color: #cbd5e1;
+            --border-accent: #d97706;
+            --text-main: #0f172a;
+            --text-muted: #64748b;
+            --accent-amber: #d97706;
+            --accent-amber-hover: #b45309;
+            --accent-red: #dc2626;
+            --accent-cyan: #0284c7;
+            --accent-purple: #7c3aed;
+            --accent-green: #059669;
+            --shadow-amber: rgba(217, 119, 6, 0.1);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            background-color: var(--bg-main);
+            color: var(--text-main);
+            font-family: var(--font-body);
+            line-height: 1.5;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .header-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(135deg, var(--bg-card) 0%, #261f10 100%);
+            border: 1px solid var(--border-accent);
+            border-radius: var(--radius);
+            padding: 15px 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 20px var(--shadow-amber);
+        }
+
+        .light-mode .header-bar { background: linear-gradient(135deg, #ffffff 0%, #fef3c7 100%); }
+
+        .brand-title {
+            font-family: var(--font-title);
+            font-size: 1.5rem;
+            color: var(--accent-amber);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .brand-subtitle {
+            font-family: var(--font-sub);
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            letter-spacing: 1px;
+        }
+
+        .toolbar { display: flex; gap: 10px; flex-wrap: wrap; }
+
+        .btn {
+            background: var(--bg-input);
+            color: var(--text-main);
+            border: 1px solid var(--border-color);
+            padding: 8px 14px;
+            border-radius: 6px;
+            font-family: var(--font-sub);
+            font-weight: 700;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            text-transform: uppercase;
+        }
+
+        .btn:hover {
+            border-color: var(--accent-amber);
+            color: var(--accent-amber);
+            box-shadow: 0 0 10px var(--shadow-amber);
+            transform: translateY(-1px);
+        }
+
+        .btn-danger:hover { border-color: var(--accent-red); color: var(--accent-red); }
+
+        .sheet-container {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+            padding: 16px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-header {
+            font-family: var(--font-title);
+            font-size: 1rem;
+            color: var(--accent-amber);
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+            margin-bottom: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .field-group { display: flex; flex-direction: column; gap: 4px; margin-bottom: 10px; }
+
+        label {
+            font-family: var(--font-sub);
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--text-muted);
+            text-transform: uppercase;
+        }
+
+        input[type="text"], input[type="number"], select, textarea {
+            background: var(--bg-input);
+            color: var(--text-main);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            padding: 8px 10px;
+            font-family: var(--font-body);
+            font-size: 0.95rem;
+            outline: none;
+            width: 100%;
+        }
+
+        input:focus, select:focus, textarea:focus {
+            border-color: var(--accent-amber);
+            box-shadow: 0 0 8px var(--shadow-amber);
+        }
+
+        .grid-col-12 { grid-column: span 12; }
+        .grid-col-8 { grid-column: span 8; }
+        .grid-col-6 { grid-column: span 6; }
+        .grid-col-4 { grid-column: span 4; }
+
+        @media (max-width: 992px) {
+            .grid-col-8, .grid-col-6, .grid-col-4 { grid-column: span 12; }
+        }
+
+        .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+
+        .vitals-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 10px; }
+
+        .vital-card {
+            background: var(--bg-input);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .vital-card.accent-hp { border-top: 3px solid var(--accent-red); }
+        .vital-card.accent-ac { border-top: 3px solid var(--accent-amber); }
+        .vital-card.accent-speed { border-top: 3px solid var(--accent-cyan); }
+        .vital-card.accent-energy { border-top: 3px solid var(--accent-purple); }
+
+        .vital-val-container { display: flex; align-items: center; justify-content: center; gap: 4px; margin-top: 4px; }
+        .vital-input { width: 50px !important; text-align: center; font-family: var(--font-mono); font-weight: 700; padding: 4px !important; }
+
+        /* Resource Bars */
+        .resource-bar-box { margin-bottom: 12px; }
+        .resource-label { display: flex; justify-content: space-between; font-family: var(--font-sub); font-weight: 700; font-size: 0.85rem; margin-bottom: 4px; }
+        .progress-track { background: var(--bg-input); border: 1px solid var(--border-color); height: 14px; border-radius: 4px; overflow: hidden; }
+        .progress-fill { height: 100%; transition: width 0.3s ease; }
+        .fill-hardpoint { background: var(--accent-amber); }
+        .fill-power { background: var(--accent-purple); }
+        .fill-overload { background: var(--accent-red) !important; }
+
+        .custom-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+        .custom-table th { font-family: var(--font-sub); color: var(--text-muted); text-transform: uppercase; text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--border-color); }
+        .custom-table td { padding: 6px 8px; border-bottom: 1px solid rgba(255,255,255,0.05); }
+
+        .table-btn-delete { background: none; border: none; color: var(--accent-red); cursor: pointer; font-weight: bold; }
+
+        .dice-log-card {
+            background: rgba(245, 158, 11, 0.05);
+            border: 1px solid var(--accent-amber);
+            border-radius: 6px;
+            padding: 10px;
+            margin-top: 10px;
+            font-family: var(--font-mono);
+            display: none;
+        }
+        .dice-log-card.active { display: block; }
+        .dice-result-big { font-size: 1.4rem; font-weight: 800; color: var(--accent-amber); }
+
+        @media print {
+            body { background: #fff !important; color: #000 !important; padding: 0 !important; }
+            .toolbar, .btn, .table-btn-delete, .dice-log-card, button { display: none !important; }
+            .card { background: #fff !important; border: 1px solid #000 !important; box-shadow: none !important; break-inside: avoid; }
+            .card-header { color: #000 !important; border-bottom: 1px solid #000 !important; }
+            input, select, textarea { background: #fff !important; color: #000 !important; border: 1px solid #ccc !important; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-bar">
+        <div>
+            <h1 class="brand-title">Mech de Combate</h1>
+            <div class="brand-subtitle">Stars Without Number: Revised Edition • Registro de Unidade Mech</div>
+        </div>
+        <div class="toolbar">
+            <button class="btn" type="button" onclick="toggleTheme()">🌓 Tema</button>
+            <button class="btn" type="button" onclick="exportJSON()">💾 Exportar JSON</button>
+            <button class="btn" type="button" onclick="document.getElementById('import-file').click()">📂 Importar JSON</button>
+            <input type="file" id="import-file" style="display:none" onchange="importJSON(event)" accept=".json">
+            <button class="btn" type="button" onclick="window.print()">🖨️ Imprimir</button>
+            <button class="btn btn-danger" type="button" onclick="resetSheet()">🗑️ Novo Mech</button>
+        </div>
+    </div>
+
+    <div id="dice-log" class="dice-log-card">
+        <span style="color:var(--text-muted); font-size:0.75rem;">Resultado do Combate de Mech:</span>
+        <div id="dice-result-text" class="dice-result-big">d20 + 3 = 16</div>
+        <div id="dice-details" style="font-size:0.8rem; color:var(--text-muted);">Detalhes do disparo ou manobra de mech</div>
+    </div>
+
+    <form id="mech-sheet" class="sheet-container" onkeydown="if(event.key==='Enter' && event.target.tagName !== 'TEXTAREA') event.preventDefault();">
+
+        <!-- CARD 1: Identificação do Mech -->
+        <div class="card grid-col-12">
+            <div class="card-header">Especificações do Chassis</div>
+            <div class="info-grid">
+                <div class="field-group">
+                    <label for="mech-name">Nome da Unidade / Designação</label>
+                    <input type="text" id="mech-name" name="name" placeholder="Ex: Titan Vanguard Mk-III">
+                </div>
+                <div class="field-group">
+                    <label for="mech-chassis">Classe de Chassis</label>
+                    <select id="mech-chassis" name="chassis" onchange="calculateSheet()">
+                        <option value="Suit">Traje Armado (Power Armor / Suit)</option>
+                        <option value="Light" selected>Mech Ligeiro (Light Mech)</option>
+                        <option value="Medium">Mech Médio (Medium Mech)</option>
+                        <option value="Heavy">Mech Pesado (Heavy Mech)</option>
+                    </select>
+                </div>
+                <div class="field-group">
+                    <label for="mech-pilot">Piloto Designado</label>
+                    <input type="text" id="mech-pilot" name="pilot" placeholder="Nome do Piloto">
+                </div>
+                <div class="field-group">
+                    <label for="mech-movement">Tipo de Locomoção</label>
+                    <input type="text" id="mech-movement" name="movement_type" placeholder="Ex: Bípede / Propulsor de Voo">
+                </div>
+                <div class="field-group">
+                    <label for="mech-tl">Nível Tecnológico (TL)</label>
+                    <input type="text" id="mech-tl" name="tech_level" placeholder="TL4 / TL5 Pretech">
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD 2: Estrutura & Vigor do Mech -->
+        <div class="card grid-col-6">
+            <div class="card-header">Estrutura & Blindagem</div>
+            <div class="vitals-grid">
+                <div class="vital-card accent-hp">
+                    <div class="vital-label">Pontos de Estrutura (HP)</div>
+                    <div class="vital-val-container">
+                        <input type="number" id="hp-current" name="hp_current" class="vital-input" value="30">
+                        <span style="color:var(--text-muted);">/</span>
+                        <input type="number" id="hp-max" name="hp_max" class="vital-input" value="30">
+                    </div>
+                </div>
+                <div class="vital-card accent-ac">
+                    <div class="vital-label">Classe de Armadura (CA)</div>
+                    <div class="vital-val-container">
+                        <input type="number" id="ac-val" name="ac" class="vital-input" value="16">
+                    </div>
+                </div>
+                <div class="vital-card accent-speed">
+                    <div class="vital-label">Velocidade (m/rodada)</div>
+                    <div class="vital-val-container">
+                        <input type="number" id="speed-val" name="speed" class="vital-input" value="20">
+                    </div>
+                </div>
+                <div class="vital-card accent-energy">
+                    <div class="vital-label">Estresse / Sobrecarga</div>
+                    <div class="vital-val-container">
+                        <input type="number" id="strain-val" name="strain" class="vital-input" value="0">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD 3: Orçamento de Hardpoints e Energia -->
+        <div class="card grid-col-6">
+            <div class="card-header">Capacidade de Montagem & Energia</div>
+
+            <div class="resource-bar-box">
+                <div class="resource-label">
+                    <span>Pontos de Montagem (Hardpoints)</span>
+                    <span><strong id="hp-used">0</strong> / <strong id="hp-max-display">6</strong></span>
+                </div>
+                <div class="progress-track">
+                    <div id="hp-bar" class="progress-fill fill-hardpoint" style="width: 0%;"></div>
+                </div>
+            </div>
+
+            <div class="resource-bar-box">
+                <div class="resource-label">
+                    <span>Reserva de Energia (Power Pool)</span>
+                    <span><strong id="power-used">0</strong> / <strong id="power-max-display">12</strong></span>
+                </div>
+                <div class="progress-track">
+                    <div id="power-bar" class="progress-fill fill-power" style="width: 0%;"></div>
+                </div>
+            </div>
+
+            <div style="display:grid; grid-template-columns: 1fr 1fr; gap:10px; margin-top:14px;">
+                <div class="field-group">
+                    <label for="hp-max-input">Hardpoints Máximos</label>
+                    <input type="number" id="hp-max-input" name="hardpoints_max" value="6" onchange="calculateSheet()">
+                </div>
+                <div class="field-group">
+                    <label for="power-max-input">Energia Máxima</label>
+                    <input type="number" id="power-max-input" name="power_max" value="12" onchange="calculateSheet()">
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD 4: Armamento do Mech -->
+        <div class="card grid-col-12">
+            <div class="card-header">
+                <span>Armamento Pesado de Mech</span>
+                <button type="button" class="btn" onclick="addWeaponRow()">+ Arma de Mech</button>
+            </div>
+            <div style="overflow-x:auto;">
+                <table class="custom-table">
+                    <thead>
+                        <tr>
+                            <th>Arma</th>
+                            <th>Dano</th>
+                            <th>Alcance</th>
+                            <th>Hardpoints</th>
+                            <th>Energia</th>
+                            <th>Munição / Recarga</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody id="weapons-body">
+                        <!-- Linhas Dinâmicas -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- CARD 5: Sistemas Internos & Módulos -->
+        <div class="card grid-col-12">
+            <div class="card-header">
+                <span>Sistemas Internos, Escudos & Módulos</span>
+                <button type="button" class="btn" onclick="addSystemRow()">+ Sistema</button>
+            </div>
+            <div style="overflow-x:auto;">
+                <table class="custom-table">
+                    <thead>
+                        <tr>
+                            <th style="width: 35%;">Sistema</th>
+                            <th style="width: 15%;">Hardpoints</th>
+                            <th style="width: 15%;">Energia</th>
+                            <th style="width: 25%;">Efeito / Benefício</th>
+                            <th style="width: 10%;">Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody id="systems-body">
+                        <!-- Linhas Dinâmicas -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- CARD 6: Anotações & Registro do Piloto -->
+        <div class="card grid-col-12">
+            <div class="card-header">Registro de Manutenção & Histórico de Combate</div>
+            <div class="field-group">
+                <textarea id="mech-notes" name="notes" rows="4" placeholder="Danos críticos sofridos, substituições de peças, munições especiais carregadas..."></textarea>
+            </div>
+        </div>
+
+    </form>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            loadSheet();
+            calculateSheet();
+            document.getElementById('mech-sheet').addEventListener('input', () => {
+                calculateSheet();
+                saveSheet();
+            });
+        });
+
+        function toggleTheme() { document.body.classList.toggle('light-mode'); }
+
+        function calculateSheet() {
+            const hpMax = parseFloat(document.getElementById('hp-max-input').value) || 1;
+            const pMax = parseFloat(document.getElementById('power-max-input').value) || 1;
+
+            let hpUsed = 0;
+            let pUsed = 0;
+
+            document.querySelectorAll('#weapons-body tr').forEach(tr => {
+                hpUsed += parseFloat(tr.querySelector('.weapon-hp')?.value) || 0;
+                pUsed += parseFloat(tr.querySelector('.weapon-power')?.value) || 0;
+            });
+
+            document.querySelectorAll('#systems-body tr').forEach(tr => {
+                hpUsed += parseFloat(tr.querySelector('.system-hp')?.value) || 0;
+                pUsed += parseFloat(tr.querySelector('.system-power')?.value) || 0;
+            });
+
+            document.getElementById('hp-used').innerText = hpUsed;
+            document.getElementById('hp-max-display').innerText = hpMax;
+            document.getElementById('power-used').innerText = pUsed;
+            document.getElementById('power-max-display').innerText = pMax;
+
+            const hpBar = document.getElementById('hp-bar');
+            const pBar = document.getElementById('power-bar');
+
+            const hpPercent = Math.min(100, (hpUsed / hpMax) * 100);
+            const pPercent = Math.min(100, (pUsed / pMax) * 100);
+
+            hpBar.style.width = hpPercent + '%';
+            pBar.style.width = pPercent + '%';
+
+            if (hpUsed > hpMax) hpBar.classList.add('fill-overload'); else hpBar.classList.remove('fill-overload');
+            if (pUsed > pMax) pBar.classList.add('fill-overload'); else pBar.classList.remove('fill-overload');
+        }
+
+        function addWeaponRow(data = {}) {
+            const tbody = document.getElementById('weapons-body');
+            const tr = document.createElement('tr');
+
+            tr.innerHTML = `
+                <td><input type="text" class="weapon-name" value="${data.name || ''}" placeholder="Ex: Canhão Plasma Pesado"></td>
+                <td><input type="text" class="weapon-dmg" value="${data.dmg || '3d10'}" style="width:65px;"></td>
+                <td><input type="text" class="weapon-range" value="${data.range || ''}" placeholder="500m" style="width:70px;"></td>
+                <td><input type="number" class="weapon-hp" value="${data.hp !== undefined ? data.hp : 2}" style="width:50px;" onchange="calculateSheet(); saveSheet();"></td>
+                <td><input type="number" class="weapon-power" value="${data.power !== undefined ? data.power : 3}" style="width:50px;" onchange="calculateSheet(); saveSheet();"></td>
+                <td><input type="text" class="weapon-ammo" value="${data.ammo || ''}" placeholder="10 disparos"></td>
+                <td>
+                    <button type="button" class="btn" style="padding:2px 6px; font-size:0.75rem;" onclick="rollMechAttack(this)">🎲 Disparar</button>
+                    <button type="button" class="table-btn-delete" onclick="this.closest('tr').remove(); calculateSheet(); saveSheet();">✕</button>
+                </td>
+            `;
+            tbody.appendChild(tr);
+        }
+
+        function addSystemRow(data = {}) {
+            const tbody = document.getElementById('systems-body');
+            const tr = document.createElement('tr');
+
+            tr.innerHTML = `
+                <td><input type="text" class="system-name" value="${data.name || ''}" placeholder="Ex: Campo de Matriz de Escudos"></td>
+                <td><input type="number" class="system-hp" value="${data.hp !== undefined ? data.hp : 1}" style="width:50px;" onchange="calculateSheet(); saveSheet();"></td>
+                <td><input type="number" class="system-power" value="${data.power !== undefined ? data.power : 2}" style="width:50px;" onchange="calculateSheet(); saveSheet();"></td>
+                <td><input type="text" class="system-effect" value="${data.effect || ''}" placeholder="Absorve 10 pontos de dano"></td>
+                <td>
+                    <button type="button" class="table-btn-delete" onclick="this.closest('tr').remove(); calculateSheet(); saveSheet();">✕</button>
+                </td>
+            `;
+            tbody.appendChild(tr);
+        }
+
+        function rollMechAttack(btn) {
+            const tr = btn.closest('tr');
+            const name = tr.querySelector('.weapon-name').value || 'Arma de Mech';
+            const dmg = tr.querySelector('.weapon-dmg').value || '2d8';
+            const d20 = Math.floor(Math.random() * 20) + 1;
+
+            document.getElementById('dice-result-text').innerText = `Ataque (${name}): d20 = ${d20}`;
+            document.getElementById('dice-details').innerText = `Dano Pesado: ${dmg} | Adicione BBA + Modificador de Atributo do Piloto`;
+            document.getElementById('dice-log').classList.add('active');
+        }
+
+        function saveSheet() {
+            const formData = new FormData(document.getElementById('mech-sheet'));
+            const data = {};
+            formData.forEach((v, k) => data[k] = v);
+
+            data.weapons = [];
+            document.querySelectorAll('#weapons-body tr').forEach(tr => {
+                data.weapons.push({
+                    name: tr.querySelector('.weapon-name').value,
+                    dmg: tr.querySelector('.weapon-dmg').value,
+                    range: tr.querySelector('.weapon-range').value,
+                    hp: tr.querySelector('.weapon-hp').value,
+                    power: tr.querySelector('.weapon-power').value,
+                    ammo: tr.querySelector('.weapon-ammo').value
+                });
+            });
+
+            data.systems = [];
+            document.querySelectorAll('#systems-body tr').forEach(tr => {
+                data.systems.push({
+                    name: tr.querySelector('.system-name').value,
+                    hp: tr.querySelector('.system-hp').value,
+                    power: tr.querySelector('.system-power').value,
+                    effect: tr.querySelector('.system-effect').value
+                });
+            });
+
+            localStorage.setItem('swn_mech_sheet_ptbr', JSON.stringify(data));
+        }
+
+        function loadSheet() {
+            const saved = localStorage.getItem('swn_mech_sheet_ptbr');
+            if (!saved) {
+                addWeaponRow({ name: "Autocanhão Pesado", dmg: "2d10", range: "300m", hp: 2, power: 2, ammo: "20 projéteis" });
+                addSystemRow({ name: "Interface Neural Direta", hp: 1, power: 1, effect: "+1 em rolagens de ataque e iniciativa" });
+                return;
+            }
+            try {
+                const data = JSON.parse(saved);
+                Object.keys(data).forEach(k => {
+                    const el = document.getElementById(`mech-${k}`) || document.getElementsByName(k)[0];
+                    if (el && typeof data[k] !== 'object') el.value = data[k];
+                });
+                document.getElementById('weapons-body').innerHTML = '';
+                if (data.weapons) data.weapons.forEach(w => addWeaponRow(w));
+                document.getElementById('systems-body').innerHTML = '';
+                if (data.systems) data.systems.forEach(s => addSystemRow(s));
+            } catch (e) { console.error(e); }
+        }
+
+        function exportJSON() {
+            saveSheet();
+            const dataStr = localStorage.getItem('swn_mech_sheet_ptbr');
+            const name = document.getElementById('mech-name').value || 'mech';
+            const blob = new Blob([dataStr], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `ficha_mech_${name.toLowerCase().replace(/\s+/g, '_')}.json`;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        function importJSON(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                try {
+                    localStorage.setItem('swn_mech_sheet_ptbr', e.target.result);
+                    loadSheet();
+                    calculateSheet();
+                    alert("Ficha de Mech carregada!");
+                } catch (err) { alert("Erro ao importar JSON."); }
+            };
+            reader.readAsText(file);
+        }
+
+        function resetSheet() {
+            if (confirm("Limpar dados do Mech?")) {
+                localStorage.removeItem('swn_mech_sheet_ptbr');
+                document.getElementById('mech-sheet').reset();
+                document.getElementById('weapons-body').innerHTML = '';
+                document.getElementById('systems-body').innerHTML = '';
+                calculateSheet();
+            }
+        }
+    </script>
+</body>
+</html>
