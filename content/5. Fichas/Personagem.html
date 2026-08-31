@@ -70,9 +70,13 @@
             background: linear-gradient(135deg, var(--bg-card) 0%, #1e293b 100%);
             border: 1px solid var(--border-accent);
             border-radius: var(--radius);
-            padding: 15px 25px;
-            margin-bottom: 20px;
+            padding: 14px 20px;
+            width: 100%;
+            max-width: 1400px;
+            margin: 0 auto 16px auto;
             box-shadow: 0 4px 20px var(--shadow-cyan);
+            gap: 16px;
+            flex-wrap: wrap;
         }
 
         .light-mode .header-bar {
@@ -81,23 +85,34 @@
 
         .brand-title {
             font-family: var(--font-title);
-            font-size: 1.5rem;
+            font-size: 1.4rem;
             color: var(--accent-cyan);
-            letter-spacing: 2px;
+            letter-spacing: 1.5px;
             text-transform: uppercase;
+            line-height: 1.2;
         }
 
         .brand-subtitle {
             font-family: var(--font-sub);
-            font-size: 0.9rem;
+            font-size: 0.85rem;
             color: var(--text-muted);
-            letter-spacing: 1px;
+            letter-spacing: 0.5px;
         }
 
         .toolbar {
             display: flex;
-            gap: 10px;
+            gap: 6px;
             flex-wrap: wrap;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        .toolbar .btn {
+            white-space: nowrap;
+            flex: 0 0 auto;
+            padding: 6px 12px;
+            font-size: 0.8rem;
+            height: 34px;
         }
 
         .btn {
@@ -139,6 +154,25 @@
         .btn-danger:hover {
             border-color: var(--accent-red);
             color: var(--accent-red);
+        }
+
+        .weapon-action-btns {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            justify-content: flex-end;
+        }
+
+        .btn-action-roll {
+            padding: 4px 10px !important;
+            font-size: 0.78rem !important;
+            border-color: rgba(6, 182, 212, 0.4);
+            color: var(--accent-cyan);
+        }
+
+        .btn-action-roll:hover {
+            background: var(--accent-cyan);
+            color: #000;
         }
 
         /* Sheet Layout Grid */
@@ -383,6 +417,28 @@
             border-radius: 3px;
         }
 
+        .skill-group-title {
+            font-family: var(--font-title);
+            font-size: 0.8rem;
+            color: var(--accent-cyan);
+            border-bottom: 1px dashed var(--border-color);
+            padding-bottom: 4px;
+            margin-top: 12px;
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            grid-column: 1 / -1;
+        }
+
+        .skill-group-title:first-child {
+            margin-top: 0;
+        }
+
+        .skill-group-title.psychic-title {
+            color: var(--accent-purple);
+            border-bottom-color: var(--accent-purple);
+        }
+
         .skill-item {
             display: flex;
             align-items: center;
@@ -444,6 +500,15 @@
             border-bottom: 1px solid rgba(255,255,255,0.05);
         }
 
+        .weapon-row {
+            cursor: pointer;
+            transition: background 0.15s ease;
+        }
+
+        .weapon-row:hover {
+            background: rgba(6, 182, 212, 0.08);
+        }
+
         .table-btn-delete {
             background: none;
             border: none;
@@ -475,36 +540,485 @@
             transition: width 0.3s ease, background 0.3s ease;
         }
 
-        .enc-progress-bar.overburdened {
+        .hp-progress-container {
+            background: var(--bg-input);
+            border-radius: 4px;
+            height: 10px;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+        }
+
+        .hp-progress-bar {
+            height: 100%;
+            background: var(--accent-green);
+            width: 100%;
+            transition: width 0.3s ease, background 0.3s ease;
+        }
+
+        .hp-progress-bar.warning {
+            background: var(--accent-amber);
+        }
+
+        .hp-progress-bar.critical {
             background: var(--accent-red);
         }
 
-        /* Dice Log Modal / Drawer */
-        .dice-log-card {
-            background: rgba(6, 182, 212, 0.05);
-            border: 1px solid var(--accent-cyan);
-            border-radius: 6px;
-            padding: 10px;
-            margin-top: 10px;
-            font-family: var(--font-mono);
-            font-size: 0.9rem;
-            display: none;
+        .condition-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
         }
 
-        .dice-log-card.active {
-            display: block;
-            animation: fadeIn 0.2s ease;
+        .badge {
+            background: var(--bg-input);
+            color: var(--text-muted);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 3px 10px;
+            font-size: 0.72rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            user-select: none;
+        }
+
+        .badge:hover {
+            border-color: var(--accent-cyan);
+            color: var(--text-main);
+        }
+
+        .badge.active {
+            background: rgba(239, 68, 68, 0.2);
+            border-color: var(--accent-red);
+            color: #f87171;
+            box-shadow: 0 0 6px rgba(239, 68, 68, 0.3);
+        }
+
+        /* Modal Popup de Dados */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(11, 15, 25, 0.75);
+            backdrop-filter: blur(4px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.2s ease, visibility 0.2s ease;
+            padding: 16px;
+        }
+
+        .modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .modal-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-accent);
+            border-radius: var(--radius);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 20px var(--shadow-cyan);
+            width: 100%;
+            max-width: 440px;
+            padding: 20px;
+            transform: scale(0.9);
+            transition: transform 0.2s ease;
+        }
+
+        .modal-overlay.active .modal-card {
+            transform: scale(1);
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 10px;
+            margin-bottom: 14px;
+        }
+
+        .modal-title {
+            font-family: var(--font-title);
+            font-size: 0.95rem;
+            color: var(--accent-cyan);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .modal-close-btn {
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            font-size: 1.4rem;
+            cursor: pointer;
+            line-height: 1;
+            transition: color 0.2s;
+        }
+
+        .modal-close-btn:hover {
+            color: var(--accent-red);
+        }
+
+        .modal-body {
+            text-align: center;
+            margin-bottom: 16px;
         }
 
         .dice-result-big {
-            font-size: 1.4rem;
+            font-size: 1.5rem;
             font-weight: 800;
             color: var(--accent-cyan);
+            margin-bottom: 6px;
+        }
+
+        .modal-dice-details {
+            font-family: var(--font-mono);
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            line-height: 1.4;
+        }
+
+        .modal-footer {
+            display: flex;
+            justify-content: center;
         }
 
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(-4px); }
             to { opacity: 1; transform: translateY(0); }
+        }
+
+        .notes-grid {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            gap: 16px;
+        }
+
+        /* Mobile Responsiveness Improvements */
+        @media (max-width: 992px) {
+            .sheet-container {
+                gap: 12px;
+            }
+
+            .notes-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px 8px;
+            }
+
+            .header-bar {
+                flex-direction: column;
+                text-align: center;
+                gap: 14px;
+                padding: 14px 12px;
+            }
+
+            .brand-title {
+                font-size: 1.2rem;
+                letter-spacing: 1px;
+            }
+
+            .brand-subtitle {
+                font-size: 0.8rem;
+            }
+
+            .toolbar {
+                width: 100%;
+                justify-content: center;
+                gap: 6px;
+            }
+
+            .toolbar .btn {
+                padding: 8px 10px;
+                font-size: 0.78rem;
+                flex: 1 1 calc(50% - 6px);
+                justify-content: center;
+            }
+
+            .card {
+                padding: 12px;
+            }
+
+            .card-header {
+                font-size: 0.9rem;
+                flex-wrap: wrap;
+                gap: 8px;
+            }
+
+            .info-grid {
+                grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+                gap: 8px;
+            }
+
+            .attributes-grid {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 8px;
+            }
+
+            .attr-box {
+                padding: 8px 4px;
+            }
+
+            .attr-title {
+                font-size: 0.78rem;
+            }
+
+            .attr-score-input {
+                width: 44px !important;
+                font-size: 1.05rem;
+            }
+
+            .attr-mod-badge {
+                font-size: 0.85rem;
+                padding: 3px 6px;
+                min-width: 30px;
+            }
+
+            .vitals-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 8px;
+            }
+
+            .saves-grid {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 6px;
+            }
+
+            .save-box {
+                padding: 6px 2px;
+            }
+
+            .save-title {
+                font-size: 0.75rem;
+            }
+
+            .save-target {
+                font-size: 1.05rem;
+            }
+
+            .skills-list {
+                grid-template-columns: 1fr;
+                max-height: 380px;
+            }
+
+            .custom-table th, .custom-table td {
+                padding: 6px 4px;
+                font-size: 0.8rem;
+            }
+
+            /* Better touch targets & zoom prevention on mobile */
+            input[type="text"],
+            input[type="number"],
+            select,
+            textarea {
+                font-size: 16px;
+                padding: 8px 6px;
+            }
+        }
+
+        /* Navegação Rápida por Abas (PC & Mobile) */
+        .quick-nav-bar {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 16px;
+            max-width: 1400px;
+            margin-left: auto;
+            margin-right: auto;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .quick-nav-btn {
+            background: var(--bg-card);
+            color: var(--text-muted);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 6px 14px;
+            font-family: var(--font-sub);
+            font-size: 0.82rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            white-space: nowrap;
+        }
+
+        .quick-nav-btn:hover {
+            border-color: var(--accent-cyan);
+            color: var(--text-main);
+        }
+
+        .quick-nav-btn.active {
+            background: var(--accent-cyan);
+            color: #000;
+            border-color: var(--accent-cyan);
+            box-shadow: 0 0 10px var(--shadow-cyan);
+        }
+
+        .mobile-only-label {
+            display: none;
+            font-family: var(--font-sub);
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            margin-bottom: 2px;
+        }
+
+        @media (max-width: 768px) {
+            .mobile-only-label {
+                display: block;
+            }
+
+            #weapons-table, #weapons-table thead, #weapons-table tbody, #weapons-table th, #weapons-table td, #weapons-table tr,
+            #foci-table, #foci-table thead, #foci-table tbody, #foci-table th, #foci-table td, #foci-table tr,
+            #items-table, #items-table thead, #items-table tbody, #items-table th, #items-table td, #items-table tr {
+                display: block;
+            }
+
+            #weapons-table thead, #foci-table thead, #items-table thead {
+                display: none;
+            }
+
+            .weapon-row {
+                background: var(--bg-input);
+                border: 1px solid var(--border-color);
+                border-radius: var(--radius);
+                padding: 12px;
+                margin-bottom: 10px;
+                position: relative;
+                display: grid !important;
+                grid-template-columns: 1fr 1fr;
+                gap: 8px 10px;
+            }
+
+            .weapon-row:hover {
+                border-color: var(--accent-cyan);
+            }
+
+            .weapon-row td {
+                padding: 0 !important;
+                border: none !important;
+            }
+
+            .cell-weapon-name {
+                grid-column: 1 / -1;
+                padding-right: 32px !important;
+            }
+
+            .cell-weapon-name input {
+                font-weight: 700;
+                color: var(--accent-cyan);
+            }
+
+            .cell-weapon-actions {
+                grid-column: 1 / -1;
+                margin-top: 6px;
+            }
+
+            .weapon-action-btns {
+                display: flex;
+                gap: 8px;
+                width: 100%;
+            }
+
+            .btn-action-roll {
+                flex: 1;
+                text-align: center;
+                justify-content: center;
+                padding: 6px 10px !important;
+                font-size: 0.82rem !important;
+            }
+
+            .cell-weapon-del {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+            }
+
+            .weapon-row input[type="text"],
+            .weapon-row select {
+                width: 100% !important;
+            }
+
+            /* Foci & Items Mobile Cards */
+            #foci-body tr, #items-body tr {
+                background: var(--bg-input);
+                border: 1px solid var(--border-color);
+                border-radius: var(--radius);
+                padding: 10px;
+                margin-bottom: 8px;
+                position: relative;
+                display: grid !important;
+                grid-template-columns: 1fr 1fr;
+                gap: 6px 8px;
+            }
+
+            #foci-body tr td:first-child, #items-body tr td:first-child {
+                grid-column: 1 / -1;
+                padding-right: 30px !important;
+            }
+
+            #foci-body tr td:last-child, #items-body tr td:last-child {
+                position: absolute;
+                top: 8px;
+                right: 8px;
+            }
+
+            #foci-body tr td, #items-body tr td {
+                padding: 0 !important;
+                border: none !important;
+            }
+
+            #foci-body input, #items-body input, #items-body select {
+                width: 100% !important;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .quick-nav-bar {
+                display: flex;
+            }
+
+            .quick-nav-btn {
+                flex: 1;
+                text-align: center;
+                padding: 8px 10px;
+                font-size: 0.78rem;
+            }
+
+            .quick-nav-btn.btn-all-blocks {
+                display: none;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .attributes-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .saves-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .btn {
+                flex: 1 1 100%;
+            }
+
+            .vitals-grid {
+                grid-template-columns: 1fr;
+            }
         }
 
         /* Print Media Styles */
@@ -569,26 +1083,82 @@
             <div class="brand-subtitle">Stars Without Number: Revised Edition • Ficha de Personagem</div>
         </div>
         <div class="toolbar">
-            <button class="btn" type="button" onclick="toggleTheme()" title="Alternar Tema Claro/Escuro">🌓 Tema</button>
-            <button class="btn" type="button" onclick="exportJSON()" title="Baixar arquivo de salvamento da ficha">💾 Exportar JSON</button>
-            <button class="btn" type="button" onclick="document.getElementById('import-file').click()" title="Carregar arquivo JSON da ficha">📂 Importar JSON</button>
+            <button class="btn" type="button" onclick="openQuickDiceModal()" title="Abrir rolador livre de dados">Rolador Livre</button>
+            <button class="btn" type="button" onclick="toggleTheme()" title="Alternar Tema Claro/Escuro">Tema</button>
+            <button class="btn" type="button" onclick="exportJSON()" title="Baixar arquivo de salvamento da ficha">Exportar JSON</button>
+            <button class="btn" type="button" onclick="document.getElementById('import-file').click()" title="Carregar arquivo JSON da ficha">Importar JSON</button>
             <input type="file" id="import-file" style="display:none" onchange="importJSON(event)" accept=".json">
-            <button class="btn" type="button" onclick="window.print()" title="Imprimir ou Salvar em PDF">🖨️ Imprimir</button>
-            <button class="btn btn-danger" type="button" onclick="resetSheet()" title="Limpar todos os campos">🗑️ Novo Personagem</button>
+            <button class="btn" type="button" onclick="window.print()" title="Imprimir ou Salvar em PDF">Imprimir</button>
+            <button class="btn btn-danger" type="button" onclick="resetSheet()" title="Limpar todos os campos">Novo Personagem</button>
         </div>
     </div>
 
-    <!-- Dice Result Log Panel -->
-    <div id="dice-log" class="dice-log-card">
-        <span style="color:var(--text-muted); font-size:0.75rem; text-transform:uppercase;">Resultado da Rolagem:</span>
-        <div id="dice-result-text" class="dice-result-big">2d6 + 0 = 7</div>
-        <div id="dice-details" style="font-size:0.8rem; color:var(--text-muted);">Detalhes da rolagem</div>
+    <!-- Modal Popup de Resultado de Dados -->
+    <div id="dice-modal-overlay" class="modal-overlay" onclick="closeDiceModal(event)">
+        <div class="modal-card" onclick="event.stopPropagation()">
+            <div class="modal-header">
+                <span class="modal-title">Resultado da Rolagem</span>
+                <button type="button" class="modal-close-btn" onclick="closeDiceModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="dice-result-text" class="dice-result-big">2d6 + 0 = 7</div>
+                <div id="dice-details" class="modal-dice-details">Detalhes da rolagem</div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" onclick="closeDiceModal()">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Popup do Rolador Livre de Dados -->
+    <div id="quick-dice-overlay" class="modal-overlay" onclick="closeQuickDiceModal(event)">
+        <div class="modal-card" onclick="event.stopPropagation()" style="max-width: 440px;">
+            <div class="modal-header">
+                <span class="modal-title">Rolador Livre de Dados</span>
+                <button type="button" class="modal-close-btn" onclick="closeQuickDiceModal()">&times;</button>
+            </div>
+            <div class="modal-body" style="text-align: left;">
+                <div style="display: flex; gap: 10px; margin-bottom: 12px;">
+                    <div style="flex: 1;">
+                        <label style="font-size:0.75rem;">Qtd. Dados</label>
+                        <input type="number" id="quick-dice-count" value="1" min="1" max="20">
+                    </div>
+                    <div style="flex: 1;">
+                        <label style="font-size:0.75rem;">Modificador</label>
+                        <input type="number" id="quick-dice-mod" value="0">
+                    </div>
+                </div>
+
+                <div style="font-size:0.75rem; font-weight:700; color:var(--text-muted); text-transform:uppercase; margin-bottom:8px;">Escolha o Dado</div>
+                <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin-bottom: 14px;">
+                    <button type="button" class="btn btn-action-roll" onclick="rollFreeDice(4)">d4</button>
+                    <button type="button" class="btn btn-action-roll" onclick="rollFreeDice(6)">d6</button>
+                    <button type="button" class="btn btn-action-roll" onclick="rollFreeDice(8)">d8</button>
+                    <button type="button" class="btn btn-action-roll" onclick="rollFreeDice(10)">d10</button>
+                    <button type="button" class="btn btn-action-roll" onclick="rollFreeDice(12)">d12</button>
+                    <button type="button" class="btn btn-action-roll" onclick="rollFreeDice(20)">d20</button>
+                    <button type="button" class="btn btn-action-roll" onclick="rollFreeDice(100)">d100</button>
+                    <button type="button" class="btn btn-primary" onclick="rollFreeDice(6, true)">2d6 (Perícia)</button>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn" onclick="closeQuickDiceModal()">Fechar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navegação Rápida por Abas -->
+    <div class="quick-nav-bar" id="quick-nav-bar">
+        <button type="button" class="quick-nav-btn btn-all-blocks active" onclick="switchNavTab('all', this)">Todos os Blocos</button>
+        <button type="button" class="quick-nav-btn" onclick="switchNavTab('combat', this)">Geral / Combate</button>
+        <button type="button" class="quick-nav-btn" onclick="switchNavTab('skills', this)">Perícias / Focos</button>
+        <button type="button" class="quick-nav-btn" onclick="switchNavTab('equip', this)">Itens / Notas</button>
     </div>
 
     <form id="character-sheet" class="sheet-container" onkeydown="if(event.key==='Enter' && event.target.tagName !== 'TEXTAREA') event.preventDefault();">
         
         <!-- CARD 1: Dados Básicos -->
-        <div class="card grid-col-12">
+        <div class="card grid-col-12" data-tab="combat">
             <div class="card-header">Identificação do Agente</div>
             <div class="info-grid">
                 <div class="field-group">
@@ -628,7 +1198,7 @@
         </div>
 
         <!-- CARD 2: Atributos & Salvaguardas -->
-        <div class="card grid-col-8">
+        <div class="card grid-col-8" data-tab="combat">
             <div class="card-header">Atributos Primários</div>
             <div class="attributes-grid">
                 <!-- STR -->
@@ -687,31 +1257,31 @@
                 <div class="save-box">
                     <div class="save-title">Física</div>
                     <div id="save-physical" class="save-target">15+</div>
-                    <button type="button" class="btn" style="font-size:0.75rem; padding: 2px 8px; margin-top:4px;" onclick="rollSave('Física', document.getElementById('save-physical').innerText)">🎲 Testar (d20)</button>
+                    <button type="button" class="btn" style="font-size:0.75rem; padding: 2px 8px; margin-top:4px;" onclick="rollSave('Física', document.getElementById('save-physical').innerText)">Testar (d20)</button>
                 </div>
                 <div class="save-box">
                     <div class="save-title">Evasão</div>
                     <div id="save-evasion" class="save-target">15+</div>
-                    <button type="button" class="btn" style="font-size:0.75rem; padding: 2px 8px; margin-top:4px;" onclick="rollSave('Evasão', document.getElementById('save-evasion').innerText)">🎲 Testar (d20)</button>
+                    <button type="button" class="btn" style="font-size:0.75rem; padding: 2px 8px; margin-top:4px;" onclick="rollSave('Evasão', document.getElementById('save-evasion').innerText)">Testar (d20)</button>
                 </div>
                 <div class="save-box">
                     <div class="save-title">Mental</div>
                     <div id="save-mental" class="save-target">15+</div>
-                    <button type="button" class="btn" style="font-size:0.75rem; padding: 2px 8px; margin-top:4px;" onclick="rollSave('Mental', document.getElementById('save-mental').innerText)">🎲 Testar (d20)</button>
+                    <button type="button" class="btn" style="font-size:0.75rem; padding: 2px 8px; margin-top:4px;" onclick="rollSave('Mental', document.getElementById('save-mental').innerText)">Testar (d20)</button>
                 </div>
             </div>
         </div>
 
         <!-- CARD 3: Vigor & Estatísticas de Combate -->
-        <div class="card grid-col-4">
+        <div class="card grid-col-4" data-tab="combat">
             <div class="card-header">Vigor & Combate</div>
             <div class="vitals-grid">
                 <div class="vital-card accent-hp">
                     <div class="vital-label">Pontos de Vida</div>
                     <div class="vital-val-container">
-                        <input type="number" id="hp-current" name="hp_current" class="vital-input" value="6">
+                        <input type="number" id="hp-current" name="hp_current" class="vital-input" value="" placeholder="0" onchange="calculateSheet()">
                         <span class="vital-slash">/</span>
-                        <input type="number" id="hp-max" name="hp_max" class="vital-input" value="6">
+                        <input type="number" id="hp-max" name="hp_max" class="vital-input" value="" placeholder="0" onchange="calculateSheet()">
                     </div>
                 </div>
                 <div class="vital-card accent-ac">
@@ -733,6 +1303,29 @@
                         <span class="vital-slash">/</span>
                         <span id="strain-max" style="font-family:var(--font-mono); font-weight:bold;">10</span>
                     </div>
+                </div>
+            </div>
+
+            <!-- Barra de Vida Visual & Status de Saúde -->
+            <div style="margin-top: 14px;">
+                <div style="display: flex; justify-content: space-between; font-size: 0.78rem; font-weight: 700; margin-bottom: 4px;">
+                    <span style="color: var(--text-muted); text-transform: uppercase;">Estado de Saúde</span>
+                    <span id="hp-status-text" style="color: var(--accent-green);">Saudável</span>
+                </div>
+                <div class="hp-progress-container">
+                    <div id="hp-bar" class="hp-progress-bar"></div>
+                </div>
+            </div>
+
+            <!-- Badges de Condição -->
+            <div style="margin-top: 12px;">
+                <span style="font-size: 0.75rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; display: block; margin-bottom: 6px;">Condições Ativas</span>
+                <div class="condition-badges" id="condition-badges">
+                    <span class="badge" onclick="toggleCondition(this, 'ferido')">Ferido</span>
+                    <span class="badge" onclick="toggleCondition(this, 'inconsciente')">Inconsciente</span>
+                    <span class="badge" onclick="toggleCondition(this, 'estressado')">Estressado</span>
+                    <span class="badge" onclick="toggleCondition(this, 'atordoado')">Atordoado</span>
+                    <span class="badge" onclick="toggleCondition(this, 'sob_pressao')">Sob Pressão</span>
                 </div>
             </div>
 
@@ -759,7 +1352,7 @@
         </div>
 
         <!-- CARD 4: Perícias (Skills) -->
-        <div class="card grid-col-6">
+        <div class="card grid-col-6" data-tab="skills">
             <div class="card-header">
                 <span>Perícias (Roll: 2d6 + Mod + Perícia)</span>
             </div>
@@ -769,7 +1362,7 @@
         </div>
 
         <!-- CARD 5: Armas & Ataques -->
-        <div class="card grid-col-6">
+        <div class="card grid-col-6" data-tab="combat">
             <div class="card-header">
                 <span>Armas & Ataques</span>
                 <button type="button" class="btn" id="add-weapon-btn" onclick="addWeaponRow()">+ Arma</button>
@@ -794,7 +1387,7 @@
         </div>
 
         <!-- CARD 6: Focos, Capacidades & Psionismo -->
-        <div class="card grid-col-6">
+        <div class="card grid-col-6" data-tab="skills">
             <div class="card-header">
                 <span>Focos & Habilidades Psíquicas</span>
                 <button type="button" class="btn" id="add-focus-btn" onclick="addFocusRow()">+ Foco/Técnica</button>
@@ -817,7 +1410,7 @@
         </div>
 
         <!-- CARD 7: Equipamentos & Carga (Encumbrance) -->
-        <div class="card grid-col-6">
+        <div class="card grid-col-6" data-tab="equip">
             <div class="card-header">
                 <span>Equipamentos & Carga</span>
                 <button type="button" class="btn" id="add-item-btn" onclick="addItemRow()">+ Item</button>
@@ -849,9 +1442,9 @@
         </div>
 
         <!-- CARD 8: Anotações & Créditos -->
-        <div class="card grid-col-12">
+        <div class="card grid-col-12" data-tab="equip">
             <div class="card-header">Créditos, Idiomas e Anotações Gerais</div>
-            <div style="display:grid; grid-template-columns: 200px 1fr; gap: 16px;">
+            <div class="notes-grid">
                 <div>
                     <div class="field-group">
                         <label for="char-credits">Créditos (₵)</label>
@@ -874,33 +1467,68 @@
     </form>
 
     <script>
-        // Lista Oficial de Perícias de Stars Without Number Traduzidas
-        const SKILLS_LIST = [
-            { id: "admin", name: "Administração", defaultAttr: "int" },
-            { id: "biopsionics", name: "Biopsionismo", defaultAttr: "wis", psychic: true },
-            { id: "punch", name: "Briga (Desarmado)", defaultAttr: "str" },
-            { id: "trade", name: "Comércio", defaultAttr: "cha" },
-            { id: "connect", name: "Conexões", defaultAttr: "cha" },
-            { id: "know", name: "Conhecimento", defaultAttr: "int" },
-            { id: "heal", name: "Cura", defaultAttr: "int" },
-            { id: "exert", name: "Esforço Físico", defaultAttr: "str" },
-            { id: "sneak", name: "Furtividade", defaultAttr: "dex" },
-            { id: "lead", name: "Liderança", defaultAttr: "cha" },
-            { id: "metapsionics", name: "Metapsionismo", defaultAttr: "wis", psychic: true },
-            { id: "work", name: "Ofício / Trabalho", defaultAttr: "str" },
-            { id: "perform", name: "Performance", defaultAttr: "cha" },
-            { id: "notice", name: "Percepção", defaultAttr: "wis" },
-            { id: "talk", name: "Persuasão / Conversa", defaultAttr: "cha" },
-            { id: "pilot", name: "Pilotagem", defaultAttr: "dex" },
-            { id: "shoot", name: "Pontaria (Armas)", defaultAttr: "dex" },
-            { id: "precognition", name: "Precognição", defaultAttr: "wis", psychic: true },
-            { id: "program", name: "Programação", defaultAttr: "int" },
-            { id: "fix", name: "Reparo", defaultAttr: "int" },
-            { id: "survive", name: "Sobrevivência", defaultAttr: "wis" },
-            { id: "telekinesis", name: "Telecinese", defaultAttr: "wis", psychic: true },
-            { id: "telepathy", name: "Telepatia", defaultAttr: "wis", psychic: true },
-            { id: "teleportation", name: "Teletransporte", defaultAttr: "wis", psychic: true }
+        // Grupos Oficiais de Perícias de Stars Without Number Traduzidos por Atributo
+        const SKILL_GROUPS = [
+            {
+                title: "Força (FOR)",
+                skills: [
+                    { id: "punch", name: "Briga (Desarmado)", defaultAttr: "str" },
+                    { id: "stab", name: "Armas Brancas (Stab)", defaultAttr: "str" },
+                    { id: "exert", name: "Esforço Físico", defaultAttr: "str" },
+                    { id: "work", name: "Ofício / Trabalho", defaultAttr: "str" }
+                ]
+            },
+            {
+                title: "Destreza (DES)",
+                skills: [
+                    { id: "sneak", name: "Furtividade", defaultAttr: "dex" },
+                    { id: "pilot", name: "Pilotagem", defaultAttr: "dex" },
+                    { id: "shoot", name: "Pontaria (Armas)", defaultAttr: "dex" }
+                ]
+            },
+            {
+                title: "Inteligência (INT)",
+                skills: [
+                    { id: "admin", name: "Administração", defaultAttr: "int" },
+                    { id: "know", name: "Conhecimento", defaultAttr: "int" },
+                    { id: "heal", name: "Cura", defaultAttr: "int" },
+                    { id: "program", name: "Programação", defaultAttr: "int" },
+                    { id: "fix", name: "Reparo", defaultAttr: "int" }
+                ]
+            },
+            {
+                title: "Sabedoria (SAB)",
+                skills: [
+                    { id: "notice", name: "Percepção", defaultAttr: "wis" },
+                    { id: "survive", name: "Sobrevivência", defaultAttr: "wis" }
+                ]
+            },
+            {
+                title: "Carisma (CAR)",
+                skills: [
+                    { id: "trade", name: "Comércio", defaultAttr: "cha" },
+                    { id: "connect", name: "Conexões", defaultAttr: "cha" },
+                    { id: "lead", name: "Liderança", defaultAttr: "cha" },
+                    { id: "perform", name: "Performance", defaultAttr: "cha" },
+                    { id: "talk", name: "Persuasão / Conversa", defaultAttr: "cha" }
+                ]
+            },
+            {
+                title: "Perícias Psíquicas (Psionismo)",
+                psychicGroup: true,
+                skills: [
+                    { id: "biopsionics", name: "Biopsionismo", defaultAttr: "wis", psychic: true },
+                    { id: "metapsionics", name: "Metapsionismo", defaultAttr: "wis", psychic: true },
+                    { id: "precognition", name: "Precognição", defaultAttr: "wis", psychic: true },
+                    { id: "telekinesis", name: "Telecinese", defaultAttr: "wis", psychic: true },
+                    { id: "telepathy", name: "Telepatia", defaultAttr: "wis", psychic: true },
+                    { id: "teleportation", name: "Teletransporte", defaultAttr: "wis", psychic: true }
+                ]
+            }
         ];
+
+        // Lista plana para compatibilidade total de funções de cálculo, rolagem e persistência
+        const SKILLS_LIST = SKILL_GROUPS.flatMap(g => g.skills);
 
         // Inicialização
         document.addEventListener('DOMContentLoaded', () => {
@@ -920,28 +1548,35 @@
             document.body.classList.toggle('light-mode');
         }
 
-        // Renderizar Tabela de Perícias
+        // Renderizar Tabela de Perícias Agrupada por Atributo e Psíquicas
         function renderSkills() {
             const container = document.getElementById('skills-container');
             container.innerHTML = '';
 
-            SKILLS_LIST.forEach(skill => {
-                const div = document.createElement('div');
-                div.className = 'skill-item';
-                div.innerHTML = `
-                    <button type="button" class="skill-name-btn" onclick="rollSkill('${skill.name}', '${skill.id}')">
-                        <span>🎲</span> <span>${skill.name}</span>
-                    </button>
-                    <select id="skill-lvl-${skill.id}" class="skill-level-select" onchange="calculateSheet(); saveSheet();">
-                        <option value="-1">Sem Treino (-1)</option>
-                        <option value="0">Nível 0 (+0)</option>
-                        <option value="1">Nível 1 (+1)</option>
-                        <option value="2">Nível 2 (+2)</option>
-                        <option value="3">Nível 3 (+3)</option>
-                        <option value="4">Nível 4 (+4)</option>
-                    </select>
-                `;
-                container.appendChild(div);
+            SKILL_GROUPS.forEach(group => {
+                const header = document.createElement('div');
+                header.className = `skill-group-title ${group.psychicGroup ? 'psychic-title' : ''}`;
+                header.innerText = group.title;
+                container.appendChild(header);
+
+                group.skills.forEach(skill => {
+                    const div = document.createElement('div');
+                    div.className = 'skill-item';
+                    div.innerHTML = `
+                        <button type="button" class="skill-name-btn" onclick="rollSkill('${skill.name}', '${skill.id}')">
+                            <span>${skill.name}</span>
+                        </button>
+                        <select id="skill-lvl-${skill.id}" class="skill-level-select" onchange="calculateSheet(); saveSheet();">
+                            <option value="-2">Sem Treino (-2)</option>
+                            <option value="0">Nível 0 (+0)</option>
+                            <option value="1">Nível 1 (+1)</option>
+                            <option value="2">Nível 2 (+2)</option>
+                            <option value="3">Nível 3 (+3)</option>
+                            <option value="4">Nível 4 (+4)</option>
+                        </select>
+                    `;
+                    container.appendChild(div);
+                });
             });
         }
 
@@ -1009,6 +1644,47 @@
             }
             document.getElementById('effort-max').innerText = effortMax;
 
+            // Atualizar Barra Visual de Vida
+            const hpCurRaw = document.getElementById('hp-current').value;
+            const hpMaxRaw = document.getElementById('hp-max').value;
+            
+            const hpCur = hpCurRaw !== "" ? parseInt(hpCurRaw) : 0;
+            const hpMax = hpMaxRaw !== "" ? parseInt(hpMaxRaw) : 0;
+            
+            const hpBar = document.getElementById('hp-bar');
+            const hpStatus = document.getElementById('hp-status-text');
+
+            if (hpBar && hpStatus) {
+                if (hpCurRaw === "" && hpMaxRaw === "") {
+                    hpBar.style.width = '100%';
+                    hpBar.classList.remove('warning', 'critical');
+                    hpStatus.innerText = 'Saudável';
+                    hpStatus.style.color = 'var(--accent-green)';
+                } else {
+                    const maxVal = Math.max(1, hpMax);
+                    const hpPercent = Math.max(0, Math.min(100, (hpCur / maxVal) * 100));
+                    hpBar.style.width = hpPercent + '%';
+                    hpBar.classList.remove('warning', 'critical');
+
+                    if (hpCur <= 0) {
+                        hpBar.classList.add('critical');
+                        hpStatus.innerText = 'Inconsciente / Perigo';
+                        hpStatus.style.color = 'var(--accent-red)';
+                    } else if (hpPercent <= 25) {
+                        hpBar.classList.add('critical');
+                        hpStatus.innerText = 'Crítico';
+                        hpStatus.style.color = 'var(--accent-red)';
+                    } else if (hpPercent <= 50) {
+                        hpBar.classList.add('warning');
+                        hpStatus.innerText = 'Machucado';
+                        hpStatus.style.color = 'var(--accent-amber)';
+                    } else {
+                        hpStatus.innerText = 'Saudável';
+                        hpStatus.style.color = 'var(--accent-green)';
+                    }
+                }
+            }
+
             // Cálculo de Carga (Encumbrance)
             calculateEncumbrance(str);
         }
@@ -1052,26 +1728,48 @@
         function addWeaponRow(data = {}) {
             const tbody = document.getElementById('weapons-body');
             const tr = document.createElement('tr');
+            tr.className = 'weapon-row';
 
             tr.innerHTML = `
-                <td><input type="text" class="weapon-name" value="${data.name || ''}" placeholder="Ex: Rifle Laser"></td>
-                <td>
+                <td class="cell-weapon-name">
+                    <label class="mobile-only-label">Arma</label>
+                    <input type="text" class="weapon-name" value="${data.name || ''}" placeholder="Ex: Rifle Laser">
+                </td>
+                <td class="cell-weapon-attr">
+                    <label class="mobile-only-label">Atributo</label>
                     <select class="weapon-attr">
                         <option value="dex" ${data.attr === 'dex' ? 'selected' : ''}>DES</option>
                         <option value="str" ${data.attr === 'str' ? 'selected' : ''}>FOR</option>
+                        <option value="int" ${data.attr === 'int' ? 'selected' : ''}>INT</option>
+                        <option value="wis" ${data.attr === 'wis' ? 'selected' : ''}>SAB</option>
+                        <option value="cha" ${data.attr === 'cha' ? 'selected' : ''}>CAR</option>
                     </select>
                 </td>
-                <td>
+                <td class="cell-weapon-skill">
+                    <label class="mobile-only-label">Perícia</label>
                     <select class="weapon-skill">
                         <option value="shoot" ${data.skill === 'shoot' ? 'selected' : ''}>Pontaria</option>
                         <option value="punch" ${data.skill === 'punch' ? 'selected' : ''}>Briga</option>
+                        <option value="stab" ${data.skill === 'stab' ? 'selected' : ''}>Armas Brancas</option>
+                        <option value="telekinesis" ${data.skill === 'telekinesis' ? 'selected' : ''}>Telecinese</option>
                     </select>
                 </td>
-                <td><input type="text" class="weapon-dmg" value="${data.dmg || '1d8'}" placeholder="1d8" style="width:60px;"></td>
-                <td><input type="text" class="weapon-range" value="${data.range || ''}" placeholder="100/300m" style="width:70px;"></td>
-                <td>
-                    <button type="button" class="btn" style="padding:2px 6px; font-size:0.75rem;" onclick="rollAttack(this)">🎲 Atacar</button>
-                    <button type="button" class="table-btn-delete" onclick="this.closest('tr').remove(); calculateSheet(); saveSheet();">✕</button>
+                <td class="cell-weapon-dmg">
+                    <label class="mobile-only-label">Dano</label>
+                    <input type="text" class="weapon-dmg" value="${data.dmg || '1d8'}" placeholder="1d8" style="width:60px;">
+                </td>
+                <td class="cell-weapon-range">
+                    <label class="mobile-only-label">Alcance / Mun.</label>
+                    <input type="text" class="weapon-range" value="${data.range || ''}" placeholder="100/300m" style="width:70px;">
+                </td>
+                <td class="cell-weapon-actions">
+                    <div class="weapon-action-btns">
+                        <button type="button" class="btn btn-action-roll" onclick="rollAttack(this)" title="Rolar Ataque (1d20)">Ataque</button>
+                        <button type="button" class="btn btn-action-roll" onclick="rollDamage(this)" title="Rolar Dano da Arma">Dano</button>
+                    </div>
+                </td>
+                <td class="cell-weapon-del" style="text-align: center;">
+                    <button type="button" class="table-btn-delete" title="Deletar arma" onclick="this.closest('tr').remove(); calculateSheet(); saveSheet();">✕</button>
                 </td>
             `;
             tbody.appendChild(tr);
@@ -1118,11 +1816,30 @@
         function rollSkill(skillName, skillId) {
             const skillLvl = parseInt(document.getElementById(`skill-lvl-${skillId}`).value) || -1;
             
-            // Descobrir modificador de atributo padrão para a perícia
             const skillObj = SKILLS_LIST.find(s => s.id === skillId);
-            const defaultAttr = skillObj ? skillObj.defaultAttr : 'int';
-            const attrScore = parseInt(document.getElementById(`attr-${defaultAttr}`).value) || 10;
-            const attrMod = getModifier(attrScore);
+            let attrMod = 0;
+            let attrLabel = "";
+
+            if (skillObj && skillObj.psychic) {
+                // Regra Oficial SWN: Perícias psíquicas usam o MAIOR entre Sabedoria (SAB) e Carisma (CAR)
+                const wisScore = parseInt(document.getElementById('attr-wis').value) || 10;
+                const chaScore = parseInt(document.getElementById('attr-cha').value) || 10;
+                const modWis = getModifier(wisScore);
+                const modCha = getModifier(chaScore);
+
+                if (modWis >= modCha) {
+                    attrMod = modWis;
+                    attrLabel = "Maior Mod. (SAB)";
+                } else {
+                    attrMod = modCha;
+                    attrLabel = "Maior Mod. (CAR)";
+                }
+            } else {
+                const defaultAttr = skillObj ? skillObj.defaultAttr : 'int';
+                const attrScore = parseInt(document.getElementById(`attr-${defaultAttr}`).value) || 10;
+                attrMod = getModifier(attrScore);
+                attrLabel = `Mod. Atributo (${defaultAttr.toUpperCase()})`;
+            }
 
             const d1 = Math.floor(Math.random() * 6) + 1;
             const d2 = Math.floor(Math.random() * 6) + 1;
@@ -1131,7 +1848,7 @@
 
             showDiceResult(
                 `Teste de ${skillName}: ${total}`,
-                `Dados (2d6): [${d1}, ${d2}] = ${diceTotal} | Mod. Atributo: ${attrMod >= 0 ? '+' : ''}${attrMod} | Nível da Perícia: ${skillLvl}`
+                `Dados (2d6): [${d1}, ${d2}] = ${diceTotal} | ${attrLabel}: ${attrMod >= 0 ? '+' : ''}${attrMod} | Nível da Perícia: ${skillLvl}`
             );
         }
 
@@ -1143,13 +1860,14 @@
 
             showDiceResult(
                 `Salvaguarda ${saveType}: ${d20} (Alvo: ${target}+)`,
-                success ? `✅ SUCESSO! (Resultado ${d20} >= ${target})` : `❌ FALHA! (Resultado ${d20} < ${target})`
+                success ? `SUCESSO! (Resultado ${d20} >= ${target})` : `FALHA! (Resultado ${d20} < ${target})`
             );
         }
 
         // Rolagem de Ataque
-        function rollAttack(btnElement) {
-            const tr = btnElement.closest('tr');
+        function rollAttack(targetElement) {
+            const tr = targetElement.tagName === 'TR' ? targetElement : targetElement.closest('tr');
+            if (!tr) return;
             const name = tr.querySelector('.weapon-name').value || 'Ataque';
             const attrKey = tr.querySelector('.weapon-attr').value;
             const skillKey = tr.querySelector('.weapon-skill').value;
@@ -1168,15 +1886,127 @@
             );
         }
 
-        // Exibir Resultado no Painel de Dados
+        // Rolagem de Dano da Arma
+        function rollDamage(targetElement) {
+            const tr = targetElement.tagName === 'TR' ? targetElement : targetElement.closest('tr');
+            if (!tr) return;
+            const name = tr.querySelector('.weapon-name').value || 'Arma';
+            const dmgFormula = tr.querySelector('.weapon-dmg').value.trim() || '1d6';
+
+            // Parse da fórmula de dano: NdS ou NdS+M ou NdS-M
+            const regex = /^(\d+)[dD](\d+)(?:\s*([+-])\s*(\d+))?$/;
+            const match = dmgFormula.match(regex);
+
+            if (!match) {
+                showDiceResult(
+                    `Dano de ${name}`,
+                    `Fórmula de dano: ${dmgFormula}`
+                );
+                return;
+            }
+
+            const numDice = parseInt(match[1]) || 1;
+            const diceSides = parseInt(match[2]) || 6;
+            const sign = match[3];
+            const modVal = match[4] ? parseInt(match[4]) : 0;
+            let formulaMod = 0;
+            if (sign === '+') formulaMod = modVal;
+            if (sign === '-') formulaMod = -modVal;
+
+            let rolls = [];
+            let diceSum = 0;
+            for (let i = 0; i < numDice; i++) {
+                const r = Math.floor(Math.random() * diceSides) + 1;
+                rolls.push(r);
+                diceSum += r;
+            }
+
+            const totalDmg = Math.max(0, diceSum + formulaMod);
+
+            showDiceResult(
+                `Dano com ${name}: ${totalDmg}`,
+                `Dados (${numDice}d${diceSides}): [${rolls.join(', ')}] = ${diceSum} ${formulaMod !== 0 ? `| Modificador: ${formulaMod >= 0 ? '+' : ''}${formulaMod}` : ''}`
+            );
+        }
+
+        // Exibir Resultado no Modal Popup
         function showDiceResult(titleText, detailText) {
-            const logCard = document.getElementById('dice-log');
             document.getElementById('dice-result-text').innerText = titleText;
             document.getElementById('dice-details').innerText = detailText;
-            logCard.classList.add('active');
+            const overlay = document.getElementById('dice-modal-overlay');
+            overlay.classList.add('active');
+        }
 
-            // Rolar suavemente para o painel se necessário
-            logCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        // Fechar Modal Popup
+        function closeDiceModal(e) {
+            const overlay = document.getElementById('dice-modal-overlay');
+            overlay.classList.remove('active');
+        }
+
+        // Event listener para fechar com tecla ESC
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeDiceModal();
+                closeQuickDiceModal();
+            }
+        });
+
+        // Alternar Badges de Condição
+        function toggleCondition(badgeElement) {
+            badgeElement.classList.toggle('active');
+            saveSheet();
+        }
+
+        // Funções do Rolador Livre de Dados
+        function openQuickDiceModal() {
+            document.getElementById('quick-dice-overlay').classList.add('active');
+        }
+
+        function closeQuickDiceModal(e) {
+            const overlay = document.getElementById('quick-dice-overlay');
+            overlay.classList.remove('active');
+        }
+
+        function rollFreeDice(sides, force2d6 = false) {
+            let count = parseInt(document.getElementById('quick-dice-count').value) || 1;
+            const mod = parseInt(document.getElementById('quick-dice-mod').value) || 0;
+            if (force2d6) count = 2;
+
+            let rolls = [];
+            let sum = 0;
+            for (let i = 0; i < count; i++) {
+                const r = Math.floor(Math.random() * sides) + 1;
+                rolls.push(r);
+                sum += r;
+            }
+
+            const total = sum + mod;
+            closeQuickDiceModal();
+
+            showDiceResult(
+                `Rolagem ${count}d${sides}${mod !== 0 ? (mod >= 0 ? '+' + mod : mod) : ''}: ${total}`,
+                `Dados: [${rolls.join(', ')}] = ${sum} ${mod !== 0 ? `| Modificador: ${mod >= 0 ? '+' : ''}${mod}` : ''}`
+            );
+        }
+
+        // Navegação Rápida por Abas
+        function switchNavTab(tabName, btnElement) {
+            const btns = document.querySelectorAll('.quick-nav-btn');
+            btns.forEach(btn => btn.classList.remove('active'));
+
+            if (btnElement) {
+                btnElement.classList.add('active');
+            } else if (window.event && window.event.target) {
+                window.event.target.classList.add('active');
+            }
+
+            document.querySelectorAll('.card[data-tab]').forEach(card => {
+                if (tabName === 'all' || card.dataset.tab === tabName) {
+                    card.style.display = '';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
         }
 
         // Salvar Ficha no localStorage
@@ -1226,6 +2056,12 @@
                 });
             });
 
+            // Condições Ativas
+            data.conditions = [];
+            document.querySelectorAll('.badge.active').forEach(b => {
+                data.conditions.push(b.innerText);
+            });
+
             localStorage.setItem('swn_character_sheet_ptbr', JSON.stringify(data));
         }
 
@@ -1233,11 +2069,6 @@
         function loadSheet() {
             const saved = localStorage.getItem('swn_character_sheet_ptbr');
             if (!saved) {
-                // Adicionar dados iniciais padrão para demonstração
-                addWeaponRow({ name: "Pistola Laser", attr: "dex", skill: "shoot", dmg: "1d6+1", range: "100/300m" });
-                addFocusRow({ name: "Especialista em Perícia", level: "Nível 1", desc: "Rola novamente qualquer teste de perícia 1x por cena" });
-                addItemRow({ name: "Pacote Lázaro", loc: "Pronto", weight: 1 });
-                addItemRow({ name: "Rações de Sobrevivência (1 semana)", loc: "Guardado", weight: 2 });
                 return;
             }
 
@@ -1276,6 +2107,16 @@
                 document.getElementById('items-body').innerHTML = '';
                 if (data.items && data.items.length > 0) {
                     data.items.forEach(i => addItemRow(i));
+                }
+
+                // Preencher Condições Ativas
+                document.querySelectorAll('.badge').forEach(b => b.classList.remove('active'));
+                if (data.conditions && Array.isArray(data.conditions)) {
+                    document.querySelectorAll('.badge').forEach(b => {
+                        if (data.conditions.includes(b.innerText)) {
+                            b.classList.add('active');
+                        }
+                    });
                 }
             } catch (e) {
                 console.error("Erro ao carregar a ficha:", e);
@@ -1325,6 +2166,7 @@
                 document.getElementById('weapons-body').innerHTML = '';
                 document.getElementById('foci-body').innerHTML = '';
                 document.getElementById('items-body').innerHTML = '';
+                document.querySelectorAll('.badge').forEach(b => b.classList.remove('active'));
                 renderSkills();
                 calculateSheet();
             }
