@@ -46,6 +46,9 @@ O trabalho de análise é dividido em três papéis principais:
 2. **Agente Analista (A Grande Escuridão):** Extrai regras da nova edição (v2) e compila no arquivo `dev/analise-grande-escuridao.md`.
 3. **Agente Sintetizador & Arquiteto:** Compara as duas versões, mapeia as diferenças mecânicas e propõe soluções no arquivo `dev/conflitos-e-solucoes-mecanicas.md`.
 
+### Controle de Versão (Git)
+* **Commit ao Finalizar Tarefas:** Sempre faça commit das alterações locais no Git ao concluir com sucesso uma tarefa. Não faça push automático para o servidor remoto a menos que seja explicitamente solicitado pelo usuário.
+
 ---
 
 > **AVISO CRÍTICO:** Qualquer agente que iniciar uma tarefa neste repositório **DEVE** ler este documento (`AGENTS.md`) e o arquivo `dev/escopo-e-planejamento.md` antes de criar ou modificar qualquer coisa.
