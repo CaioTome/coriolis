@@ -73,7 +73,7 @@ Este compêndio é dividido em capítulos modulares para consulta rápida durant
 
 - **Para o Mestre do Jogo (MJ)**:
   - [[1. Inúmeras Estrelas/1.2. Conteúdo do Mestre/7. A História do Espaço/7. A História do Espaço|Capítulo 7: A História do Espaço]] — O Mandato Terreno, a Era de Ouro, o Grito e a reconstrução durante o Silêncio.
-  - [[1. Estrelas Incontáveis/8. Criação de Setor|Capítulo 8: Criação de Setor]] — Geração de mundos, atmosferas, biosferas e o sistema de Tags Planetárias.
+  - [[1. Inúmeras Estrelas/1.2. Conteúdo do Mestre/8. Criação de Setor/8. Criação de Setor|Capítulo 8: Criação de Setor]] — Geração de mundos, atmosferas, biosferas e o sistema de Tags Planetárias.
   - [[1. Estrelas Incontáveis/9. Criação de Aventuras|Capítulo 9: Criação de Aventuras]] — Estruturação de ganchos narrativos, patronos, recompensas e perigos.
   - [[1. Estrelas Incontáveis/10. Xenobestiário|Capítulo 10: Xenobestiário]] — Monstros espaciais, autômatos, formas de vida alienígenas e regras para PJs não-humanos.
   - [[1. Estrelas Incontáveis/11. Facções|Capítulo 11: Facções]] — Sistema dinâmico de turnos de facções e guerras políticas galácticas.
