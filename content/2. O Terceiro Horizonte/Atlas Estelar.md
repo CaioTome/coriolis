@@ -8,23 +8,23 @@ O **Terceiro Horizonte** é composto por 36 sistemas estelares interconectados p
 
 ### 1. Círculo de Dabaran
 Um dos sistemas mais prósperos, opulentos e populosos do Horizonte, considerado a joia cultural dos Pioneiros.
-* 🔗 Leia mais em: [[Círculo de Dabaran/Círculo de Dabaran|Círculo de Dabaran]]
+* Leia mais em: [[Círculo de Dabaran/Círculo de Dabaran|Círculo de Dabaran]]
 
 ### 2. Estação Coriolis e Sistema Kua
 O coração político, comercial e diplomático do Horizonte.
-* 🔗 Leia mais em: [[Estação Coriolis/Estação Coriolis|Estação Coriolis e o Sistema Kua]]
+* Leia mais em: [[Estação Coriolis/Estação Coriolis|Estação Coriolis e o Sistema Kua]]
 
 ### 3. Corrente de Miran (Sistemas Mira e Zalos)
 O centro espiritual, cultural e artístico do Horizonte, contrastando a devoção luminosa de Mira com a teocracia armada de Zalos.
-* 🔗 Leia mais em: [[Corrente de Miran/Corrente de Miran|Corrente de Miran]]
+* Leia mais em: [[Corrente de Miran/Corrente de Miran|Corrente de Miran]]
 
 ### 4. Rota de Algol
 O polo industrial, metalúrgico e de engenharia naval do Horizonte.
-* 🔗 Leia mais em: [[Rota de Algol/Rota de Algol|Rota de Algol]]
+* Leia mais em: [[Rota de Algol/Rota de Algol|Rota de Algol]]
 
 ### 5. Rota de Sadaal
 O mundo das águas e do conhecimento médico avançado.
-* 🔗 Leia mais em: [[Rota de Sadaal/Rota de Sadaal|Rota de Sadaal]]
+* Leia mais em: [[Rota de Sadaal/Rota de Sadaal|Rota de Sadaal]]
 
 ### 7. Sistemas Periféricos & Entrepostos
 * **Sargas & Odacon:** Sistemas marcados por ruínas orbitais e mineração de asteroides rincos pela Liga Livre.
