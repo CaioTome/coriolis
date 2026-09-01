@@ -22,15 +22,14 @@
   - [x] Convenções Notacionais, Notação de Dados e Termos Chave
   - [x] Guia de Leitura e Exemplo Ilustrado de Jogo em Ação
 
-- [ ] **Capítulo 2: Criação de Personagens** (`2. Criação de Personagens.md`)
-  - [ ] Resumo do Processo de Criação (Passo a Passo)
-  - [ ] Atributos e Modificadores
-  - [ ] Antecedentes (Tabelas de Aprendizado Rápido, Crescimento e Aprendizado para cada um dos 20 Antecedentes completos)
-  - [ ] Classes Principais (Especialista, Psíquico, Guerreiro, Aventureiro e Classes Parciais)
-  - [ ] Lista Completa de Focos (Níveis 1 e 2 de cada Foco)
-  - [ ] Lista Detalhada de Perícias e Usos
-  - [ ] Estatísticas Finais e Pacotes Iniciais de Equipamento
-  - [ ] Criação Rápida de Personagem (Tabelas de modelos prontos)
+- [x] **Capítulo 2: Criação de Personagens** (`2. Criação de Personagens.md`)
+  - [x] Resumo do Processo de Criação (Passo a Passo)
+  - [x] Atributos e Modificadores
+  - [x] Antecedentes (Tabelas de Crescimento e Aprendizado para os 20 Antecedentes completos)
+  - [x] Classes Principais (Especialista, Psíquico, Guerreiro, Aventureiro e Classes Parciais)
+  - [x] Lista Completa de Focos (Níveis 1 e 2 de cada Foco)
+  - [x] Lista Detalhada de Perícias e Usos
+  - [x] Estatísticas Finais e Pacotes Iniciais de Equipamento
 
 - [ ] **Capítulo 3: Psionismo** (`3. Psionismo.md`)
   - [ ] História e Natureza do Psionismo
