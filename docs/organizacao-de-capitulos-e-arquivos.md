@@ -33,8 +33,8 @@ Para otimizar a navegação na engine Quartz, facilitar a manutenção do texto 
 * **Capítulo 5 (Equipamento e Veículos):** Concluído e modularizado na pasta `5. Equipamento e Veículos/` (7 arquivos: introdução/regras fundamentais, armaduras, armas, equipamento geral e serviços, veículos e drones, cibernéticos, e artefatos pretech).
 * **Capítulo 6 (Naves Espaciais):** Concluído e modularizado na pasta `6. Naves Espaciais/` (8 arquivos: introdução e etapas de construção, chassis e tipos de naves, encaixes, defesas e armas, naves e estações de exemplo, customização e modificação, viagem espacial/sensores/reparos, e combate espacial com ações e crises).
 * **Capítulo 7 (A História do Espaço):** Concluído e modularizado na pasta `7. A História do Espaço/` (4 arquivos: introdução e temas centrais, expansão humana e o Mandato, o Grito/Silêncio/Renascimento, e placeholder para Linha do Tempo do Futuro).
-* **Capítulo 8 (Criação de Setor):** Concluído e modularizado na pasta `8. Criação de Setor/` (7 arquivos: introdução e passos de geração hexagonal com tabela mestra d100, 4 arquivos para as 100 tags de mundos, características planetárias completas e pontos de interesse do sistema).
-* **Ponto de Parada Atual:** Paramos no **Capítulo 9 (Criação de Aventuras)**. As próximas tarefas de estruturação e revisão devem iniciar a partir deste capítulo.
+* **Capítulo 9 (Criação de Aventuras):** Concluído e modularizado na pasta `9. Criação de Aventuras/` (7 arquivos: introdução/metodologia de design, recompensas de aventura e sistemas de XP, gerador matricial de conflitos com 80 opções e restrições/reviravoltas, gerador de PNJs com postura e desfecho de acordos, gerador de locais com matriz de perigos e recompensas, 100 sementes de aventura oficiais completas, e exemplo prático de criação no planeta Delaine).
+* **Ponto de Parada Atual:** Paramos no **Capítulo 10 (Xenobestiário)**. As próximas tarefas de estruturação e revisão devem iniciar a partir deste capítulo.
 
 ---
 
