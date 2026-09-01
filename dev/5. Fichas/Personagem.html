@@ -1629,7 +1629,7 @@
             // Estresse Sistêmico Máximo = CON
             document.getElementById('strain-max').innerText = con;
 
-            // Esforço Psíquico Máximo = 1 + Maior(WIS mod, CHA mod) + Maior Perícia Psíquica
+            // Esforço Psíquico Máximo = 1 + Maior(WIS mod, CON mod) + Maior Perícia Psíquica (Mínimo 1 se psíquico ou treinado)
             let maxPsychicSkillLvl = -1;
             SKILLS_LIST.filter(s => s.psychic).forEach(s => {
                 const lvl = parseInt(document.getElementById(`skill-lvl-${s.id}`).value) || -1;
@@ -1638,8 +1638,8 @@
 
             const charClass = document.getElementById('char-class').value;
             let effortMax = 0;
-            if (charClass === 'Psíquico' || charClass === 'Aventureiro' || maxPsychicSkillLvl >= 0) {
-                const bestPsicMod = Math.max(modWis, modCha);
+            if (charClass === 'Psíquico' || maxPsychicSkillLvl >= 0) {
+                const bestPsicMod = Math.max(modWis, modCon);
                 effortMax = Math.max(1, 1 + bestPsicMod + (maxPsychicSkillLvl >= 0 ? maxPsychicSkillLvl : 0));
             }
             document.getElementById('effort-max').innerText = effortMax;
@@ -1691,7 +1691,7 @@
 
         // Cálculo de Carga de Equipamento
         function calculateEncumbrance(str) {
-            const readiedMax = Math.ceil(str / 2);
+            const readiedMax = Math.floor(str / 2);
             const stowedMax = str;
 
             let readiedTotal = 0;
