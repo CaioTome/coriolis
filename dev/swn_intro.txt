@@ -1,0 +1,327 @@
+INTO THE WAITING NIGHT
+Welcome, reader, to Stars Without Number, a science
+fiction role-playing game. Within the pages of this
+book you will find all that you require to forge mighty
+tales both of victory and bitter defeat amid the silent
+stars above. You will fashion heroes fit for this new
+age of exploration and rediscovery, men and women
+capable of unearthing the lost wonders of humanity’s
+fallen empire. The scattered sectors of the old Terran
+Mandate have been out of communication for centuries, and no one living can know all the strange wonders that have been born in the Silence. Every fresh
+world is a new marvel to discover, and the brave souls
+willing to repair the broken web of contact can expect
+rich rewards for their efforts.
+Stars Without Number is not only a game of discovery, however. There are adventures to be had in more
+familiar places as well. New polities and young empires
+have sprung up in the centuries since the collapse of the
+Terran Mandate, and they struggle with each other as
+hotly as their technology and resources allow. The right
+hero at the right time can shift the fate of worlds, and
+heroes willing to fight for their beliefs can be the greatest resources a struggling star nation possesses. There
+are adventures to be had in dealing with the powers
+of a stellar sector, where men and women are needed
+to foil the sinister plans of enemies and bring victory.
+Not every hero has a mind for high goals, however. Many desire nothing more than freedom and the
+credits to enjoy it. Whether hauling cargo to backwater
+worlds or selling their lasers to the highest bidder, these
+mercenary adventurers go where the pay is good and
+the danger is acceptable. Some have greater ideals than
+their next patron’s pay, while others have no devotion
+to anything but their own interest. Stars Without Number has room for both kinds of heroes, and tools to help
+a game master provide the adventures they require.
+
+A Word to Newbies
+If Stars Without Number is your first tabletop
+role-playing game, you’re a rare soul. Most of
+the readers of this book will already be familiar
+with the hobby, but fear not; tabletop RPGs aren’t
+hard to understand. Just think of them as a pencil-and-paper equivalent of a computer RPG, with
+a “game master” or “GM” in place of the computer,
+and 2-5 players playing “player character” avatars.
+You’ll need paper, pencils, and a set of polyhedral dice or a dice app to play the game. You
+can get gaming dice online easily. When the book
+tells you to roll “2d10+1”, for example, it means
+to roll two ten-sided dice and add them together,
+then add one to the result. “d00” means to roll two
+10-sided dice and read them as ones and tens.
+
+Stars Without Number is above all a set of tools
+for players and game masters bent on sci-fi adventure.
+While the setting is built to provide a wide scope for
+daring deeds, the game is fundamentally meant to be
+reshaped and refocused to suit your particular interests
+and desires. Whether a gritty game of desperate mercenary gunmen in an interstellar war zone or a dashing
+campaign of star-faring adventurers in a space-operatic
+sector, the game is meant to fit the needs and tone of
+your desired play.
+Stars Without Number belongs to the “old-school
+renaissance” trend in gaming, and draws much of its
+mechanical inspiration from the classic games of the
+seventies and the work of such authors as Gary Gygax,
+Tom Moldvay, Zeb Cook, Marc Miller, and other luminaries of those days. While many people now prefer
+different mechanical frameworks for their play, these
+“old-school” rules are understood by a tremendous
+number of gamers and form a convenient lingua franca
+between many different OSR games. These games are
+usually broadly compatible with each other, and allow
+players to loot material from many different authors
+and time periods with limited effort at conversion.
+This game is also designed to be a “sandbox game”,
+one built to ease the creation of active, living campaign
+worlds where the PCs aren’t the only important figures,
+and where a hero doesn’t necessarily have any narrative
+armor against failure and death. While it can certainly
+be played in a more conventional adventure path or
+story-arc manner, Stars Without Number is stocked
+with a wide range of tools, techniques, and guidelines
+for easing sandbox play. The surprise and freshness
+inherent in a good sandbox game can be a refreshing
+change of pace for many groups, and in this book you’ll
+find what you need to play in that style.
+The book you hold in hand right now is the revised edition of the original 2010 version of the game.
+In compiling the revision, I have been careful to keep it
+compatible with the existing material for the game, so
+you should be able to use original edition supplements
+with minimal fuss. Rather than changing the bones of
+the system, I have instead added additional material to
+help GMs and entertain players, expanding the scope
+of the game. If you are reading the free PDF version of
+this game, you will find everything you need for a full
+campaign in these pages. If you have the deluxe version
+in hand, you will find almost a hundred pages of bonus
+content to supply you with tools for transhuman scifi campaigns, space-operatic heroes, stellar wizardry,
+mechs, artificial intelligences, and tools for building
+sci-fi societies.
+Above all, Stars Without Number is your game now.
+There is no one “correct” way to play it. There is only
+your way to play it, and you should feel free to make it
+the game you want to play.
+
+CHARACTER CREATION
+Before you can begin playing Stars Without Number,
+you need to roll up a character. While the game can
+theoretically work with just a single player and a GM,
+things work best with 2–5 friends in addition to the
+GM. A lone adventurer can get in a lot of trouble out
+there, and a small group can find it hard to include all
+the different skills and talents that are often required
+to survive a sticky situation.
+With that in mind, you and the others in your
+gaming group should give a little thought to making
+characters that work well together. Grim loners make
+good book protagonists, but they don’t survive well
+when there’s no author around to bail them out.
+When making a character, some players like to
+simply throw the dice and see where they lead. Others
+prefer to know a little more about the game world and
+like to have more detail provided beforehand about the
+worlds and themes of the game. For those who’d prefer
+a more detailed discussion of the world of Stars Without
+Number, you can skip ahead to page 120 and read up on
+it there. For the rest of you…
+
+What Players Need To Know
+
+Your character is an adventurer in the year 3200, a
+dweller among the scattered worlds of a great human
+diaspora. For whatever reason, he or she has decided
+to leave their old life behind and take up a starfaring
+existence, daring perils and seeking new frontiers in
+search of glory, riches, or their own personal ambitions.
+Many worlds have recovered from the desperation of the centuries-long Silence, and can once again
+manufacture spacecraft and other advanced technology.
+Other worlds are “lost worlds”, still cut off from interstellar trade and forced to make do with the resources
+of their own planet. Lostworlders are often considered
+barbaric by technologically advanced worlds.
+Tramp freighters, small merchant ships, and scout
+craft serve most worlds, even the most backward. If
+your character comes from a primitive or isolated culture, it’s probable that he or she hitched a ride aboard
+such a ship to travel to a more cosmopolitan life. It may
+or may not have been a voluntary choice.
+In actual play, your character should be motivated
+to act, and to act as part of a group. The game does
+not deal well with hostile loners, apathetic brooders, or
+other characters that have to be coaxed into engaging
+with the world and cooperating with the rest of the
+group. The world of Stars Without Number is dangerous, and characters who cringe from peril or insist on
+facing it alone will find only boredom or an early grave.
+Every character should have a goal from the very
+start. This might be something as simple as “become
+wealthy beyond my fondest dreams of avarice” or “be
+known as the greatest pilot in the sector”. It might be
+as elaborate as “engineer the downfall of the interstellar
+
+empire that conquered my world”. Whatever it is, it
+should give your character an immediate reason to go
+out and do something.
+This will to act is especially crucial in Stars Without Number, because this game is designed to support
+a “sandbox” style of gaming. Unlike many other games
+that encourage the development of a particular story
+or the playing out of a specific plot line, Stars Without
+Number presents an entire interstellar sector to your
+characters and invites you to choose for yourself how
+to experience it. Stories will arise based on what your
+characters do and how they respond to the adventure
+situations provided by the GM.
+As a player, you need to cooperate with your GM.
+This doesn’t necessarily mean following every lead and
+hook you’re given without demurral, but it does mean
+that you need to respond to the situations and possibilities that are given to you.
+You also need to keep in mind that your adventurers exist in a very large world that is not scaled to
+your characters’ abilities. If you insist on throwing your
+characters into situations or challenges that seem overwhelming, the odds are that they will overwhelm you.
+Scouting, reconnaissance, and careful intelligence gathering will help you recognize no-win situations before
+you push ahead into them. By the same token, don’t
+hesitate to flee if your party appears to be facing certain
+doom. A keen sense of when to decamp the field is
+often an experienced adventurer’s most valuable asset.
+
+Rolling a Character
+Stars Without Number belongs to a somewhat older
+tradition in tabletop RPGs, one where characters
+aren’t so much “built” as they are “rolled”. Players
+often don’t know who exactly they’re going to be
+playing in a campaign, and rely on random rolls to
+determine a hero’s aptitudes and skills. Part of the
+pleasure of the game is throwing these new-rolled
+cyphers into play and exploring their personalities
+and motivations directly through the events of the
+adventures they undertake.
+In most modern games, however, a player
+expects to be able to create exactly the kind of PC
+they’ve envisioned before the campaign begins.
+They don’t want to rely on random rolls to give
+them the character they’re going to be playing.
+This is a perfectly valid preference, and players who want to have full control over creating
+their hero can do so with an attribute array and
+skills picked from a selected background. Even
+so, players without strong feelings on the matter
+might find it refreshing to let their hero’s past be
+discovered by the unpredictable chance of the dice.
+
+4• Summary of Character Creation
+
+A Summary of Character Creation
+For your convenience, here’s a quick summary of the
+character creation process. Experienced players can
+simply go down the list to generate their next interstellar freebooter, while those new to the game can use it as
+a guide reference as they go through the steps detailed
+on the following pages. A blank character sheet can be
+found at the end of the book.
+Note that some steps indicate that you should roll
+or pick skills, as described on page 7. The first time you
+roll or pick a skill, it starts at level-0. The second time,
+it becomes level-1. The third time, you can instead pick
+any other non-psychic skill of your choice that’s less
+than level-1. No novice hero’s skills can exceed level-1
+during character creation.
+1.
+
+Roll your six attributes or assign them from an
+array, using Strength, Dexterity, Constitution,
+Intelligence, Wisdom, and Charisma. Attributes
+reflect the basic potential of your hero. Roll 3d6
+six times and assign them in order, or use an
+array of 14, 12, 11, 10, 9, 7 assigned as you wish.
+If you randomly roll your scores you may then
+pick one attribute to change to a score of 14.
+
+2.
+
+Mark down your attribute modifiers for each
+score. When rolling dice that are affected by an
+attribute, you don’t apply the whole score; instead, you apply the attribute modifier. A score
+of 3 is a -2, 4—7 is a -1, 8—13 is no modifier,
+14—17 is +1, and 18 is +2.
+
+3.
+
+Pick a background from the list on page 9, one
+that most closely reflects your hero’s past experiences. You gain the skill listed under the
+background name at level-0, which equates to
+an ordinary working knowledge of it.
+
+4.
+
+Decide whether to roll for additional skills or
+pick them. If you pick skills, you can choose two
+more skills from the Learning table for your
+background, with the exception of entries that
+say “Any Skill”, which you may not pick. You
+cannot pick entries from the Growth table. If
+you’re not sure what to pick, just take the “Quick
+Skills” listed for your background at level-0,
+which include your background’s beginning skill.
+
+5.
+
+If you choose to roll for your skills, you can roll up
+to three times, dividing up your rolls between
+the Growth and Learning tables as you wish.
+When you roll on the Growth table, some results may say “+2 Physical” or “+2 Mental”. In
+the former case, you can add two points to either Strength, Dexterity, or Constitution, or one
+point to two different stats. In the latter case,
+
+you can add two points to either Intelligence,
+Wisdom, or Charisma, or divide the bonus between two of them.
+6.
+
+Choose your class, representing those talents
+you have that are most relevant to an adventurer’s lifestyle. If your hero isn’t well-described
+by Warrior, Expert, or Psychic, you can choose
+Adventurer and mix your class abilities.
+
+7.
+
+Choose your foci, representing the side talents
+or particular specializations of your hero. You
+can pick one level of a focus of your choice.
+Characters with the Expert class or the Partial
+Expert feature of the Adventurer class get one
+level of a non-combat, non-psychic focus for
+free in addition to this. They can spend both
+levels on the same focus, starting with level 2
+in it if they wish. Characters with the Warrior
+class or Partial Warrior feature of the Adventurer class can do the same in choosing one level of
+a combat focus.
+
+8.
+
+Optionally, if your GM is allowing alien PCs or
+VI or True AI PCs, you can make your character
+into one such creature by spending your focus
+level on the appropriate origin focus. Aliens and
+VIs are described in the Xenobestiary chapter,
+starting on page 192, while True AIs are part
+of the deluxe Stars Without Number core book,
+starting on page 280.
+
+9.
+
+Now pick one non-psychic skill of your choice to
+reflect your hero’s outside interests, natural talents, hobby expertise, or other personal focus.
+
+10.
+
+If you’ve chosen the Psychic class or chosen to be
+an Adventurer with the Partial Psychic ability,
+you are a psychic PC, with powers described
+in the following section, starting on page 28.
+Psychics can pick two psychic skills from those
+listed on page 8, while Partial Psychics can pick
+one. If a Psychic picks the same skill twice, they
+get it at level-1 expertise, and can pick a free
+level-1 technique from those listed for that discipline. Both Psychics and Partial Psychics get
+the level-0 abilities associated with their skills,
+as described under each discipline they possess.
+Both also have a maximum Effort score equal to
+1 plus their highest psychic skill plus the better of
+their Wisdom or Constitution modifiers.
+
+11.
+
+Roll your maximum hit points on 1d6, adding
+your Constitution modifier. Even a penalty can’t
+reduce your hit points below 1. Warrior PCs
+
+
