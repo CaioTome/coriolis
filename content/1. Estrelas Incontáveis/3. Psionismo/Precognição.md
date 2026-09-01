@@ -1,0 +1,74 @@
+# Precognição
+
+A **Precognição** é a disciplina psíquica que permite estender a consciência através do fluxo temporal, perscrutando as correntes de probabilidade que conectam o presente aos múltiplos futuros possíveis. Um precognitivo não enxerga o destino como uma tábula rígida e imutável, mas como uma árvore infinita de escolhas e desfechos ramificados.
+
+Através dessa visão temporal, o psíquico pode antecipar os passos de um atirador antes que o gatilho seja puxado, prever emboscadas em corredores escuros, encontrar o caminho seguro em campos minados e obter vislumbres de eventos cósmicos e políticos meses antes de sua concretização.
+
+---
+
+## Poder Nuclear: Oráculo
+
+O **Oráculo** é a habilidade fundamental da Precognição. Ao gastar 1 minuto em meditação e **comprometer 1 ponto de Esforço pelo dia**, o psíquico foca sua mente em uma ação específica ou escolha de caminho iminente e faz uma pergunta ao Mestre do Jogo sobre as consequências daquela decisão.
+
+O Mestre deve responder descrevendo o resultado mais provável da ação dentro da janela temporal correspondente ao nível de perícia do personagem:
+- **Nível 0**: Enxerga até **1 minuto** no futuro. Útil para prever se abrir uma porta acionará uma armadilha imediata ou se um guarda responderá com violência a uma saudação.
+- **Nível 1**: Enxerga até **1 dia** no futuro. Revela se um plano de invasão ou uma rota comercial sofrerá emboscadas nas próximas 24 horas.
+- **Nível 2**: Enxerga até **1 semana** no futuro. Permite prever oscilações de mercado, reações governamentais a eventos ou o resultado de viagens curtas.
+- **Nível 3**: Enxerga até **3 meses** no futuro. Antecipa crises diplomáticas, revoltas populares e movimentações de frotas militares.
+- **Nível 4**: Enxerga até **1 ano** no futuro. Revela o destino a longo prazo de colônias, facções e grandes empreendimentos humanos.
+
+---
+
+## Técnicas de Nível 1
+
+### Resposta Intuitiva
+Seus reflexos reagem frações de segundo antes que o perigo se materialize, movendo seu corpo instintivamente para longe da linha de tiro.
+- **Efeito**: Como uma Ação Instantânea no início do combate, **comprometa 1 ponto de Esforço pela cena**. Você adiciona um bônus de **+2 em sua rolagem de Iniciativa**, ganha **+1 de bônus na Classe de Armadura (CA)** e **+2 em todas as Salvaguardas de Evasão** pela duração da cena.
+
+### Sentir a Necessidade
+Sua intuição temporal sussurrou com antecedência que você precisaria de uma ferramenta, chave ou item específico antes de sair para a missão.
+- **Efeito**: Uma vez por sessão de jogo, ao **comprometer 1 ponto de Esforço pelo dia**, você pode declarar retroativamente que colocou no bolso ou na mochila um pequeno objeto mundano comum (como uma gazua de arrombamento, um filtro de oxigênio de emergência, uma bateria Tipo A ou uma corda leve de ceraplástico), desde que o item não custe mais do que 100 créditos e caiba na sua capacidade de carga.
+
+### Reflexão Terminal
+Sua mente emite um alarme psíquico ensurdecedor milissegundos antes de você sofrer um ataque fatal ou acionar uma armadilha mortal.
+- **Efeito**: Esta habilidade funciona passivamente sem custo constante. Caso você esteja prestes a sofrer um ataque de emboscada, cair em um precipício oculto ou ser atingido por um Ataque de Execução, o Mestre deve avisá-lo com um instante de antecedência, permitindo que você reaja e anule a condição de surpresa. Você deve **comprometer 1 ponto de Esforço pelo dia** após o aviso se manifestar.
+
+---
+
+## Técnicas de Nível 2
+
+### Sorte Predestinada
+Você percebe as oscilações de probabilidade ao redor de um indivíduo e intervém mentalmente para puxar o fio do destino mais desfavorável contra ele.
+- **Efeito**: Como uma Ação Instantânea, quando um inimigo acertar um ataque ou passar em uma salvaguarda, **comprometa 1 ponto de Esforço pela cena**. O alvo deve rolar novamente o dado e ficar obrigatoriamente com o pior resultado entre as duas rolagens.
+
+### Resultado Alternativo
+Ao perceber que uma escolha simples recente levou a um desastre imediato, você rebobina sua linha de ação e toma outro caminho.
+- **Efeito**: Como uma Ação Instantânea no seu turno, **comprometa 1 ponto de Esforço pelo dia**. Você pode cancelar uma ação simples que acabou de realizar nesta rodada (como abrir uma porta errada ou dar um passo em direção a um piso falso) e escolher uma ação diferente no mesmo instante.
+
+### Caminho Amaldiçoado
+Você foca na assinatura probabilística de um alvo em fuga, sabendo com precisão matemática para onde ele se dirigirá.
+- **Efeito**: Ao observar um alvo fugindo e **comprometer 1 ponto de Esforço pela cena**, você visualiza mentalmente o trajeto exato que ele percorrerá nos próximos 10 minutos, tornando impossível que ele despiste o seu grupo em terrenos urbanos ou labirintos.
+
+---
+
+## Técnicas de Nível 3
+
+### Resultado Forçado
+Você impõe uma linha de probabilidade vitoriosa sobre a realidade, garantindo que um feito crítico seja bem-sucedido.
+- **Efeito**: Como uma Ação Instantânea, ao realizar um teste de ataque ou salvaguarda crucial, **comprometa 1 ponto de Esforço pelo dia**. O resultado do seu dado é tratado automaticamente como um **sucesso pleno** (ou acerto automático em jogadas de ataque), sem necessidade de rolagem.
+
+### Visão Angustiada
+Sua mente é inundada por presságios de tragédias iminentes em grande escala: colapsos de reatores, ataques terroristas ou pragas biológicas.
+- **Efeito**: Ao passar 1 hora em transe e **comprometer 1 ponto de Esforço pelo dia**, o Mestre revela a você a natureza, o local aproximado e os agentes de uma catástrofe iminente que ocorrerá no planeta ou estação espacial nos próximos dias, permitindo que o grupo tente intervir para evitar a tragédia.
+
+---
+
+## Técnicas de Nível 4
+
+### Ainda Não É Minha Hora
+A manifestação suprema da autopreservação precognitiva: seu corpo esquiva-se de golpes letais com precisão milimétrica.
+- **Efeito**: No instante em que você sofrer um ataque que o reduziria a 0 Pontos de Vida ou o mataria instantaneamente, você pode **comprometer todo o seu Esforço restante pelo dia (mínimo de 2 pontos)** como uma Ação Instantânea. Você desvia milagrosamente do ataque por milímetros, sofrendo **zero pontos de dano** e anulando completamente todos os efeitos secundários do golpe hostil.
+
+### Profecia
+Você toca as correntes cósmicas mais profundas do espaço-tempo, recebendo vislumbres nítidos do destino de setores estelares inteiros.
+- **Efeito**: Ao entrar em comunhão psíquica profunda durante 24 horas ininterruptas e **comprometer todo o seu Esforço pelo dia**, o Mestre deve fornecer uma profecia detalhada e precisa sobre o desfecho de guerras setoriais, a ascensão de impérios ou a queda de figuras históricas lendárias ao longo do próximo ano de tempo de jogo.

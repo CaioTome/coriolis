@@ -1,0 +1,82 @@
+# Metapsionismo
+
+O **Metapsionismo** é a disciplina dedicada ao estudo, percepção, manipulação, amplificação e anulação de energias psíquicas e metadimensionais. Enquanto as outras disciplinas focam em interagir com o mundo físico, biológico ou mental comum, o metapsíquico enxerga a própria teia invisível que conecta todas as manifestações mentais ao hiperespaço.
+
+Com o Metapsionismo, um psíquico pode ocultar sua presença contra inquisidores mentais, amortecer ataques psíquicos hostis, conectar cérebros em concertos de poder mental e até mesmo desativar as habilidades de outros psíquicos através de estática metadimensional pura.
+
+---
+
+## Poder Nuclear: Refinamento Psíquico
+
+O **Refinamento Psíquico** reflete o domínio técnico e a expansão da capacidade cerebral do metapsíquico para processar energias extradimensionais.
+- **Detecção Passiva**: O psíquico percebe visualmente o uso de qualquer poder psíquico ou dispositivo *psitech* ativo em sua linha de visão direta.
+- **Efeitos de Refinamento por Nível de Metapsionismo**:
+  - **Nível 0**: Detecta auras psíquicas ativas e sabe instantaneamente quando alguém ao alcance visual é um psíquico treinado ou portador de MES.
+  - **Nível 1**: A mente do psíquico torna-se mais eficiente. O seu valor de **Esforço Psíquico Máximo aumenta permanentemente em +1 ponto**.
+  - **Nível 2**: O psíquico identifica com precisão a disciplina exata e o nível de poder de qualquer técnica psíquica ativada em sua presença.
+  - **Nível 3**: O seu valor de **Esforço Psíquico Máximo aumenta em mais +1 ponto permanente adicional** (acumulando +2 pontos no total).
+  - **Nível 4**: Ao recorrer ao *Incêndio Psíquico* (*Torching*), o psíquico rola **2d6** e escolhe o resultado mais favorável na tabela de consequências.
+
+---
+
+## Técnicas de Nível 1
+
+### Ocultar Poderes
+Você consegue recolher sua assinatura energética metadimensional, tornando sua mente indistinguível da de um humano comum sem poderes.
+- **Efeito**: Como uma Ação de Turno, **comprometa 1 ponto de Esforço pela cena**. Pela duração do efeito, sua aura psíquica fica completamente invisível para detecções metapsiônicas e sensores tecnológicos de varredura psíquica. Qualquer técnica psíquica ativa que você mantenha continua funcionando, mas permanece oculta a observações passivas.
+
+### Amortecimento Neural
+Você constrói anteparas mentais reflexivas que amortecem invasões telepáticas e choques de energia mental.
+- **Efeito**: Como uma Ação Instantânea, ao ser alvo de um ataque mental ou técnica que exija salvaguarda, **comprometa 1 ponto de Esforço pela cena**. Você ganha um bônus de **+4 em todas as Salvaguardas Mentais** até o final da cena atual.
+
+### Adaptação Sintética
+Você aprende a estender suas frequências psíquicas para interagir com substratos inorgânicos e redes de computadores quânticos.
+- **Efeito**: Ao dominar esta técnica, suas habilidades psíquicas de *Telepatia*, *Biopsionismo* e *Metapsionismo* podem ser utilizadas para afetar robôs, autômatos, Inteligências Virtuais (IVs) e IAs Verdadeiras, tratando circuitos e processadores quânticos como equivalentes a tecidos neurológicos vivos.
+
+---
+
+## Técnicas de Nível 2
+
+### Estática Psíquica
+Você emite um zumbido metadimensional caótico que interfere na concentração e nos poderes de outros psíquicos ao seu redor.
+- **Efeito**: Como uma Ação Principal, **comprometa 1 ponto de Esforço pela cena**. Você projeta uma zona de estática em uma esfera de **10 metros de raio** centrada em você. Qualquer outro psíquico que tente ativar uma técnica dentro dessa área deve gastar **1 ponto de Esforço adicional** além do custo normal da habilidade, ou a técnica falha automaticamente.
+
+### Manifestação Suspensa
+Você pode pré-carregar uma técnica psíquica e mantê-la em estado latente em sua mente, programada para disparar sob condições específicas.
+- **Efeito**: Escolha uma técnica de nível 1 ou 2 de qualquer disciplina conhecida e **comprometa o Esforço exigido pela técnica mais 1 ponto de Esforço pelo dia**. Defina um gatilho claro (ex: "quando eu for atacado por trás" ou "quando eu cair inconsciente"). A técnica é ativada instantaneamente assim que o evento ocorrer, sem gastar ações no momento do disparo.
+
+### Rastreamento Metadimensional
+Ao observar o rastro deixado por um teletransporte, um ataque psíquico à distância ou uma previsão oracular, você pode seguir a assinatura até sua origem.
+- **Efeito**: Como uma Ação Principal, **comprometa 1 ponto de Esforço pela cena**. Você percebe as coordenadas espaciais exatas do ponto de origem ou destino do poder rastreado, desde que o evento tenha ocorrido há no máximo 1 hora por nível de Metapsionismo.
+
+---
+
+## Técnicas de Nível 3
+
+### Concerto de Mentes
+Você une as reservas de foco mental de múltiplos psíquicos em uma rede harmônica compartilhada.
+- **Efeito**: Ao tocar até `1 + Nível de Metapsionismo` psíquicos voluntários e **comprometer 1 ponto de Esforço pelo dia**, você cria um elo psíquico que dura até o final da cena. Todos os membros do concerto podem gastar pontos de Esforço da reserva coletiva unificada para ativar suas técnicas individuais.
+
+### Impulso de Sobretensão
+Você canaliza energia metadimensional bruta diretamente no cérebro de um companheiro, acelerando seus reflexos.
+- **Efeito**: Como uma Ação Principal, toque um aliado visível e **comprometa 1 ponto de Esforço pelo turno**. O aliado escolhido ganha imediatamente uma **Ação Principal adicional** que pode ser utilizada no próximo turno dele.
+
+### Tutela Psíquica
+Você atua como mentor para indivíduos que sofrem de MES descontrolada, estabilizando suas mentes contra a loucura.
+- **Efeito**: Ao trabalhar com um indivíduo portador de MES por 1 semana (**comprometendo 1 ponto de Esforço pelo dia**), você remove os sintomas de deterioração neural e permite que ele passe a desenvolver técnicas psíquicas sem sofrer danos cerebrais.
+
+---
+
+## Técnicas de Nível 4
+
+### Maestria Impecável
+Seu domínio sobre uma técnica psíquica específica atinge a perfeição absoluta, eliminando o cansaço mental de seu uso.
+- **Efeito**: Escolha uma técnica psíquica de nível 3 ou inferior que você conheça. Sempre que utilizar essa técnica escolhida, o seu custo de Esforço é reduzido: custos que exigiam comprometimento *pela cena* passam a exigir apenas comprometimento *pelo turno*, e custos que exigiam comprometimento *pelo dia* passam a exigir apenas comprometimento *pela cena*.
+
+### Fricção Metadimensional
+Você sintoniza o ambiente local para que o próprio tecido do espaço queime qualquer mente que tente dobrar as leis da física.
+- **Efeito**: Como uma Ação Principal, **comprometa 1 ponto de Esforço pelo dia**. Por toda a duração da cena, qualquer outro psíquico que ativar um poder mental a até 100 metros de você sofre dano físico igual a `1d8 + Nível de Metapsionismo` do atacante para cada ponto de Esforço gasto ou comprometido.
+
+### Pavês Impermeável de Vontade
+A muralha psíquica definitiva: sua mente torna-se um monólito impenetrável no hiperespaço.
+- **Efeito**: Como uma Ação Instantânea, **comprometa 1 ponto de Esforço pelo dia**. Pela duração de 1 cena inteira, você torna-se **completamente imune** a qualquer efeito, dano, leitura mental, telecinese ou intrusão originada por poderes psíquicos hostis.

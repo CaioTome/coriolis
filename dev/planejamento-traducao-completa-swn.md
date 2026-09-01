@@ -31,16 +31,16 @@
   - [x] Lista Detalhada de Perícias e Usos
   - [x] Estatísticas Finais e Pacotes Iniciais de Equipamento
 
-- [ ] **Capítulo 3: Psionismo** (`3. Psionismo.md`)
-  - [ ] História e Natureza do Psionismo
-  - [ ] Mecânicas de Esforço, Estresse Sistêmico e Incêndio Psíquico
-  - [ ] Disciplinas Principais e Progressão:
-    - [ ] Biopsionismo (Poder Nuclear + Técnicas de Nível 0 a 4)
-    - [ ] Metapsionismo (Poder Nuclear + Técnicas de Nível 0 a 4)
-    - [ ] Precognição (Poder Nuclear + Técnicas de Nível 0 a 4)
-    - [ ] Telecinese (Poder Nuclear + Técnicas de Nível 0 a 4)
-    - [ ] Telepatia (Poder Nuclear + Técnicas de Nível 0 a 4)
-    - [ ] Teletransporte (Poder Nuclear + Técnicas de Nível 0 a 4)
+- [x] **Capítulo 3: Psionismo** (`3. Psionismo/`)
+  - [x] História e Natureza do Psionismo
+  - [x] Mecânicas de Esforço, Estresse Sistêmico e Incêndio Psíquico
+  - [x] Disciplinas Principais e Progressão em arquivos individuais dedicados:
+    - [x] Biopsionismo (`Biopsionismo.md` com Poder Nuclear + Técnicas de Nível 0 a 4)
+    - [x] Metapsionismo (`Metapsionismo.md` com Poder Nuclear + Técnicas de Nível 0 a 4)
+    - [x] Precognição (`Precognição.md` com Poder Nuclear + Técnicas de Nível 0 a 4)
+    - [x] Telecinese (`Telecinese.md` com Poder Nuclear + Técnicas de Nível 0 a 4)
+    - [x] Telepatia (`Telepatia.md` com Poder Nuclear + Técnicas de Nível 0 a 4)
+    - [x] Teletransporte (`Teletransporte.md` com Poder Nuclear + Técnicas de Nível 0 a 4)
 
 - [ ] **Capítulo 4: Sistemas de Regras** (`4. Sistemas.md`)
   - [ ] Testes de Atributo e Salvaguardas (Física, Evasão, Mental)

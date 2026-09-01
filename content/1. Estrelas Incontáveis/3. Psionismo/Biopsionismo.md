@@ -1,0 +1,80 @@
+# Biopsionismo
+
+O **Biopsionismo** é a disciplina psíquica dedicada ao controle, cura, aprimoramento e manipulação de organismos vivos. Um biopsíquico é capaz de modular o fluxo de energia metadimensional através da fisiologia humana e alienígena, catalisando processos metabólicos celulares para fechar ferimentos abertos em segundos, eliminar venenos letais, regenerar tecidos destruídos ou, em suas manifestações mais sombrias, induzir o colapso celular violento em seus inimigos.
+
+O poder biopsiônico impõe uma exigência biológica considerável ao paciente. Cada intervenção de cura força o organismo do alvo a acelerar seus processos de regeneração a taxas milagrosas, gerando **Estresse Sistêmico**. Se o corpo do alvo estiver saturado de estresse (atingindo o seu valor de Constituição), novas curas falharão até que o paciente descanse adequadamente.
+
+---
+
+## Poder Nuclear: Socorro Psíquico
+
+O **Socorro Psíquico** é a habilidade fundamental de todo biopsíquico. Ao tocar um alvo voluntário ou recentemente incapacitado e gastar uma Ação Principal, o psíquico canaliza energia reparadora diretamente nos tecidos danificados.
+
+- **Custo de Esforço**: O psíquico pode usar o Socorro Psíquico à vontade, desde que **comprometa 1 ponto de Esforço pela cena** no momento da ativação (ou pelo dia, caso utilize técnicas de longo alcance).
+- **Estresse Sistêmico**: Cada ativação de Socorro Psíquico adiciona **1 ponto de Estresse Sistêmico** ao alvo tratado.
+- **Efeitos de Cura por Nível de Biopsionismo**:
+  - **Nível 0**: Estabiliza instantaneamente um indivíduo reduzido a 0 Pontos de Vida, impedindo que ele morra em 6 rodadas. O alvo permanece inconsciente, mas estável.
+  - **Nível 1**: Estabiliza o alvo e restaura **1d6 + 1 Pontos de Vida**.
+  - **Nível 2**: Estabiliza o alvo e restaura **2d6 + 2 Pontos de Vida**.
+  - **Nível 3**: Estabiliza o alvo e restaura **2d6 + 6 Pontos de Vida**.
+  - **Nível 4**: Estabiliza o alvo e restaura **3d6 + 8 Pontos de Vida**.
+
+---
+
+## Técnicas de Nível 1
+
+### Socorro Dominado
+Você transformou a aplicação do Socorro Psíquico em uma resposta instintiva e reflexiva de sua mente.
+- **Efeito**: Você não precisa comprometer Esforço para usar a versão de Nível 0 do Socorro Psíquico (estabilizar aliados moribundos a 0 PV). Além disso, quando utiliza Socorro Psíquico para curar PVs de um companheiro, você pode optar por pagar o custo comprometendo Esforço **pelo turno** em vez de pela cena.
+
+### Purificação Orgânica
+Sua mente é capaz de identificar e expurgar corpos estranhos, agentes biológicos hostis e compostos químicos venenosos da corrente sanguínea do alvo.
+- **Efeito**: Como uma Ação Principal, toque o alvo e **comprometa 1 ponto de Esforço pelo dia**. Toxinas normais, venenos animais e infecções bacterianas ou virais comuns são imediatamente neutralizados. Venenos alienígenas ultra-letais ou armas biológicas militares exigem um teste de perícia *Biopsionismo* somado à sua Sabedoria ou Constituição contra uma Dificuldade determinada pelo Mestre. Adiciona 1 ponto de Estresse Sistêmico ao alvo.
+
+### Reparo Remoto
+Você não precisa mais tocar fisicamente o paciente para canalizar o fluxo reparador metadimensional.
+- **Efeito**: Você pode utilizar o *Socorro Psíquico* ou a *Purificação Orgânica* contra qualquer alvo visível a até **100 metros de distância**.
+
+---
+
+## Técnicas de Nível 2
+
+### Postura Invencível
+Sua mente ancora sua consciência ao corpo biológico mesmo quando seus sinais vitais deveriam ter cessado por completo.
+- **Efeito**: No momento em que você for reduzido a 0 Pontos de Vida por qualquer ataque que não desintegre seu corpo, você pode **comprometer 1 ponto de Esforço pela cena** como uma Ação Instantânea. Você permanece de pé, consciente e totalmente capaz de agir por um número de rodadas igual ao seu nível de personagem. Ao fim desse período, se você não tiver recebido cura de PVs, você cai inconsciente e começa a morrer normalmente.
+
+### Restauração de Órgãos Vitais
+Você é capaz de reconstruir tecidos complexos destruídos, membros decepados, olhos cegados e órgãos internos danificados.
+- **Efeito**: Toque o paciente e **comprometa 1 ponto de Esforço pelo dia**. Ao longo de 24 horas de repouso, o tecido biológico destruído se regenera completamente, restaurando a funcionalidade de membros decepados ou órgãos vitais. O paciente ganha 2 pontos de Estresse Sistêmico.
+
+### Campo de Integridade Tecidual
+Você projeta uma camada de reforço elástico sobre a pele e os órgãos de um aliado, amortecendo impactos físicos.
+- **Efeito**: Como uma Ação Principal, toque um alvo e **comprometa 1 ponto de Esforço pela cena**. Pela duração da cena, o alvo ganha uma Redução de Dano (RD) de 2 pontos contra todos os ataques físicos e balísticos convencionais.
+
+---
+
+## Técnicas de Nível 3
+
+### Socorro Acelerado
+Sua velocidade de intervenção cirúrgica atinge o limiar do pensamento puro.
+- **Efeito**: Você pode ativar o *Socorro Psíquico* como uma **Ação de Turno** ou até mesmo como uma **Ação Instantânea** no seu próprio turno, em vez de gastar uma Ação Principal. Isso permite que você cure a si mesmo ou a um companheiro enquanto continua atirando ou se movimentando pelo campo de batalha.
+
+### Metamorfo
+Você pode reescrever o código genético superficial, a estrutura óssea e as características físicas de um organismo vivo.
+- **Efeito**: Ao **comprometer 1 ponto de Esforço pelo dia**, você pode alterar completamente a sua própria aparência, altura, voz, sexo biológico, impressões digitais e padrões de retina. A transformação dura enquanto o Esforço permanecer comprometido. Se desejar alterar outra pessoa voluntária, o alvo recebe 1 ponto de Estresse Sistêmico.
+
+---
+
+## Técnicas de Nível 4
+
+### Sobrecarga Terática
+A aplicação mais letal do Biopsionismo: induzir necrose celular fulminante, rompimento de artérias e colapso metabólico no corpo de um inimigo.
+- **Efeito**: Faça um ataque corpo a corpo ou à distância (caso possua *Reparo Remoto*) e **comprometa 1 ponto de Esforço pelo dia**. O alvo deve realizar uma **Salvaguarda Física** imediatamente. Em caso de falha, ele sofre dano igual a `1d10 por nível de Biopsionismo` do psíquico e ganha Estresse Sistêmico máximo. Se tiver sucesso na salvaguarda, ele ainda sofre metade do dano.
+
+### Otimização Holística
+Você purga imperfeições congênitas, doenças degenerativas da velhice e fragilidades genéticas de um ser humano.
+- **Efeito**: Ao longo de um tratamento contínuo de 1 semana (**comprometendo 1 ponto de Esforço indefinidamente**), você elimina todas as doenças crônicas do alvo, reverte o envelhecimento biológico para a idade de ápice físico e concede a ele um bônus permanente de +1 em sua pontuação de Constituição (até o limite de 18).
+
+### Reconstrução Quintessencial
+O milagre supremo do Biopsionismo: arrancar uma alma dos braços da morte e reconstruir um organismo recém-falecido.
+- **Efeito**: Você pode ressuscitar um indivíduo que tenha morrido há no máximo **3 dias**, desde que o cérebro do corpo não tenha sido completamente destruído ou desintegrado. Você deve **comprometer todo o seu Esforço restante pelo dia (mínimo de 3 pontos)** e trabalhar no corpo durante 4 horas ininterruptas. O paciente desperta com 1 PV e ganha Estresse Sistêmico máximo, necessitando de repouso por várias semanas para se recuperar plenamente.
