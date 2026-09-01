@@ -42,15 +42,16 @@
     - [x] Telepatia (`Telepatia.md` com Poder Nuclear + Técnicas de Nível 0 a 4)
     - [x] Teletransporte (`Teletransporte.md` com Poder Nuclear + Técnicas de Nível 0 a 4)
 
-- [ ] **Capítulo 4: Sistemas de Regras** (`4. Sistemas.md`)
-  - [ ] Testes de Atributo e Salvaguardas (Física, Evasão, Mental)
-  - [ ] Testes de Perícia e Cooperação
-  - [ ] Combate: Iniciativa, Rodadas, Ações (Principal, Movimento, Instantânea, Turno)
-  - [ ] Modificadores de Combate, Cobertura, Rajada, Dano de Choque e Execução
-  - [ ] Dano, Ferimentos, Morte, Estabilização e Cura
-  - [ ] Perigos Ambientais: Queda, Asfixia, Vácuo, Toxinas, Doenças e Radiação
-  - [ ] Hacking, Intrusão em Redes e Sistemas de Segurança
-  - [ ] Progressão de Personagem, XP e Treinamento
+- [x] **Capítulo 4: Sistemas de Regras** (`4. Sistemas/`)
+  - [x] Testes de Atributo e Salvaguardas (Física, Evasão, Mental e Salvaguardas de PNJs)
+  - [x] Testes de Perícia, Escolha de Atributos, Ajuda e Testes Opostos
+  - [x] Combate: Iniciativa 1d8, Rodadas, Ações (Principal, Movimento, Instantânea, Turno), Moral de PNJs
+  - [x] Manobras e Táticas: Ataque Rápido, Defesa Total, Duas Armas, Rajada, Choque, Execução, Desarmar e Empurrar
+  - [x] Ferimentos, Morte, Estabilização Dinâmica, Fragilidade, Níveis Tecnológicos de Cura e Estresse Sistêmico
+  - [x] Perigos Ambientais: Queda, Asfixia, Vácuo Rígido, Toxinas, Doenças, Radiação com Perda de CON e Fogo
+  - [x] Hacking, Acesso Físico por Derivação, Protocolos e Sistemas de Segurança
+  - [x] Progressão de Personagem, Tabela Oficial de XP (0-93 XP), Compra de Aumento de Atributos com PP e Focos
+  - [x] Folha de Referência Rápida de Sistemas e Ações
 
 - [ ] **Capítulo 5: Equipamento e Veículos** (`5. Equipamento e Veículos.md`)
   - [ ] Moeda, Créditos e Níveis Tecnológicos (NT0 a NT5)

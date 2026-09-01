@@ -29,7 +29,8 @@ Para otimizar a navegação na engine Quartz, facilitar a manutenção do texto 
 * **Capítulo 1 (Introdução):** Concluído como arquivo individual `1. Introdução.md`.
 * **Capítulo 2 (Criação de Personagem):** Concluído e modularizado na pasta `2. Criação de Personagem/` (7 arquivos: introdução, profissões, classes, focos, perícias, equipamento/estatísticas e criação rápida).
 * **Capítulo 3 (Psionismo):** Concluído e modularizado na pasta `3. Psionismo/` (7 arquivos: regras gerais e 6 disciplinas psíquicas).
-* **Ponto de Parada Atual:** Paramos no **Capítulo 4 (Como Jogar / Sistemas)**. As próximas tarefas de estruturação e revisão devem iniciar a partir deste capítulo.
+* **Capítulo 4 (Sistemas):** Concluído e modularizado na pasta `4. Sistemas/` (9 arquivos: introdução, testes e salvaguardas, combate, manobras e táticas, ferimentos e cura, hacking, avanço de personagem, perigos ambientais e folha de referência rápida).
+* **Ponto de Parada Atual:** Paramos no **Capítulo 5 (Equipamento e Veículos)**. As próximas tarefas de estruturação e revisão devem iniciar a partir deste capítulo.
 
 ---
 
