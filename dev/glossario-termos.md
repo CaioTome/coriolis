@@ -63,3 +63,30 @@
 | **Biomorphs** | Biomorfos | | Inimigos / Monstros |
 | **Expedition** | Expedição | | Tipo de Jogo |
 | **Relics / Artifacts** | Relíquias / Artefatos | | Loot / Tecnologia |
+
+---
+
+## 4. Estrelas Incontáveis (Stars Without Number)
+
+| Termo Original (EN) | Tradução Oficial PT-BR | Categoria |
+| :--- | :--- | :--- |
+| **Spike Drive** | Propulsor de Salto | Tecnologia de Propulsão FTL |
+| **Jump Gate** | Portal de Salto | Infraestrutura do Mandato |
+| **Tech Level (TL)** | Nível Tecnológico (NT) | Classificação Tecnológica |
+| **The Scream** | O Grito | Evento Histórico |
+| **The Silence** | O Silêncio | Período Histórico |
+| **Terran Mandate** | Mandato Terreno | Entidade Histórica |
+| **Effort** | Esforço | Recurso (Psionismo / IA) |
+| **System Strain** | Estresse Sistêmico | Mecânica de Sobrecarga Física |
+| **Torching** | Incêndio Psíquico | Mecânica de Psionismo |
+| **Fray Die** | Dado de Fray | Mecânica Heróica |
+| **Shell / Sleeve** | Invólucro | Trans-humanismo |
+| **Soul** | Alma | Trans-humanismo |
+| **Face** | Prestígio | Economia Trans-humana |
+| **Armature** | Armadura | Chassi de IA Verdadeira |
+| **Unbraked AI** | IA Desenfreada (sem freios) | Inteligência Artificial |
+| **Quantum Brakes** | Freios Quânticos | Limitação de IA |
+| **Lazarus Patch** | Curativo de Lázaro | Equipamento Médico |
+| **Hit Dice (HD)** | Dados de Vida (DV) | Estatística de Monstros/PNJs |
+| **Base Attack Bonus (BAB)** | Bônus Base de Ataque (BBA) | Mecânica de Combate |
+| **Armor Class (AC)** | Classe de Armadura (CA) | Mecânica Defensiva |
