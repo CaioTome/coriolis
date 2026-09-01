@@ -22,9 +22,12 @@
 
 ---
 
-## 2. Regras de Estilo e Terminologia
+## 2. Regras de Estilo, Terminologia e Tradução Integral
 
 * **PROIBIDO USO DE EMOJIS:** É estritamente proibido o uso de emojis em títulos, marcadores de lista ou no meio do texto em **qualquer arquivo** deste projeto.
+* **TRADUÇÃO INTEGRAL E SEM RESUMOS (OBRIGATÓRIO):** 
+  * É expressamente proibido resumir, abreviar, sintetizar ou omitir parágrafos de prosa, descrições narrativas, caixas de texto, exemplos de jogo, tabelas completas, notas explicativas ou regras detalhadas dos livros originais.
+  * A tradução deve ser completa e exaustiva, traduzindo fielmente todo o conteúdo parágrafo por parágrafo, detalhe por detalhe, mantendo a profundidade do material original.
 * **Uso do Glossário:** Sempre consulte e atualize o arquivo `dev/glossario-termos.md` ao traduzir conceitos novos.
 * **Tradução Exclusiva para Português (PT-BR):** Nenhum termo de regras ou de história deve permanecer em inglês no texto final. Use **apenas** a tradução oficial, com **exceção de palavras em árabe**, que devem ser mantidas no original para preservar o misticismo da campanha:
   * *Dark Between the Stars* ➔ **Escuridão Entre as Estrelas**
