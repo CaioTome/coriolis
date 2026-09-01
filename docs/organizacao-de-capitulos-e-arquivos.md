@@ -32,7 +32,8 @@ Para otimizar a navegação na engine Quartz, facilitar a manutenção do texto 
 * **Capítulo 4 (Sistemas):** Concluído e modularizado na pasta `4. Sistemas/` (9 arquivos: introdução, testes e salvaguardas, combate, manobras e táticas, ferimentos e cura, hacking, avanço de personagem, perigos ambientais e folha de referência rápida).
 * **Capítulo 5 (Equipamento e Veículos):** Concluído e modularizado na pasta `5. Equipamento e Veículos/` (7 arquivos: introdução/regras fundamentais, armaduras, armas, equipamento geral e serviços, veículos e drones, cibernéticos, e artefatos pretech).
 * **Capítulo 6 (Naves Espaciais):** Concluído e modularizado na pasta `6. Naves Espaciais/` (8 arquivos: introdução e etapas de construção, chassis e tipos de naves, encaixes, defesas e armas, naves e estações de exemplo, customização e modificação, viagem espacial/sensores/reparos, e combate espacial com ações e crises).
-* **Ponto de Parada Atual:** Paramos no **Capítulo 7 (A História do Espaço)**. As próximas tarefas de estruturação e revisão devem iniciar a partir deste capítulo.
+* **Capítulo 7 (A História do Espaço):** Concluído e modularizado na pasta `7. A História do Espaço/` (4 arquivos: introdução e temas centrais, expansão humana e o Mandato, o Grito/Silêncio/Renascimento, e placeholder para Linha do Tempo do Futuro).
+* **Ponto de Parada Atual:** Paramos no **Capítulo 8 (Criação de Setor)**. As próximas tarefas de estruturação e revisão devem iniciar a partir deste capítulo.
 
 ---
 

@@ -72,7 +72,7 @@ Este compêndio é dividido em capítulos modulares para consulta rápida durant
   - [[1. Estrelas Incontáveis/6. Naves Espaciais|Capítulo 6: Naves Espaciais]] — Construção de cascos, sistemas de combate naval, armamento estelar e viagens interestelares.
 
 - **Para o Mestre do Jogo (MJ)**:
-  - [[1. Estrelas Incontáveis/7. A História do Espaço|Capítulo 7: A História do Espaço]] — O Mandato Terreno, a Era de Ouro, o Grito e a reconstrução durante o Silêncio.
+  - [[1. Inúmeras Estrelas/1.2. Conteúdo do Mestre/7. A História do Espaço/7. A História do Espaço|Capítulo 7: A História do Espaço]] — O Mandato Terreno, a Era de Ouro, o Grito e a reconstrução durante o Silêncio.
   - [[1. Estrelas Incontáveis/8. Criação de Setor|Capítulo 8: Criação de Setor]] — Geração de mundos, atmosferas, biosferas e o sistema de Tags Planetárias.
   - [[1. Estrelas Incontáveis/9. Criação de Aventuras|Capítulo 9: Criação de Aventuras]] — Estruturação de ganchos narrativos, patronos, recompensas e perigos.
   - [[1. Estrelas Incontáveis/10. Xenobestiário|Capítulo 10: Xenobestiário]] — Monstros espaciais, autômatos, formas de vida alienígenas e regras para PJs não-humanos.
