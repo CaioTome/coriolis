@@ -14,8 +14,12 @@
 ### Pasta `content/` (Conteúdo Oficial - Quartz)
 * **Objetivo:** Diretório base para a publicação do site/wiki.
 * **Uso:** Todos os textos finais do sistema (regras, naves, criação de personagens) e do cenário devem ser escritos **diretamente nesta pasta**.
+* **Organização Modular por Capítulos:**
+  * Capítulos densos e extensos são organizados em **pastas próprias de capítulo** contendo arquivos `.md` individuais para cada assunto/subseção temática.
+  * Capítulos curtos e concisos permanecem como arquivos únicos `.md`.
+  * Diretriz completa e status de progresso (parado no Capítulo 4): consulte [docs/organizacao-de-capitulos-e-arquivos.md](file:///home/caio/Documentos/github/coriolis/docs/organizacao-de-capitulos-e-arquivos.md).
 * **Regras Estritas para `content/`:**
-  * **Nomenclatura (Quartz):** NUNCA use hífens (`-`) para separar palavras no nome das pastas. Utilize a grafia oficial com acentos e espaços (ex: `content/O Terceiro Horizonte/`).
+  * **Nomenclatura (Quartz):** NUNCA use hífens (`-`) para separar palavras no nome das pastas. Utilize a grafia oficial com acentos e espaços (ex: `content/1. Estrelas Incontáveis/2. Criação de Personagem/`).
   * **Links Internos:** Utilize obrigatoriamente a sintaxe do Obsidian: `[[Nome da Pasta/Nome do Arquivo|Texto Alternativo]]`.
   * **Proibido ASCII Art:** NUNCA crie tabelas usando caracteres (como `┌──┐`), pois elas quebram a renderização da engine Quartz.
   * **Arquivo Index Exclusivo:** O único arquivo chamado `index.md` deve estar na raiz de `content/` (`content/index.md`) e precisa iniciar com o cabeçalho YAML `title: Introdução`.
@@ -54,4 +58,4 @@ O trabalho de análise é dividido em três papéis principais:
 
 ---
 
-> **AVISO CRÍTICO:** Qualquer agente que iniciar uma tarefa neste repositório **DEVE** ler este documento (`AGENTS.md`) e o arquivo `dev/escopo-e-planejamento.md` antes de criar ou modificar qualquer coisa.
+> **AVISO CRÍTICO:** Qualquer agente que iniciar uma tarefa neste repositório **DEVE** ler este documento (`AGENTS.md`), o arquivo `dev/escopo-e-planejamento.md` e a diretriz `docs/organizacao-de-capitulos-e-arquivos.md` antes de criar ou modificar qualquer coisa.
