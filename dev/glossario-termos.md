@@ -90,3 +90,14 @@
 | **Hit Dice (HD)** | Dados de Vida (DV) | Estatística de Monstros/PNJs |
 | **Base Attack Bonus (BAB)** | Bônus Base de Ataque (BBA) | Mecânica de Combate |
 | **Armor Class (AC)** | Classe de Armadura (CA) | Mecânica Defensiva |
+| **Armor Piercing (AP)** | Perfurante de Armadura (PA) | Qualidade de Armas |
+| **Command Points (CP)** | Pontos de Comando (PC) | Mecânica de Combate Espacial |
+| **Hardpoints** | Pontos de Fixação | Estatística de Nave |
+| **Spike Drill** | Salto Hiperespacial | Mecânica de Navegação FTL |
+| **Rutter** | Roteiro de Salto | Cartografia Espacial |
+| **Deal With a Crisis** | Lidar com uma Crise | Ação Geral de Combate Espacial |
+| **Ship Crisis** | Crise da Nave | Mecânica de Combate Espacial |
+| **Detection Lock** | Bloqueio de Detecção | Sensores e Rastreamento |
+| **Free Merchant** | Mercador Livre | Tipo de Chassi |
+| **Patrol Boat** | Barco de Patrulha | Tipo de Chassi |
+| **Fleet Cruiser** | Cruzador de Frota | Tipo de Chassi |
