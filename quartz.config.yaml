@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: pt-BR
-  baseUrl: caiotome.github.io/coriolis
+  baseUrl: caiotome.github.io/inumeras-estrelas
   ignorePatterns:
     - private
     - templates
