@@ -30,9 +30,11 @@
 ## 2. Regras de Estilo, Terminologia e Tradução Integral
 
 * **PROIBIDO USO DE EMOJIS:** É estritamente proibido o uso de emojis em títulos, marcadores de lista ou no meio do texto em **qualquer arquivo** deste projeto.
-* **TRADUÇÃO INTEGRAL E SEM RESUMOS (OBRIGATÓRIO):** 
-  * É expressamente proibido resumir, abreviar, sintetizar ou omitir parágrafos de prosa, descrições narrativas, caixas de texto, exemplos de jogo, tabelas completas, notas explicativas ou regras detalhadas dos livros originais.
-  * A tradução deve ser completa e exaustiva, traduzindo fielmente todo o conteúdo parágrafo por parágrafo, detalhe por detalhe, mantendo a profundidade do material original.
+* **TRADUÇÃO INTEGRAL E SEM RESUMOS (PADRÃO OBRIGATÓRIO E INEGOCIÁVEL):** 
+  * É expressamente proibido resumir, abreviar, sintetizar, parafrasear ou omitir parágrafos de prosa, descrições narrativas, caixas de texto, exemplos de jogo, tabelas completas, notas explicativas ou regras detalhadas dos livros originais.
+  * A tradução deve ser **100% completa e exaustiva**, traduzindo fielmente todo o conteúdo parágrafo por parágrafo, detalhe por detalhe, tabela por tabela, mantendo toda a profundidade e extensão do material original.
+  * **Padrão de Referência (Benchmark):** O modelo absoluto de execução para todo o projeto é o **Capítulo 13 (Campanhas Trans-humanas)**, que foi traduzido integralmente e de forma exaustiva sem nenhum resumo. Todos os capítulos subsequentes devem seguir rigorosamente esse mesmo padrão.
+* **Plano de Revisão Geral Futura:** Todos os capítulos anteriores passarão por uma rodada de revisão e expansão exaustiva posteriormente para garantir que nenhum deles contenha resumos e que todos atinjam a completude de 100% demonstrada no Capítulo 13. (O Capítulo 13 já está completamente traduzido e revisado).
 * **Uso do Glossário:** Sempre consulte e atualize o arquivo `dev/glossario-termos.md` ao traduzir conceitos novos.
 * **Tradução Exclusiva para Português (PT-BR):** Nenhum termo de regras ou de história deve permanecer em inglês no texto final. Use **apenas** a tradução oficial, com **exceção de palavras em árabe**, que devem ser mantidas no original para preservar o misticismo da campanha:
   * *Dark Between the Stars* ➔ **Escuridão Entre as Estrelas**
