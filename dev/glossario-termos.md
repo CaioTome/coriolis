@@ -138,6 +138,13 @@
 | **Deniable Assets / Catspaws** | Agentes Descartáveis / Peões | Papel dos Aventureiros |
 | **Hydraulic Despotism** | Despotismo Hidráulico | Forma de Governo |
 | **One-Roll Origins / Rulers / Ruled / Flavor** | Origens / Governantes / Governados / Sabor de Rolagem Única | Geradores Matriciais d4-d20 |
+| **Mechs / Mech Scale** | Mechas / Escala de Mecha | Categoria de Combate |
+| **Shock Suit / Specialist Suit / Psi Suit** | Traje de Choque / Traje Especialista / Traje Psi | Chassis de Mecha (Tamanho Traje) |
+| **Light Shock / Light Specialist / Light Psimech** | Mecha Leve de Choque / Especialista / Psimecha Leve | Chassis de Mecha (Tamanho Leve) |
+| **Heavy Shock / Heavy Specialist / Heavy Psimech** | Mecha Pesado de Choque / Especialista / Psimecha Pesado | Chassis de Mecha (Tamanho Pesado) |
+| **Neural Linkage / Feedback Strain** | Interface Neural Direta / Estresse por Retorno Neural | Operação de Mechas |
+| **Fittings / Defenses / Weaponry** | Encaixes Utilitários / Defesas / Armamentos | Customização de Mechas |
+
 
 
 
