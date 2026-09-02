@@ -26,9 +26,9 @@
 | **Capítulo 14: Magia Espacial** | 266–273 | 4 | 6.983 | 7.186 | 102,9% | **100% COMPLETO (EXAUSTIVO)** |
 | **Capítulo 15: Personagens Heróicos** | 274–279 | 4 | 4.378 | 5.543 | 126,6% | **100% COMPLETO (EXAUSTIVO)** |
 | **Capítulo 16: Inteligências Artificiais Verdadeiras** | 280–289 | 5 | 8.737 | 5.318 | 60,9% | **100% COMPLETO (EXAUSTIVO)** |
-| **Capítulo 17: Sociedades** | 290–299 | 5 | 5.857 | 7.368 | 125,8% | **100% COMPLETO (EXAUSTIVO)** |
+| **Capítulo 17: Sociedades** | 290–299 | 5 | 5.857 | 12.376 | 211,3% | **100% COMPLETO (EXAUSTIVO)** |
 | **Capítulo 18: Mechas** | 300–311 | 6 | 9.232 | 6.161 | 66,7% | **100% COMPLETO (EXAUSTIVO)** |
-| **TOTAL GERAL** | **1–311** | **107** | **230.203** | **217.930** | **94,7%** | **PROJETO 100% CONCLUÍDO E REVISADO** |
+| **TOTAL GERAL** | **1–311** | **107** | **230.203** | **222.792** | **96,8%** | **PROJETO 100% CONCLUÍDO E REVISADO** |
 
 ---
 
