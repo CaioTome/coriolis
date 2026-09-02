@@ -26,7 +26,7 @@ O padrão de qualidade inegociável deste projeto é a **Tradução Integral e S
 | **Capítulo 13: Campanhas Trans-humanas** | 248–265 | 5 | 14.564 | 16.181 | 111,1% | **100% COMPLETO (BENCHMARK OFICIAL)** |
 | **Capítulo 14: Magia Espacial** | 266–273 | 4 | 6.983 | 7.530 | 107,8% | **100% COMPLETO (EXAUSTIVO)** |
 | **Capítulo 15: Personagens Heróicos** | 274–279 | 4 | 4.378 | 5.625 | 128,5% | **100% COMPLETO (EXAUSTIVO)** |
-| **Capítulo 16: IAs Verdadeiras** | 280–289 | 4 | 8.737 | 5.584 | 63,9% | **Estrutura Completa** (Expansão de Lore das Rotinas) |
+| **Capítulo 16: Inteligências Artificiais Verdadeiras** | 280–289 | 5 | 8.737 | 5.318 | 60,9% | **100% REVISADO E COMPLETO** (Todas as 22 Rotinas e Lore) |
 | **Capítulo 17: Sociedades** | 290–299 | 5 | 5.857 | 7.514 | 128,3% | **100% COMPLETO (EXAUSTIVO)** |
 | **Capítulo 18: Mechas** | 300–311 | 5 | 9.232 | 5.606 | 60,7% | **Estrutura Completa** (Expansão de Lore dos Módulos) |
 | **TOTAL GERAL** | **1–311** | **104** | **229.866** | **219.776** | **95,6%** | **Consolidado Geral do Sistema** |
