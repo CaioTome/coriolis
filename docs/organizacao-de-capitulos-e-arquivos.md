@@ -34,7 +34,8 @@ Para otimizar a navegação na engine Quartz, facilitar a manutenção do texto 
 * **Capítulo 6 (Naves Espaciais):** Concluído e modularizado na pasta `6. Naves Espaciais/` (8 arquivos: introdução e etapas de construção, chassis e tipos de naves, encaixes, defesas e armas, naves e estações de exemplo, customização e modificação, viagem espacial/sensores/reparos, e combate espacial com ações e crises).
 * **Capítulo 7 (A História do Espaço):** Concluído e modularizado na pasta `7. A História do Espaço/` (4 arquivos: introdução e temas centrais, expansão humana e o Mandato, o Grito/Silêncio/Renascimento, e placeholder para Linha do Tempo do Futuro).
 * **Capítulo 9 (Criação de Aventuras):** Concluído e modularizado na pasta `9. Criação de Aventuras/` (7 arquivos: introdução/metodologia de design, recompensas de aventura e sistemas de XP, gerador matricial de conflitos com 80 opções e restrições/reviravoltas, gerador de PNJs com postura e desfecho de acordos, gerador de locais com matriz de perigos e recompensas, 100 sementes de aventura oficiais completas, e exemplo prático de criação no planeta Delaine).
-* **Ponto de Parada Atual:** Paramos no **Capítulo 10 (Xenobestiário)**. As próximas tarefas de estruturação e revisão devem iniciar a partir deste capítulo.
+* **Capítulo 10 (Xenobestiário):** Concluído e modularizado na pasta `10. Xenobestiário/` (6 arquivos: hub do capítulo/condução de combate/rolagem de reação, humanidade e compêndio de 19 PNJs, robôs/sistemas especialistas/IVs e robótica na campanha, fauna alienígena/enxames/venenos e bestas, xenocivilizações/Semelhantes vs Outros/compêndio das 20 Lentes/sociedades, e regras completas para PJs sintéticos e alienígenas).
+* **Ponto de Parada Atual:** Paramos no **Capítulo 11 (Facções)**. As próximas tarefas de estruturação e revisão devem iniciar a partir deste capítulo.
 
 ---
 
