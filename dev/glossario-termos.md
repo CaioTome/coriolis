@@ -99,5 +99,14 @@
 | **Ship Crisis** | Crise da Nave | Mecânica de Combate Espacial |
 | **Detection Lock** | Bloqueio de Detecção | Sensores e Rastreamento |
 | **Free Merchant** | Mercador Livre | Tipo de Chassi |
-| **Patrol Boat** | Barco de Patrulha | Tipo de Chassi |
 | **Fleet Cruiser** | Cruzador de Frota | Tipo de Chassi |
+| **Grail / Personal Grail / Major Grail** | Graal / Graal Pessoal / Graal Maior | Nanofabricação Trans-humana |
+| **Soulstone** | Pedra da Alma | Hardware de Consciência |
+| **Revival Pulse Transmitter** | Transmissor de Pulso de Renascimento | Hardware de Consciência |
+| **Inception Tank** | Tanque de Concepção / Incepção | Instalação Médica Trans-humana |
+| **Affinity** | Afinidade | Mecânica de Invólucros |
+| **Poor Merge** | Fusão Pobre | Condição de Troca de Invólucro |
+| **Crush / Muffle / Shear** | Esmagar / Abafar / Cisalhar | Modos de Combate Digital |
+| **Mindbox** | Caixa de Mente | Invólucro Digital |
+| **Polity** | Polidade | Organização Social Trans-humana |
+
