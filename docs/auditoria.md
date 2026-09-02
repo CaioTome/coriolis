@@ -13,9 +13,9 @@ O padrão de qualidade inegociável deste projeto é a **Tradução Integral e S
 | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
 | **Introdução (Raiz)** | 1–3 | 1 | 1.885 | 1.897 | 100,6% | **100% Completo (Exaustivo)** |
 | **Capítulo 2: Criação de Personagem** | 4–27 | 7 | 16.300 | 15.788 | 96,9% | **Alto Nível de Detalhe** (Revisão Leve Pendente) |
-| **Capítulo 3: Psionismo e Disciplinas** | 28–43 | 7 | 13.101 | 8.959 | 68,4% | **100% REVISADO E COMPLETO** (Todas as 6 Disciplinas) |
-| **Capítulo 4: Sistemas e Regras de Jogo** | 44–59 | 9 | 12.735 | 10.858 | 85,3% | **Parcial / Contém Resumos** (Exemplos e Manobras) |
-| **Capítulo 5: Equipamento e Veículos** | 60–91 | 8 | 23.884 | 14.661 | 61,4% | **100% REVISADO E COMPLETO** (Catálogo Total) |
+| **Capítulo 3: Psionismo** | 28–43 | 7 | 12.394 | 14.887 | 120,1% | **100% COMPLETO (EXAUSTIVO)** |
+| **Capítulo 4: Sistemas e Regras de Jogo** | 44–59 | 9 | 11.238 | 7.221 | 64,3% | **100% REVISADO E COMPLETO** (Regras, Hacking e Avanço) |
+| **Capítulo 5: Equipamento e Veículos** | 60–91 | 8 | 21.450 | 25.433 | 118,6% | **100% COMPLETO (EXAUSTIVO)** |
 | **Capítulo 6: Naves Espaciais e Combate** | 92–119 | 8 | 22.015 | 19.755 | 89,7% | **Parcial / Contém Resumos** (Crises e Combate Naval) |
 | **Capítulo 7: A História do Espaço** | 120–127 | 4 | 5.885 | 7.798 | 132,5% | **100% COMPLETO (EXAUSTIVO)** |
 | **Capítulo 8: Criação de Setor e Tags** | 128–171 | 7 | 27.264 | 30.720 | 112,7% | **100% COMPLETO (EXAUSTIVO)** (100 Tags) |
