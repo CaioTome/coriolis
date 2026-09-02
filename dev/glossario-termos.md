@@ -109,4 +109,16 @@
 | **Crush / Muffle / Shear** | Esmagar / Abafar / Cisalhar | Modos de Combate Digital |
 | **Mindbox** | Caixa de Mente | Invólucro Digital |
 | **Polity** | Polidade | Organização Social Trans-humana |
+| **Arcanist** | Arcanista | Classe Arcana |
+| **Magister** | Magíster | Classe Arcana |
+| **Adept** | Adepto | Classe Arcana |
+| **Invocations** | Invocações | Mecânica de Magia |
+| **Incandescent Order** | Ordem Incandescente | Tradição de Adepto |
+| **The Glow / Powers of the Glow** | O Brilho / Poderes do Brilho | Habilidade Arcana da Ordem |
+| **Exultants / Abstainers** | Exultantes / Abstinentes | Facções da Ordem Incandescente |
+| **Armored Technique** | Técnica Encouraçada | Foco Arcano |
+| **Cross-Disciplinary Study** | Estudo Interdisciplinar | Foco Arcano |
+| **Imprinted Spell** | Feitiço Gravado | Foco Arcano |
+| **War Caster** | Conjurador de Guerra | Foco Arcano |
+
 
