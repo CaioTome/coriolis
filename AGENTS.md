@@ -10,6 +10,7 @@
 ### Pasta `dev/` (Rascunhos e Análises)
 * **Objetivo:** Espaço de trabalho temporário e registro de decisões.
 * **Uso:** Armazena análises mecânicas, fichamentos, mapeamento de conflitos de regras e decisões validadas pelo usuário.
+* **Execução de Scripts Python:** Sempre que for necessário rodar códigos ou automações em Python, crie/salve o arquivo de script dentro da pasta `dev/` e execute-o a partir de lá (evitando comandos inline complexos ou interativos diretamente no terminal que possam causar travamentos).
 
 ### Pasta `content/` (Conteúdo Oficial - Quartz)
 * **Objetivo:** Diretório base para a publicação do site/wiki.
