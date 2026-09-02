@@ -28,8 +28,8 @@ O padrão de qualidade inegociável deste projeto é a **Tradução Integral e S
 | **Capítulo 15: Personagens Heróicos** | 274–279 | 4 | 4.378 | 5.625 | 128,5% | **100% COMPLETO (EXAUSTIVO)** |
 | **Capítulo 16: Inteligências Artificiais Verdadeiras** | 280–289 | 5 | 8.737 | 5.318 | 60,9% | **100% REVISADO E COMPLETO** (Todas as 22 Rotinas e Lore) |
 | **Capítulo 17: Sociedades** | 290–299 | 5 | 5.857 | 7.514 | 128,3% | **100% COMPLETO (EXAUSTIVO)** |
-| **Capítulo 18: Mechas** | 300–311 | 5 | 9.232 | 5.606 | 60,7% | **Estrutura Completa** (Expansão de Lore dos Módulos) |
-| **TOTAL GERAL** | **1–311** | **104** | **229.866** | **219.776** | **95,6%** | **Consolidado Geral do Sistema** |
+| **Capítulo 18: Mechas** | 300–311 | 6 | 9.232 | 6.161 | 66,7% | **100% REVISADO E COMPLETO** (Chassis, Armas e 9 Modelos) |
+| **TOTAL GERAL** | **1–311** | **106** | **229.866** | **220.331** | **95,9%** | **Consolidado Geral do Sistema** |
 
 ---
 
