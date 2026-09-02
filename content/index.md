@@ -65,17 +65,17 @@ Entretanto, se você preferir criar exatamente o herói que idealizou antes do i
 Este compêndio é dividido em capítulos modulares para consulta rápida durante o planejamento e as sessões de jogo:
 
 - **Para os Jogadores**:
-  - [[1. Estrelas Incontáveis/2. Criação de Personagem/2. Criação de Personagens|Capítulo 2: Criação de Personagem]] — Geração completa de atributos, 20 profissões, classes de heróis, 25 focos, perícias e equipamentos.
-  - [[1. Estrelas Incontáveis/3. Psionismo/3. Psionismo|Capítulo 3: Psionismo]] — Regras de Esforço, Estresse Sistêmico, Incêndio Psíquico e as 6 Disciplinas Mentais completas.
-  - [[1. Estrelas Incontáveis/4. Sistemas/4. Sistemas|Capítulo 4: Sistemas]] — Regras gerais de sistemas, testes de perícias, salvaguardas, combate tático, perigos e ferimentos.
-  - [[1. Estrelas Incontáveis/5. Equipamento e Veículos|Capítulo 5: Equipamento e Veículos]] — Catálogo completo de armamentos, armaduras, ferramentas tecnológicas, implantes e veículos terrestres/aéreos.
-  - [[1. Estrelas Incontáveis/6. Naves Espaciais|Capítulo 6: Naves Espaciais]] — Construção de cascos, sistemas de combate naval, armamento estelar e viagens interestelares.
+  - [[1. Inúmeras Estrelas/1.1. Conteúdo do Jogador/2. Criação de Personagem/2. Criação de Personagens|Capítulo 2: Criação de Personagem]] — Geração completa de atributos, 20 profissões, classes de heróis, 25 focos, perícias e equipamentos.
+  - [[1. Inúmeras Estrelas/1.1. Conteúdo do Jogador/3. Psionismo/3. Psionismo|Capítulo 3: Psionismo]] — Regras de Esforço, Estresse Sistêmico, Incêndio Psíquico e as 6 Disciplinas Mentais completas.
+  - [[1. Inúmeras Estrelas/1.1. Conteúdo do Jogador/4. Sistemas/4. Sistemas|Capítulo 4: Sistemas]] — Regras gerais de sistemas, testes de perícias, salvaguardas, combate tático, perigos e ferimentos.
+  - [[1. Inúmeras Estrelas/1.1. Conteúdo do Jogador/5. Equipamento e Veículos/5. Equipamento e Veículos|Capítulo 5: Equipamento e Veículos]] — Catálogo completo de armamentos, armaduras, ferramentas tecnológicas, implantes e veículos terrestres/aéreos.
+  - [[1. Inúmeras Estrelas/1.1. Conteúdo do Jogador/6. Naves Espaciais/6. Naves Espaciais|Capítulo 6: Naves Espaciais]] — Construção de cascos, sistemas de combate naval, armamento estelar e viagens interestelares.
 
 - **Para o Mestre do Jogo (MJ)**:
   - [[1. Inúmeras Estrelas/1.2. Conteúdo do Mestre/7. A História do Espaço/7. A História do Espaço|Capítulo 7: A História do Espaço]] — O Mandato Terreno, a Era de Ouro, o Grito e a reconstrução durante o Silêncio.
   - [[1. Inúmeras Estrelas/1.2. Conteúdo do Mestre/8. Criação de Setor/8. Criação de Setor|Capítulo 8: Criação de Setor]] — Geração de mundos, atmosferas, biosferas e o sistema de Tags Planetárias.
-  - [[1. Estrelas Incontáveis/9. Criação de Aventuras|Capítulo 9: Criação de Aventuras]] — Estruturação de ganchos narrativos, patronos, recompensas e perigos.
-  - [[1. Estrelas Incontáveis/10. Xenobestiário|Capítulo 10: Xenobestiário]] — Monstros espaciais, autômatos, formas de vida alienígenas e regras para PJs não-humanos.
-  - [[1. Estrelas Incontáveis/11. Facções|Capítulo 11: Facções]] — Sistema dinâmico de turnos de facções e guerras políticas galácticas.
-  - [[1. Estrelas Incontáveis/12. Recursos do Mestre|Capítulo 12: Recursos do Mestre]] — Tabelas de nomes, PNJs rápidos e recursos de arbitragem.
-  - [[1. Estrelas Incontáveis/13. Campanhas Trans-humanas|Capítulo 13 a 18: Suplementos Deluxe]] — Regras para transumanismo, magia espacial, personagens heróicos, IAs Verdadeiras, sociedades e mechas.
+  - [[1. Inúmeras Estrelas/1.2. Conteúdo do Mestre/9. Criação de Aventuras/9. Criação de Aventuras|Capítulo 9: Criação de Aventuras]] — Estruturação de ganchos narrativos, patronos, recompensas e perigos.
+  - [[1. Inúmeras Estrelas/1.2. Conteúdo do Mestre/10. Xenobestiário/10. Xenobestiário|Capítulo 10: Xenobestiário]] — Monstros espaciais, autômatos, formas de vida alienígenas e regras para PJs não-humanos.
+  - [[1. Inúmeras Estrelas/1.2. Conteúdo do Mestre/11. Facções/11. Facções|Capítulo 11: Facções]] — Sistema dinâmico de turnos de facções e guerras políticas galácticas.
+  - [[1. Inúmeras Estrelas/1.2. Conteúdo do Mestre/12. Recursos do Mestre/12. Recursos do Mestre|Capítulo 12: Recursos do Mestre]] — Filosofia sandbox, regras da casa, tabelas culturais de nomes e geradores de rolagem única.
+  - [[1. Inúmeras Estrelas/1.2. Conteúdo do Mestre/13. Campanhas Trans-humanas|Capítulo 13 a 18: Suplementos Deluxe]] — Regras para transumanismo, magia espacial, personagens heróicos, IAs Verdadeiras, sociedades e mechas.
