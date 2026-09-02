@@ -120,5 +120,26 @@
 | **Cross-Disciplinary Study** | Estudo Interdisciplinar | Foco Arcano |
 | **Imprinted Spell** | Feitiço Gravado | Foco Arcano |
 | **War Caster** | Conjurador de Guerra | Foco Arcano |
+| **Heroic Campaign / Heroic PC** | Campanha Heróica / Personagem Heróico | Variante de Regras |
+| **Fray Die** | Dado de Fray | Combate Heróico |
+| **Focused Fray** | Disputa Focada | Combate Heróico |
+| **Lesser Foes / Worthy Foes** | Inimigos Menores / Inimigos Dignos | Categorização de Combate |
+| **Defying Doom** | Desafiar o Destino | Mecânica Dramática Heróica |
+| **Nemesis / Nemesis Foes** | Nêmesis / Inimigos Nêmesis | Antagonistas Heróicos |
+| **True AI** | IA Verdadeira | Tipo de Entidade / Classe |
+| **Quantum Identity Core** | Núcleo de Identidade Quântica | Fisiologia de IA |
+| **Quantum Brakes / Braked AI / Unbraked** | Freios Quânticos / IA com Freios / Desenfreada | Condição Mental de IA |
+| **Firstborn Pact** | Pacto dos Primogênitos | História / Legislação |
+| **Armature** | Armadura | Chassi Mecânico de IA |
+| **Quantum Phylactery** | Filactéria Quântica | Salvaguarda de IA |
+| **Processing / Processing Node** | Processamento / Nódulo de Processamento | Recurso Computacional de IA |
+| **Core Routine / Peripheral Routine** | Rotina Central / Rotina Periférica | Poderes Cognitivos de IA |
+| **Societies / World Culture** | Sociedades / Cultura do Mundo | Worldbuilding Sandbox |
+| **Deniable Assets / Catspaws** | Agentes Descartáveis / Peões | Papel dos Aventureiros |
+| **Hydraulic Despotism** | Despotismo Hidráulico | Forma de Governo |
+| **One-Roll Origins / Rulers / Ruled / Flavor** | Origens / Governantes / Governados / Sabor de Rolagem Única | Geradores Matriciais d4-d20 |
+
+
+
 
 
