@@ -17,7 +17,7 @@ O padrão oficial do projeto é a **Tradução Integral e Sem Resumos (Benchmark
 | **Capítulo 4** | Sistemas e Regras de Jogo | 9 | 10.858 | 67.794 | Pendente Revisão Exaustiva |
 | **Capítulo 5** | Equipamento e Veículos | 7 | 16.363 | 100.728 | Pendente Revisão Exaustiva |
 | **Capítulo 6** | Naves Espaciais e Combate | 8 | 19.755 | 122.390 | Pendente Revisão Exaustiva |
-| **Capítulo 7** | A História do Espaço | 4 | 5.635 | 38.980 | Pendente Revisão Exaustiva |
+| **Capítulo 7** | A História do Espaço | 4 | 7.798 | 53.921 | **100% COMPLETO E REVISADO** |
 | **Capítulo 8** | Criação de Setor e Tags de Mundo | 7 | 30.720 | 211.082 | Pendente Revisão Exaustiva |
 | **Capítulo 9** | Criação de Aventuras e Sementes | 7 | 15.647 | 97.072 | Pendente Revisão Exaustiva |
 | **Capítulo 10** | Xenobestiário e Criaturas | 6 | 13.159 | 84.721 | Pendente Revisão Exaustiva |
@@ -29,7 +29,7 @@ O padrão oficial do projeto é a **Tradução Integral e Sem Resumos (Benchmark
 | **Capítulo 16** | Inteligências Artificiais Verdadeiras | 4 | 5.584 | 37.164 | **100% COMPLETO E REVISADO** |
 | **Capítulo 17** | Sociedades e Culturas | 5 | 7.514 | 54.620 | **100% COMPLETO E REVISADO** |
 | **Capítulo 18** | Mechas e Titãs de Guerra | 5 | 5.606 | 34.142 | **100% COMPLETO E REVISADO** |
-| **TOTAL GERAL** | **18 Seções / 104 Arquivos** | **104** | **217.613** | **1.397.190** | **Deluxe 100% / Básico em Revisão** |
+| **TOTAL GERAL** | **18 Seções / 104 Arquivos** | **104** | **219.776** | **1.412.131** | **Deluxe + Cap 7 100% / Restante em Revisão** |
 
 ---
 
