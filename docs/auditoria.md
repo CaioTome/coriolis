@@ -19,7 +19,7 @@
 | **Capítulo 7: A História do Espaço** | 120–127 | 4 | 5.885 | 7.810 | 132,7% | **100% COMPLETO (EXAUSTIVO)** |
 | **Capítulo 8: Criação de Setor e Tags** | 128–171 | 7 | 27.264 | 30.298 | 111,1% | **100% COMPLETO (EXAUSTIVO)** (100 Tags) |
 | **Capítulo 9: Criação de Aventuras** | 172–191 | 7 | 16.067 | 14.655 | 91,2% | **100% COMPLETO (EXAUSTIVO)** (100 Sementes) |
-| **Capítulo 10: Xenobestiário** | 192–211 | 6 | 16.990 | 12.182 | 71,7% | **100% COMPLETO (EXAUSTIVO)** |
+| **Capítulo 10: Xenobestiário** | 192–211 | 6 | 13.891 | 16.375 | 117,9% | **100% COMPLETO (EXAUSTIVO)** |
 | **Capítulo 11: Facções e Ativos** | 212–231 | 8 | 17.565 | 14.627 | 83,3% | **100% COMPLETO (EXAUSTIVO)** |
 | **Capítulo 12: Recursos do Mestre** | 232–247 | 6 | 14.498 | 11.245 | 77,6% | **100% COMPLETO (EXAUSTIVO)** |
 | **Capítulo 13: Campanhas Trans-humanas** | 248–265 | 5 | 14.564 | 15.647 | 107,4% | **100% COMPLETO (BENCHMARK OFICIAL)** |
@@ -28,7 +28,7 @@
 | **Capítulo 16: Inteligências Artificiais Verdadeiras** | 280–289 | 5 | 8.737 | 5.318 | 60,9% | **100% COMPLETO (EXAUSTIVO)** |
 | **Capítulo 17: Sociedades** | 290–299 | 5 | 5.857 | 7.368 | 125,8% | **100% COMPLETO (EXAUSTIVO)** |
 | **Capítulo 18: Mechas** | 300–311 | 6 | 9.232 | 6.161 | 66,7% | **100% COMPLETO (EXAUSTIVO)** |
-| **TOTAL GERAL** | **1–311** | **107** | **233.302** | **201.040** | **86,2%** | **PROJETO 100% CONCLUÍDO E REVISADO** |
+| **TOTAL GERAL** | **1–311** | **107** | **230.203** | **217.930** | **94,7%** | **PROJETO 100% CONCLUÍDO E REVISADO** |
 
 ---
 
