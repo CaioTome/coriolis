@@ -16,7 +16,7 @@ O padrão de qualidade inegociável deste projeto é a **Tradução Integral e S
 | **Capítulo 2: Criação de Personagem** | 4–27 | 7 | 16.300 | 15.788 | 96,9% | **Alto Nível de Detalhe** (Revisão Leve Pendente) |
 | **Capítulo 3: Psionismo e Disciplinas** | 28–43 | 7 | 13.101 | 10.487 | 80,0% | **Parcial / Contém Resumos** (Expansão de Técnicas) |
 | **Capítulo 4: Sistemas e Regras de Jogo** | 44–59 | 9 | 12.735 | 10.858 | 85,3% | **Parcial / Contém Resumos** (Exemplos e Manobras) |
-| **Capítulo 5: Equipamento e Veículos** | 60–91 | 7 | 23.884 | 16.363 | 68,5% | **Incompleto / Resumo Alto** (Descrições de Itens/Mods) |
+| **Capítulo 5: Equipamento e Veículos** | 60–91 | 8 | 23.884 | 14.661 | 61,4% | **100% REVISADO E COMPLETO** (Catálogo Total) |
 | **Capítulo 6: Naves Espaciais e Combate** | 92–119 | 8 | 22.015 | 19.755 | 89,7% | **Parcial / Contém Resumos** (Crises e Combate Naval) |
 | **Capítulo 7: A História do Espaço** | 120–127 | 4 | 5.885 | 7.798 | 132,5% | **100% COMPLETO (EXAUSTIVO)** |
 | **Capítulo 8: Criação de Setor e Tags** | 128–171 | 7 | 27.264 | 30.720 | 112,7% | **100% COMPLETO (EXAUSTIVO)** (100 Tags) |
